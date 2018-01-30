@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44560ff0-02f2-4019-ac68-0d18f8f627a2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/com.lexiconn.demo-magento/pages/CustomerPage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/com.lexiconn.demo-magento/pages/GlobalMenuPage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/com.lexiconn.demo-magento/pages/HomePage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/com.lexiconn.demo-magento/pages/LoginPage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/com.lexiconn.demo-magento/pages/RegPage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/com.lexiconn.demo-magento/tests/RegistrationTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/com.lexiconn.demo-magento/utils/UiMappingSingleton.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/com.lexiconn.demo-magento/utils/WebElementActions.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/selenium_server_standalone_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com.lexiconn.demo-magento.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/com.lexiconn.demo-magento/utils/UiMapping.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/CustomerPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/GlobalMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/HomePage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/LoginPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/RegPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/RegistrationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/UiMapping.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/UiMappingSingleton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/WebElementActions.java" />
-    </list>
+    <list default="true" id="44560ff0-02f2-4019-ac68-0d18f8f627a2" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -113,8 +87,8 @@
       <file leaf-file-name="GlobalMenu.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/GlobalMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -419,6 +393,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -432,7 +407,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25692964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25692964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -791,8 +766,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/GlobalMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
