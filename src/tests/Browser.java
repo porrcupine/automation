@@ -10,7 +10,7 @@ public abstract class Browser {
 
     public abstract void tearDown();
 
-    public void getUrl() {
+    public void getTestUrl() {
         driver.get(testUrl);
     }
 

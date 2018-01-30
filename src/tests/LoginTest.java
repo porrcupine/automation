@@ -23,16 +23,33 @@ public class LoginTest extends ATest {
     public void successfulLoginTest() {
         showTestName("Successful login test");
         browser.deleteAllCookies();
-        browser.getUrl();
+        browser.getTestUrl();
         homePage.clickAccountButton();
         homePage.clickLoginButton();
         loginPage.enterLoginEmailData("t22333221@gmail.com");
         loginPage.enterPasswordData("teatatata1234");
         loginPage.clickLoginButton();
-        if (customerPage.isLoginSuccessful()){
+        if (customerPage.isLoginSuccessful()) {
             System.out.println("Login successful!");
-        } else{
+        } else {
             throw new IllegalStateException("Registration failed!");
+        }
+    }
+
+    @Test
+    public void nonExistUserLoginTest() {
+        showTestName("Non-exist user login test");
+        browser.deleteAllCookies();
+        browser.getTestUrl();
+        homePage.clickAccountButton();
+        homePage.clickLoginButton();
+        loginPage.enterLoginEmailData("nonexist@gmail.com");
+        loginPage.enterPasswordData("qweqrt");
+        loginPage.clickLoginButton();
+        if (loginPage.isLoginErrorMessage()) {
+            loginPage.showErrorMessageText();
+        } else {
+            throw new IllegalStateException();
         }
     }
 

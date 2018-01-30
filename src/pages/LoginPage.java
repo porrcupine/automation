@@ -21,4 +21,14 @@ public class LoginPage extends Page {
         webElementActions.clickButton("login.page.signin.button");
     }
 
+    public boolean isLoginErrorMessage() {
+        if (webElementActions.isElementPresent("login.page.error.message")) {
+            return true;
+        }
+        return false;
+    }
+
+    public void showErrorMessageText() {
+        System.out.println(webElementActions.getElementText("login.page.error.text"));
+    }
 }

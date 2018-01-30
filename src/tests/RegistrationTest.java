@@ -21,7 +21,7 @@ public class RegistrationTest extends ATest {
     @Test
     public void newUserRegistrationTest() {
         System.out.println("\n\nnewUserRegistrationTest)");
-        browser.getUrl();
+        browser.getTestUrl();
         homePage.clickAccountButton();
         homePage.clickRegistrationButton();
         regPage.enterName("Fedor");
