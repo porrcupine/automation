@@ -31,4 +31,20 @@ public class LoginPage extends Page {
     public void showErrorMessageText() {
         System.out.println(webElementActions.getElementText("login.page.error.text"));
     }
+
+    public boolean isAdviceReqEmailMessage() {
+        if (webElementActions.isElementPresent("login.page.advicereqemail.text")) {
+            System.out.println(webElementActions.getElementText("login.page.advicereqemail.text"));
+            return true;
+        }
+        return false;
+    }
+
+    public boolean isAdviceReqPasswordMessage() {
+        if (webElementActions.isElementPresent("login.page.advicereqpass.text")) {
+            System.out.println(webElementActions.getElementText("login.page.advicereqpass.text"));
+            return true;
+        }
+        return false;
+    }
 }

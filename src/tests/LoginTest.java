@@ -53,6 +53,57 @@ public class LoginTest extends ATest {
         }
     }
 
+    @Test
+    public void emptyUserLoginTest() {
+        showTestName("Empty user login test");
+        browser.deleteAllCookies();
+        browser.getTestUrl();
+        homePage.clickAccountButton();
+        homePage.clickLoginButton();
+        loginPage.enterLoginEmailData("");
+        loginPage.enterPasswordData("qweqrt");
+        loginPage.clickLoginButton();
+        if (loginPage.isAdviceReqEmailMessage()) {
+            System.out.println("Test is successful");
+        } else {
+            throw new IllegalStateException();
+        }
+    }
+
+    @Test
+    public void emptyUserPasswordTest() {
+        showTestName("Empty user password test");
+        browser.deleteAllCookies();
+        browser.getTestUrl();
+        homePage.clickAccountButton();
+        homePage.clickLoginButton();
+        loginPage.enterLoginEmailData("email@gmail.com");
+        loginPage.enterPasswordData("");
+        loginPage.clickLoginButton();
+        if (loginPage.isAdviceReqPasswordMessage()) {
+            System.out.println("Test is successful");
+        } else {
+            throw new IllegalStateException();
+        }
+    }
+
+    @Test
+    public void emptyUserLoginAndPasswordTest() {
+        showTestName("Empty user login and password test");
+        browser.deleteAllCookies();
+        browser.getTestUrl();
+        homePage.clickAccountButton();
+        homePage.clickLoginButton();
+        loginPage.enterLoginEmailData("");
+        loginPage.enterPasswordData("");
+        loginPage.clickLoginButton();
+        if ((loginPage.isAdviceReqPasswordMessage()) && (loginPage.isAdviceReqEmailMessage()))  {
+            System.out.println("Test is successful");
+        } else {
+            throw new IllegalStateException();
+        }
+    }
+
     @AfterClass
     public static void tearDown() {
         browser.tearDown();
