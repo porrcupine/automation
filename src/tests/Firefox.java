@@ -1,13 +1,13 @@
 package tests;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class FirefoxTest extends ATest {
+public class Firefox extends Browser {
 
-    @Override
-    public void setUpTest() {
+    public void configure() {
         System.setProperty("webdriver.firefox.bin", "C:\\Program Files\\Mozilla FirefoxQantum\\firefox.exe");
         System.setProperty("webdriver.gecko.driver", "C:\\Selenium\\geckodriver\\geckodriver.exe");
         driver = new FirefoxDriver();
@@ -15,9 +15,7 @@ public class FirefoxTest extends ATest {
         testUrl = "http://magento-demo.lexiconn.com";
     }
 
-    @Override
-    public void tearDownTest() {
+    public void tearDown() {
         driver.quit();
     }
-
 }

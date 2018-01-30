@@ -7,24 +7,21 @@ import pages.CustomerPage;
 import pages.HomePage;
 import pages.RegPage;
 
-public class RegistrationTest extends FirefoxTest {
-    private static ATest test = new FirefoxTest();
-    private static HomePage homePage;
-    private static RegPage regPage;
-    private static CustomerPage customerPage;
+public class RegistrationTest extends ATest {
 
     @BeforeClass
     public static void setUp() {
-        test.setUpTest();
-        homePage = new HomePage(test.driver);
-        regPage = new RegPage(test.driver);
-        customerPage = new CustomerPage(test.driver);
+        browser = new Firefox();
+        browser.configure();
+        homePage = new HomePage(browser.driver);
+        regPage = new RegPage(browser.driver);
+        customerPage = new CustomerPage(browser.driver);
     }
 
     @Test
     public void newUserRegistrationTest() {
         System.out.println("\n\nnewUserRegistrationTest)");
-        test.getUrl();
+        browser.getUrl();
         homePage.clickAccountButton();
         homePage.clickRegistrationButton();
         regPage.enterName("Fedor");
@@ -42,7 +39,7 @@ public class RegistrationTest extends FirefoxTest {
 
     @AfterClass
     public static void tearDown() {
-        test.tearDownTest();
+        browser.tearDown();
     }
 
 }

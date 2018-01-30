@@ -16,4 +16,11 @@ public class CustomerPage extends Page{
         }
         return false;
     }
+
+    public boolean isLoginSuccessful() {
+        if (webElementActions.isElementPresent("customer.page.sucessfullogin.text")) {
+            return true;
+        }
+        return false;
+    }
 }

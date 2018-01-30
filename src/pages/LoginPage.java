@@ -3,9 +3,8 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import utils.WebElementActions;
 
-public class LoginPage {
-    private WebElementActions webElementActions;
-
+public class LoginPage extends Page {
+   // private WebElementActions webElementActions;
     public LoginPage(WebDriver driver) {
         webElementActions = new WebElementActions(driver);
     }

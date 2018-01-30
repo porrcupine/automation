@@ -1,18 +1,17 @@
 package tests;
 
 import org.openqa.selenium.WebDriver;
-import pages.Page;
+import pages.*;
 
 public abstract class ATest {
-    WebDriver driver;
-    String testUrl;
-    Page page;
 
-    public void getUrl() {
-        driver.get(testUrl);
+    public static HomePage homePage;
+    public static RegPage regPage;
+    public static CustomerPage customerPage;
+    public static LoginPage loginPage;
+    public static Browser browser;
+
+    public void showTestName(String testName) {
+        System.out.println("\n\n" + testName);
     }
-
-    public abstract void setUpTest();
-
-    public abstract void tearDownTest();
 }
