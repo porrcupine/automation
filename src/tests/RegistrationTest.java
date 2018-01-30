@@ -2,6 +2,7 @@ package tests;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
+import org.junit.Test;
 import pages.CustomerPage;
 import pages.HomePage;
 import pages.RegPage;
@@ -20,7 +21,7 @@ public class RegistrationTest extends FirefoxTest {
         customerPage = new CustomerPage(test.driver);
     }
 
-    @org.junit.Test
+    @Test
     public void newUserRegistrationTest() {
         System.out.println("\n\nnewUserRegistrationTest)");
         test.getUrl();
