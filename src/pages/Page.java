@@ -1,6 +1,8 @@
 package pages;
 
-public abstract class Page {
-    GlobalMenu globalMenu;
+import utils.WebElementActions;
 
+public abstract class Page {
+    GlobalPageHeader globalPageHeader;
+    WebElementActions webElementActions;
 }

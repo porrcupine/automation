@@ -3,27 +3,23 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import utils.WebElementActions;
 
-public class HomePage {
-    private WebElementActions webElementActions;
+public class HomePage extends Page{
 
     public HomePage(WebDriver driver) {
         webElementActions = new WebElementActions(driver);
+        globalPageHeader = new GlobalPageHeader(driver);
     }
 
     public void clickLoginButton() {
-        webElementActions.clickButton("home.page.login.button");
+        globalPageHeader.clickLogInLink();
     }
 
     public void clickRegistrationButton() {
-        webElementActions.clickButton("home.page.register.button");
+        globalPageHeader.clickRegLink();
     }
 
-    public void showUsernameLogin() {
-        System.out.println(webElementActions.getElementText("home.page.profilename.button"));
-    }
-
-    public void clickProfileButton() {
-        webElementActions.clickButton("home.page.profile.button");
+    public void clickAccountButton() {
+        globalPageHeader.clickAccountButton();
     }
 
 }

@@ -3,10 +3,10 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import utils.WebElementActions;
 
-public class GlobalMenu {
-    WebElementActions webElementActions;
+public class GlobalPageHeader {
+    private WebElementActions webElementActions;
 
-    public GlobalMenu(WebDriver driver) {
+    public GlobalPageHeader(WebDriver driver) {
         webElementActions = new WebElementActions(driver);
     }
 
