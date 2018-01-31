@@ -1,10 +1,10 @@
-package tests;
+package browser;
 
 import org.openqa.selenium.WebDriver;
 
 public abstract class Browser {
-    WebDriver driver;
-    String testUrl;
+    public WebDriver driver;
+    public String testUrl;
 
     public abstract void configure();
 

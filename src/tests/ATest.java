@@ -1,6 +1,6 @@
 package tests;
 
-import org.openqa.selenium.WebDriver;
+import browser.Browser;
 import pages.*;
 
 public abstract class ATest {

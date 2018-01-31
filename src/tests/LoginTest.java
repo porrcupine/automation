@@ -1,5 +1,6 @@
 package tests;
 
+import browser.Firefox;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -106,7 +107,7 @@ public class LoginTest extends ATest {
 
     @Test
     public void incorrectUserLoginMaskTest() {
-        showTestName("Empty user login and password test");
+        showTestName("Incorrect mask of user login");
         browser.deleteAllCookies();
         browser.getTestUrl();
         homePage.clickAccountButton();
@@ -123,7 +124,7 @@ public class LoginTest extends ATest {
 
     @Test
     public void spacesInTheUserLoginAndPasswordTest() {
-        showTestName("Empty user login and password test");
+        showTestName("Spaces in the user login and password test");
         browser.deleteAllCookies();
         browser.getTestUrl();
         homePage.clickAccountButton();
@@ -140,13 +141,13 @@ public class LoginTest extends ATest {
 
     @Test
     public void tabsInTheUserLoginAndPasswordTest() {
-        showTestName("Empty user login and password test");
+        showTestName("Tabs in the user login and password test");
         browser.deleteAllCookies();
         browser.getTestUrl();
         homePage.clickAccountButton();
         homePage.clickLoginButton();
         loginPage.pressTabInTheLoginData();
-        loginPage.pressSpaceInThePasswordData();
+        loginPage.pressTabInThePasswordData();
         loginPage.clickLoginButton();
         if (!(customerPage.isLoginSuccessful())) {
             System.out.println("Test is successful");
@@ -154,6 +155,8 @@ public class LoginTest extends ATest {
             throw new IllegalStateException();
         }
     }
+
+
 
     @AfterClass
     public static void tearDown() {
