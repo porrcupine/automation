@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import utils.WebElementActions;
 
 public class LoginPage extends Page {
-   // private WebElementActions webElementActions;
+    // private WebElementActions webElementActions;
     public LoginPage(WebDriver driver) {
         webElementActions = new WebElementActions(driver);
     }
@@ -13,7 +13,7 @@ public class LoginPage extends Page {
         webElementActions.input("login.page.username.inputfield", login);
     }
 
-    public  void  enterPasswordData(String password) {
+    public void enterPasswordData(String password) {
         webElementActions.input("login.page.password.inputfield", password);
     }
 
@@ -46,5 +46,21 @@ public class LoginPage extends Page {
             return true;
         }
         return false;
+    }
+
+    public void pressSpaceInTheLoginData() {
+        webElementActions.pressSpaceKey("login.page.username.inputfield");
+    }
+
+    public void pressSpaceInThePasswordData() {
+        webElementActions.pressSpaceKey("login.page.password.inputfield");
+    }
+
+    public void pressTabInThePasswordData() {
+        webElementActions.pressTABkey("login.page.password.inputfield");
+    }
+
+    public void pressTabInTheLoginData() {
+        webElementActions.pressTABkey("login.page.username.inputfield");
     }
 }

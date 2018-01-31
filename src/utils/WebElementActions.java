@@ -179,6 +179,11 @@ public class WebElementActions {
 //        log.info("PageUp clicked on " + inputLocator);
     }
 
+    public void pressTABkey(String inputLocator) {
+        driver.findElement(UiMappingSingleton.getClassInstance().ui(inputLocator)).sendKeys(Keys.TAB);
+        //        log.info("TAB clicked on " + inputLocator);
+    }
+
 
     /**
      * This method is used to do Focus to Element And Click

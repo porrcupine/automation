@@ -97,7 +97,58 @@ public class LoginTest extends ATest {
         loginPage.enterLoginEmailData("");
         loginPage.enterPasswordData("");
         loginPage.clickLoginButton();
-        if ((loginPage.isAdviceReqPasswordMessage()) && (loginPage.isAdviceReqEmailMessage()))  {
+        if ((loginPage.isAdviceReqPasswordMessage()) && (loginPage.isAdviceReqEmailMessage())) {
+            System.out.println("Test is successful");
+        } else {
+            throw new IllegalStateException();
+        }
+    }
+
+    @Test
+    public void incorrectUserLoginMaskTest() {
+        showTestName("Empty user login and password test");
+        browser.deleteAllCookies();
+        browser.getTestUrl();
+        homePage.clickAccountButton();
+        homePage.clickLoginButton();
+        loginPage.enterLoginEmailData("t22333221 @gmail.com");
+        loginPage.enterPasswordData("qwerty123");
+        loginPage.clickLoginButton();
+        if (!(customerPage.isLoginSuccessful())) {
+            System.out.println("Test is successful"); //TODO show popup message
+        } else {
+            throw new IllegalStateException();
+        }
+    }
+
+    @Test
+    public void spacesInTheUserLoginAndPasswordTest() {
+        showTestName("Empty user login and password test");
+        browser.deleteAllCookies();
+        browser.getTestUrl();
+        homePage.clickAccountButton();
+        homePage.clickLoginButton();
+        loginPage.pressSpaceInTheLoginData();
+        loginPage.pressSpaceInThePasswordData();
+        loginPage.clickLoginButton();
+        if (!(customerPage.isLoginSuccessful())) {
+            System.out.println("Test is successful");
+        } else {
+            throw new IllegalStateException();
+        }
+    }
+
+    @Test
+    public void tabsInTheUserLoginAndPasswordTest() {
+        showTestName("Empty user login and password test");
+        browser.deleteAllCookies();
+        browser.getTestUrl();
+        homePage.clickAccountButton();
+        homePage.clickLoginButton();
+        loginPage.pressTabInTheLoginData();
+        loginPage.pressSpaceInThePasswordData();
+        loginPage.clickLoginButton();
+        if (!(customerPage.isLoginSuccessful())) {
             System.out.println("Test is successful");
         } else {
             throw new IllegalStateException();
