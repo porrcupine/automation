@@ -18,21 +18,21 @@ public class WebElementActions {
      * Submit a button
      */
     public void submitButton(String buttonLocator) {
-        driver.findElement(UiMappingSingleton.getClassInstance().ui(buttonLocator)).submit();
+        driver.findElement(UiMappingSingleton.getInstance().ui(buttonLocator)).submit();
     }
 
     /**
      * Click an element
      */
     public void clickElement(String elementLocator) {
-        driver.findElement(UiMappingSingleton.getClassInstance().ui(elementLocator)).click();
+        driver.findElement(UiMappingSingleton.getInstance().ui(elementLocator)).click();
     }
 
     /**
      * Click a button
      */
     public void clickButton(String buttonLocator) {
-        driver.findElement(UiMappingSingleton.getClassInstance().ui(buttonLocator)).click();
+        driver.findElement(UiMappingSingleton.getInstance().ui(buttonLocator)).click();
         //log.info("Click on Button " + buttonLocator);
     }
 
@@ -40,7 +40,7 @@ public class WebElementActions {
      * Click link
      */
     public void clickLink(String linkLocator) {
-        driver.findElement(UiMappingSingleton.getClassInstance().ui(linkLocator)).click();
+        driver.findElement(UiMappingSingleton.getInstance().ui(linkLocator)).click();
         // log.info("Click on Link " + linkLocator);
     }
 
@@ -48,8 +48,8 @@ public class WebElementActions {
      * Insert value into text input HTML field
      */
     public void input(String inputLocator, String inputData) {
-        driver.findElement(UiMappingSingleton.getClassInstance().ui(inputLocator)).clear();
-        driver.findElement(UiMappingSingleton.getClassInstance().ui(inputLocator)).sendKeys(inputData);
+        driver.findElement(UiMappingSingleton.getInstance().ui(inputLocator)).clear();
+        driver.findElement(UiMappingSingleton.getInstance().ui(inputLocator)).sendKeys(inputData);
 //        log.info("Input in " + inputLocator + ", value - " + inputData);
     }
 
@@ -57,9 +57,9 @@ public class WebElementActions {
      * Insert value into text input HTML field and Click ENTER for Field which used "Value" in the xpath expression
      */
     public void inputAndClickEnter(String inputLocator, String inputData) {
-        driver.findElement(UiMappingSingleton.getClassInstance().ui(inputLocator)).clear();
-        driver.findElement(UiMappingSingleton.getClassInstance().ui(inputLocator)).sendKeys(inputData);
-        driver.findElement(UiMappingSingleton.getClassInstance().ui(inputLocator)).sendKeys(Keys.ENTER);
+        driver.findElement(UiMappingSingleton.getInstance().ui(inputLocator)).clear();
+        driver.findElement(UiMappingSingleton.getInstance().ui(inputLocator)).sendKeys(inputData);
+        driver.findElement(UiMappingSingleton.getInstance().ui(inputLocator)).sendKeys(Keys.ENTER);
 //        log.info("Input in " + inputLocator + ", value - " + inputData);
     }
 
@@ -67,7 +67,7 @@ public class WebElementActions {
      * Method is used to check that element is present on page.
      */
     public boolean isElementPresent(String elementLocator) {
-        List<WebElement> list = driver.findElements(UiMappingSingleton.getClassInstance().ui(elementLocator));
+        List<WebElement> list = driver.findElements(UiMappingSingleton.getInstance().ui(elementLocator));
 
         if (list.size() == 0) {
 //            log.warn("Element _" + elementLocator + "_is NOT Present in DOM!");
@@ -85,7 +85,7 @@ public class WebElementActions {
 
     public boolean isAllElementsPresent(String elementLocator) {
         List<WebElement> list = new ArrayList<>();
-        list.addAll(driver.findElements(UiMappingSingleton.getClassInstance().ui(elementLocator)));
+        list.addAll(driver.findElements(UiMappingSingleton.getInstance().ui(elementLocator)));
 
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i).isDisplayed()) {
@@ -138,7 +138,7 @@ public class WebElementActions {
     }
 
     public void moveToElementAndClick(String moveToLocator, String clickToElement) {
-        WebElement webElement = driver.findElement(UiMappingSingleton.getClassInstance().ui(moveToLocator));
+        WebElement webElement = driver.findElement(UiMappingSingleton.getInstance().ui(moveToLocator));
 
         Actions actions = new Actions(driver);
         actions.moveToElement(webElement);
@@ -160,27 +160,27 @@ public class WebElementActions {
      * Methods for pressing the keypad buttons
      */
     public void pressSpaceKey(String inputLocator) {
-        driver.findElement(UiMappingSingleton.getClassInstance().ui(inputLocator)).sendKeys(Keys.SPACE);
+        driver.findElement(UiMappingSingleton.getInstance().ui(inputLocator)).sendKeys(Keys.SPACE);
 //        log.info("Space clicked on " + inputLocator);
     }
 
     public void pressEnterKey(String inputLocator) {
-        driver.findElement(UiMappingSingleton.getClassInstance().ui(inputLocator)).sendKeys(Keys.ENTER);
+        driver.findElement(UiMappingSingleton.getInstance().ui(inputLocator)).sendKeys(Keys.ENTER);
 //        log.info("Enter clicked on " + inputLocator);
     }
 
     public void pressESCAPEKey(String inputLocator) {
-        driver.findElement(UiMappingSingleton.getClassInstance().ui(inputLocator)).sendKeys(Keys.ESCAPE);
+        driver.findElement(UiMappingSingleton.getInstance().ui(inputLocator)).sendKeys(Keys.ESCAPE);
 //        log.info("Escape clicked on " + inputLocator);
     }
 
     public void pressPageUp(String inputLocator) {
-        driver.findElement(UiMappingSingleton.getClassInstance().ui(inputLocator)).sendKeys(Keys.PAGE_UP);
+        driver.findElement(UiMappingSingleton.getInstance().ui(inputLocator)).sendKeys(Keys.PAGE_UP);
 //        log.info("PageUp clicked on " + inputLocator);
     }
 
     public void pressTABkey(String inputLocator) {
-        driver.findElement(UiMappingSingleton.getClassInstance().ui(inputLocator)).sendKeys(Keys.TAB);
+        driver.findElement(UiMappingSingleton.getInstance().ui(inputLocator)).sendKeys(Keys.TAB);
         //        log.info("TAB clicked on " + inputLocator);
     }
 
@@ -200,14 +200,14 @@ public class WebElementActions {
 
 
     public WebElement getElement(String elementLocator) {
-        return driver.findElement(UiMappingSingleton.getClassInstance().ui(elementLocator));
+        return driver.findElement(UiMappingSingleton.getInstance().ui(elementLocator));
     }
 
     public List<WebElement> getElements(String elementsLocator) {
-        return driver.findElements(UiMappingSingleton.getClassInstance().ui(elementsLocator));
+        return driver.findElements(UiMappingSingleton.getInstance().ui(elementsLocator));
     }
 
     public String getElementText(String elementsLocator) {
-        return driver.findElement(UiMappingSingleton.getClassInstance().ui(elementsLocator)).getText();
+        return driver.findElement(UiMappingSingleton.getInstance().ui(elementsLocator)).getText();
     }
 }
