@@ -22,4 +22,8 @@ public class GlobalPageHeader {
         webElementActions.clickLink("globalmenu.page.login.link");
     }
 
+    public void clickMenuCategotyLink() {
+        webElementActions.clickLink("globalmenu.page.menuheaderlink.link");
+    }
+
 }

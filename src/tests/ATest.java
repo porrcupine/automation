@@ -9,6 +9,8 @@ public abstract class ATest {
     public static RegPage regPage;
     public static CustomerPage customerPage;
     public static LoginPage loginPage;
+    public static ProductListPage productListPage;
+    public static ProductCategoryPage productCategoryPage;
     public static Browser browser;
 
     public void showTestName(String testName) {

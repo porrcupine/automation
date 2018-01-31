@@ -22,4 +22,7 @@ public class HomePage extends Page{
         globalPageHeader.clickAccountButton();
     }
 
+    public void clickMenuCategoryLink() {
+        globalPageHeader.clickMenuCategotyLink();
+    }
 }

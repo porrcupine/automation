@@ -22,7 +22,7 @@ public class LoginTest extends ATest {
 
     @Test
     public void successfulLoginTest() {
-        showTestName("Successful login test");
+        showTestName("Successful login TEST");
         browser.deleteAllCookies();
         browser.getTestUrl();
         homePage.clickAccountButton();
@@ -39,7 +39,7 @@ public class LoginTest extends ATest {
 
     @Test
     public void nonExistUserLoginTest() {
-        showTestName("Non-exist user login test");
+        showTestName("Non-exist user login TEST");
         browser.deleteAllCookies();
         browser.getTestUrl();
         homePage.clickAccountButton();
@@ -56,7 +56,7 @@ public class LoginTest extends ATest {
 
     @Test
     public void emptyUserLoginTest() {
-        showTestName("Empty user login test");
+        showTestName("Empty user login TEST");
         browser.deleteAllCookies();
         browser.getTestUrl();
         homePage.clickAccountButton();
@@ -73,7 +73,7 @@ public class LoginTest extends ATest {
 
     @Test
     public void emptyUserPasswordTest() {
-        showTestName("Empty user password test");
+        showTestName("Empty user password TEST");
         browser.deleteAllCookies();
         browser.getTestUrl();
         homePage.clickAccountButton();
@@ -90,7 +90,7 @@ public class LoginTest extends ATest {
 
     @Test
     public void emptyUserLoginAndPasswordTest() {
-        showTestName("Empty user login and password test");
+        showTestName("Empty user login and password TEST");
         browser.deleteAllCookies();
         browser.getTestUrl();
         homePage.clickAccountButton();
@@ -107,7 +107,7 @@ public class LoginTest extends ATest {
 
     @Test
     public void incorrectUserLoginMaskTest() {
-        showTestName("Incorrect mask of user login");
+        showTestName("Incorrect mask of user login TEST");
         browser.deleteAllCookies();
         browser.getTestUrl();
         homePage.clickAccountButton();
@@ -124,7 +124,7 @@ public class LoginTest extends ATest {
 
     @Test
     public void spacesInTheUserLoginAndPasswordTest() {
-        showTestName("Spaces in the user login and password test");
+        showTestName("Spaces in the user login and password TEST");
         browser.deleteAllCookies();
         browser.getTestUrl();
         homePage.clickAccountButton();
@@ -141,7 +141,7 @@ public class LoginTest extends ATest {
 
     @Test
     public void tabsInTheUserLoginAndPasswordTest() {
-        showTestName("Tabs in the user login and password test");
+        showTestName("Tabs in the user login and password TEST");
         browser.deleteAllCookies();
         browser.getTestUrl();
         homePage.clickAccountButton();
@@ -155,8 +155,6 @@ public class LoginTest extends ATest {
             throw new IllegalStateException();
         }
     }
-
-
 
     @AfterClass
     public static void tearDown() {
