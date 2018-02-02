@@ -8,22 +8,22 @@ import pages.HomePage;
 import pages.ProductCategoryPage;
 import pages.ProductListPage;
 
-public class ProductListTest extends ATest{
+public class ProductListTest extends BaseTest {
 
     @BeforeClass
     public static void setUp() {
-        browser = new Firefox();
-        browser.configure();
-        homePage = new HomePage(browser.driver);
-        productListPage = new ProductListPage(browser.driver);
-        productCategoryPage = new ProductCategoryPage(browser.driver);
+        browserFirefox = new Firefox();
+        browserFirefox.configure();
+        homePage = new HomePage(browserFirefox.driver);
+        productListPage = new ProductListPage(browserFirefox.driver);
+        productCategoryPage = new ProductCategoryPage(browserFirefox.driver);
     }
 
     @Test
     public void isProductPresentInTheProductList() {
         showTestName("Is product present in the product list test");
-        browser.deleteAllCookies();
-        browser.getTestUrl();
+        browserFirefox.deleteAllCookies();
+        browserFirefox.getTestUrl();
         homePage.clickMenuCategoryLink();
         productCategoryPage.clickProductCategoryLink(); //TODO DEBUG
         if (productListPage.isProductListEmpty()) {
@@ -35,7 +35,7 @@ public class ProductListTest extends ATest{
 
     @AfterClass
     public static void tearDown() {
-        browser.tearDown();
+        browserFirefox.tearDown();
     }
 
 }

@@ -1,36 +1,21 @@
 package tests;
 
-import browser.Firefox;
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
+import org.junit.Assert;
 import org.junit.Test;
-import pages.CustomerPage;
-import pages.HomePage;
-import pages.LoginPage;
 
 
-public class LoginTest extends ATest {
-
-    @BeforeClass
-    public static void setUp() {
-        browser = new Firefox();
-        browser.configure();
-        homePage = new HomePage(browser.driver);
-        customerPage = new CustomerPage(browser.driver);
-        loginPage = new LoginPage(browser.driver);
-    }
-
+public class LoginTest extends BaseTest {
 
     @Test
     public void successfulLoginTest() {
         showTestName("Successful login TEST");
-        browser.deleteAllCookies();
-        browser.getTestUrl();
         homePage.clickAccountButton();
         homePage.clickLoginButton();
         loginPage.enterLoginEmailData("t22333221@gmail.com");
         loginPage.enterPasswordData("teatatata1234");
         loginPage.clickLoginButton();
+        //Assert.assertTrue(customerPage.isLoginSuccessful());
+
         if (customerPage.isLoginSuccessful()) {
             System.out.println("Login successful!");
         } else {
@@ -41,8 +26,6 @@ public class LoginTest extends ATest {
     @Test
     public void nonExistUserLoginTest() {
         showTestName("Non-exist user login TEST");
-        browser.deleteAllCookies();
-        browser.getTestUrl();
         homePage.clickAccountButton();
         homePage.clickLoginButton();
         loginPage.enterLoginEmailData("nonexist@gmail.com");
@@ -58,8 +41,8 @@ public class LoginTest extends ATest {
     @Test
     public void emptyUserLoginTest() {
         showTestName("Empty user login TEST");
-        browser.deleteAllCookies();
-        browser.getTestUrl();
+        browserFirefox.deleteAllCookies();
+        browserFirefox.getTestUrl();
         homePage.clickAccountButton();
         homePage.clickLoginButton();
         loginPage.enterLoginEmailData("");
@@ -75,8 +58,6 @@ public class LoginTest extends ATest {
     @Test
     public void emptyUserPasswordTest() {
         showTestName("Empty user password TEST");
-        browser.deleteAllCookies();
-        browser.getTestUrl();
         homePage.clickAccountButton();
         homePage.clickLoginButton();
         loginPage.enterLoginEmailData("email@gmail.com");
@@ -92,8 +73,6 @@ public class LoginTest extends ATest {
     @Test
     public void emptyUserLoginAndPasswordTest() {
         showTestName("Empty user login and password TEST");
-        browser.deleteAllCookies();
-        browser.getTestUrl();
         homePage.clickAccountButton();
         homePage.clickLoginButton();
         loginPage.enterLoginEmailData("");
@@ -109,8 +88,6 @@ public class LoginTest extends ATest {
     @Test
     public void incorrectUserLoginMaskTest() {
         showTestName("Incorrect mask of user login TEST");
-        browser.deleteAllCookies();
-        browser.getTestUrl();
         homePage.clickAccountButton();
         homePage.clickLoginButton();
         loginPage.enterLoginEmailData("t22333221 @gmail.com");
@@ -126,8 +103,6 @@ public class LoginTest extends ATest {
     @Test
     public void spacesInTheUserLoginAndPasswordTest() {
         showTestName("Spaces in the user login and password TEST");
-        browser.deleteAllCookies();
-        browser.getTestUrl();
         homePage.clickAccountButton();
         homePage.clickLoginButton();
         loginPage.pressSpaceInTheLoginData();
@@ -143,8 +118,6 @@ public class LoginTest extends ATest {
     @Test
     public void tabsInTheUserLoginAndPasswordTest() {
         showTestName("Tabs in the user login and password TEST");
-        browser.deleteAllCookies();
-        browser.getTestUrl();
         homePage.clickAccountButton();
         homePage.clickLoginButton();
         loginPage.pressTabInTheLoginData();
@@ -155,10 +128,5 @@ public class LoginTest extends ATest {
         } else {
             throw new IllegalStateException();
         }
-    }
-
-    @AfterClass
-    public static void tearDown() {
-        browser.tearDown();
     }
 }

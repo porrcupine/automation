@@ -8,21 +8,21 @@ import pages.CustomerPage;
 import pages.HomePage;
 import pages.RegPage;
 
-public class RegistrationTest extends ATest {
+public class RegistrationTest extends BaseTest {
 
     @BeforeClass
     public static void setUp() {
-        browser = new Firefox();
-        browser.configure();
-        homePage = new HomePage(browser.driver);
-        regPage = new RegPage(browser.driver);
-        customerPage = new CustomerPage(browser.driver);
+        browserFirefox = new Firefox();
+        browserFirefox.configure();
+        homePage = new HomePage(browserFirefox.driver);
+        regPage = new RegPage(browserFirefox.driver);
+        customerPage = new CustomerPage(browserFirefox.driver);
     }
 
     @Test
     public void newUserRegistrationTest() {
         showTestName("New user registration TEST");
-        browser.getTestUrl();
+        browserFirefox.getTestUrl();
         homePage.clickAccountButton();
         homePage.clickRegistrationButton();
         regPage.enterName("Fedor");
@@ -40,7 +40,7 @@ public class RegistrationTest extends ATest {
 
     @AfterClass
     public static void tearDown() {
-        browser.tearDown();
+        browserFirefox.tearDown();
     }
 
 }
