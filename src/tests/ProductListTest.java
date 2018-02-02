@@ -1,14 +1,12 @@
 package tests;
 
 import browser.Firefox;
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import pages.HomePage;
 import pages.ProductCategoryPage;
 import pages.ProductListPage;
 
-public class ProductListTest extends BaseTest {
+public class ProductListTest extends Fixtures {
 
     public static void setUp() {
         browserFirefox = new Firefox();

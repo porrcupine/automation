@@ -2,7 +2,6 @@ package tests;
 
 import browser.Browser;
 import browser.Firefox;
-import net.bytebuddy.implementation.bind.annotation.RuntimeType;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
@@ -12,13 +11,7 @@ import org.junit.runners.Suite.SuiteClasses;
 import pages.*;
 import utils.UiMappingSingleton;
 
-@RunWith(Suite.class)
-@SuiteClasses({
-        LoginTest.class,
-        RegistrationTest.class,
-        ProductListTest.class})
-
-public class BaseTest {
+public class Fixtures {
 
     public static HomePage homePage;
     public static RegPage regPage;
@@ -27,6 +20,7 @@ public class BaseTest {
     public static ProductListPage productListPage;
     public static ProductCategoryPage productCategoryPage;
     public static Browser browserFirefox;
+
 
     @BeforeClass
     public static void setUp() {

@@ -4,11 +4,11 @@ import org.junit.Assert;
 import org.junit.Test;
 
 
-public class LoginTest extends BaseTest {
+public class LoginTest extends Fixtures {
 
     @Test
     public void successfulLoginTest() {
-        showTestName("Successful login TEST");
+        //showTestName("Successful login TEST");
         homePage.clickAccountButton();
         homePage.clickLoginButton();
         loginPage.enterLoginEmailData("t22333221@gmail.com");
