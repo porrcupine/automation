@@ -10,7 +10,6 @@ import pages.RegPage;
 
 public class RegistrationTest extends BaseTest {
 
-    @BeforeClass
     public static void setUp() {
         browserFirefox = new Firefox();
         browserFirefox.configure();
@@ -38,9 +37,5 @@ public class RegistrationTest extends BaseTest {
         }
     }
 
-    @AfterClass
-    public static void tearDown() {
-        browserFirefox.tearDown();
-    }
 
 }

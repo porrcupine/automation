@@ -14,13 +14,13 @@ public class LoginTest extends BaseTest {
         loginPage.enterLoginEmailData("t22333221@gmail.com");
         loginPage.enterPasswordData("teatatata1234");
         loginPage.clickLoginButton();
-        //Assert.assertTrue(customerPage.isLoginSuccessful());
+        Assert.assertTrue(customerPage.isLoginSuccessful());
 
-        if (customerPage.isLoginSuccessful()) {
-            System.out.println("Login successful!");
-        } else {
-            throw new IllegalStateException("Registration failed!");
-        }
+//        if (customerPage.isLoginSuccessful()) {
+//            System.out.println("Login successful!");
+//        } else {
+//            throw new IllegalStateException("Registration failed!");
+//        }
     }
 
     @Test
@@ -31,11 +31,12 @@ public class LoginTest extends BaseTest {
         loginPage.enterLoginEmailData("nonexist@gmail.com");
         loginPage.enterPasswordData("qweqrt");
         loginPage.clickLoginButton();
-        if (loginPage.isLoginErrorMessage()) {
-            loginPage.showErrorMessageText();
-        } else {
-            throw new IllegalStateException();
-        }
+        Assert.assertTrue(loginPage.isLoginErrorMessage());
+//        if (loginPage.isLoginErrorMessage()) {
+//            loginPage.showErrorMessageText();
+//        } else {
+//            throw new IllegalStateException();
+//        }
     }
 
     @Test

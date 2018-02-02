@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44560ff0-02f2-4019-ac68-0d18f8f627a2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/com.lexiconn.demo-magento/tests/ATest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/com.lexiconn.demo-magento/tests/LoginTest.class" afterPath="$PROJECT_DIR$/out/production/com.lexiconn.demo-magento/tests/LoginTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/com.lexiconn.demo-magento/tests/ProductListTest.class" afterPath="$PROJECT_DIR$/out/production/com.lexiconn.demo-magento/tests/ProductListTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/com.lexiconn.demo-magento/tests/RegistrationTest.class" afterPath="$PROJECT_DIR$/out/production/com.lexiconn.demo-magento/tests/RegistrationTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/com.lexiconn.demo-magento/utils/UiMappingSingleton.class" afterPath="$PROJECT_DIR$/out/production/com.lexiconn.demo-magento/utils/UiMappingSingleton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/com.lexiconn.demo-magento/utils/WebElementActions.class" afterPath="$PROJECT_DIR$/out/production/com.lexiconn.demo-magento/utils/WebElementActions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_17.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/selenium_server_standalone_3_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/selenium_server_standalone_3_8_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com.lexiconn.demo-magento.iml" afterPath="$PROJECT_DIR$/com.lexiconn.demo-magento.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/BaseTest.java" afterPath="$PROJECT_DIR$/src/tests/BaseTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/LoginTest.java" afterPath="$PROJECT_DIR$/src/tests/LoginTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/ProductListTest.java" afterPath="$PROJECT_DIR$/src/tests/ProductListTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/RegistrationTest.java" afterPath="$PROJECT_DIR$/src/tests/RegistrationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/WebElementActions.java" afterPath="$PROJECT_DIR$/src/utils/WebElementActions.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/ATest.java" afterPath="$PROJECT_DIR$/src/tests/BaseTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,15 +28,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tests/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+            <state relative-caret-position="102">
+              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1553#1554#0" expanded="true" />
-                <element signature="e#1606#1607#0" expanded="true" />
+                <element signature="e#1856#1857#0" expanded="true" />
+                <element signature="e#1909#1910#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,12 +45,19 @@
       <file leaf-file-name="ProductListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/ProductListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-              <folding>
-                <element signature="e#1157#1158#0" expanded="true" />
-                <element signature="e#1198#1199#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="138">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistrationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/RegistrationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,23 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropertyLoader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/PropertyLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="102">
+              <caret line="33" column="57" lean-forward="false" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -187,12 +172,10 @@
         <option value="$PROJECT_DIR$/src/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/browser/Firefox.java" />
         <option value="$PROJECT_DIR$/src/pages/ProductListPage.java" />
-        <option value="$PROJECT_DIR$/src/tests/RegistrationTest.java" />
         <option value="$PROJECT_DIR$/src/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/utils/UiMapping.properties" />
         <option value="$PROJECT_DIR$/src/pages/GlobalPageHeader.java" />
         <option value="$PROJECT_DIR$/src/pages/ProductCategoryPage.java" />
-        <option value="$PROJECT_DIR$/src/tests/ProductListTest.java" />
         <option value="$PROJECT_DIR$/src/utils/ClassNameUtil.java" />
         <option value="$PROJECT_DIR$/src/utils/Application.properties" />
         <option value="$PROJECT_DIR$/src/utils/PropertyLoader.java" />
@@ -200,8 +183,10 @@
         <option value="$PROJECT_DIR$/src/utils/WebElementActions.java" />
         <option value="$PROJECT_DIR$/src/tests/ATest.java" />
         <option value="$PROJECT_DIR$/src/browser/Browser.java" />
-        <option value="$PROJECT_DIR$/src/tests/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/tests/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/tests/RegistrationTest.java" />
+        <option value="$PROJECT_DIR$/src/tests/ProductListTest.java" />
+        <option value="$PROJECT_DIR$/src/tests/BaseTest.java" />
       </list>
     </option>
   </component>
@@ -629,7 +614,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tests/LoginTest.java</url>
-          <line>127</line>
+          <line>128</line>
           <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
@@ -831,8 +816,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1553#1554#0" expanded="true" />
-            <element signature="e#1606#1607#0" expanded="true" />
+            <element signature="e#1856#1857#0" expanded="true" />
+            <element signature="e#1909#1910#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -869,13 +854,6 @@
             <element signature="method#isAdviceReqEmailMessage#0;class#LoginPage#0" expanded="false" />
             <element signature="method#isAdviceReqPasswordMessage#0;class#LoginPage#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/RegistrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="23" column="48" lean-forward="false" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1013,17 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/ProductListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="e#1157#1158#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/browser/Browser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1040,24 +1007,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+        <state relative-caret-position="102">
+          <caret line="33" column="57" lean-forward="false" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1553#1554#0" expanded="true" />
-            <element signature="e#1606#1607#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/RegistrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="155">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/ProductListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1856#1857#0" expanded="true" />
+            <element signature="e#1909#1910#0" expanded="true" />
           </folding>
         </state>
       </provider>

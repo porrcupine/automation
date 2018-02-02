@@ -10,7 +10,6 @@ import pages.ProductListPage;
 
 public class ProductListTest extends BaseTest {
 
-    @BeforeClass
     public static void setUp() {
         browserFirefox = new Firefox();
         browserFirefox.configure();
@@ -31,11 +30,6 @@ public class ProductListTest extends BaseTest {
         } else {
             System.out.println("Test is successful!");
         }
-    }
-
-    @AfterClass
-    public static void tearDown() {
-        browserFirefox.tearDown();
     }
 
 }
