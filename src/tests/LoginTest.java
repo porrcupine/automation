@@ -20,6 +20,7 @@ public class LoginTest extends ATest {
         loginPage = new LoginPage(browser.driver);
     }
 
+
     @Test
     public void successfulLoginTest() {
         showTestName("Successful login TEST");

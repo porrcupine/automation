@@ -76,7 +76,7 @@ public class UiMappingSingleton {
 //    }
 
 
-    public By ui(String key) {
+    public static By ui(String key) {
         String[] partsOfLocators = uiMapping.get(key).split("\"");
         String findMethod = partsOfLocators[0];
         String locatorValue = partsOfLocators[1];
