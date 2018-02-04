@@ -1,26 +1,13 @@
 package tests;
 
 import browser.Firefox;
-import org.junit.Test;
-import pages.HomePage;
-import pages.ProductCategoryPage;
-import pages.ProductListPage;
+import org.testng.annotations.Test;
+
 
 public class ProductListTest extends Fixtures {
 
-    public static void setUp() {
-        browserFirefox = new Firefox();
-        browserFirefox.configure();
-        homePage = new HomePage(browserFirefox.driver);
-        productListPage = new ProductListPage(browserFirefox.driver);
-        productCategoryPage = new ProductCategoryPage(browserFirefox.driver);
-    }
-
     @Test
     public void isProductPresentInTheProductList() {
-        showTestName("Is product present in the product list test");
-        browserFirefox.deleteAllCookies();
-        browserFirefox.getTestUrl();
         homePage.clickMenuCategoryLink();
         productCategoryPage.clickProductCategoryLink(); //TODO DEBUG
         if (productListPage.isProductListEmpty()) {

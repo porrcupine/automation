@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="junit-4.12">
+  <library name="testng-6.13.1">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../javalibs/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../javalibs/testng-6.13.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

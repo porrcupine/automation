@@ -1,8 +1,8 @@
 package utils;
 
 import org.apache.log4j.Logger;
-import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.testng.Assert;
 
 import java.io.File;
 import java.io.FileInputStream;

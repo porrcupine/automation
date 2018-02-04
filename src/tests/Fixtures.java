@@ -2,12 +2,10 @@ package tests;
 
 import browser.Browser;
 import browser.Firefox;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.runner.RunWith;
-import org.junit.runners.Suite;
-import org.junit.runners.Suite.SuiteClasses;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import pages.*;
 import utils.UiMappingSingleton;
 
@@ -19,37 +17,38 @@ public class Fixtures {
     public static LoginPage loginPage;
     public static ProductListPage productListPage;
     public static ProductCategoryPage productCategoryPage;
-    public static Browser browserFirefox;
+    public static Browser browser;
+    public static WebDriver driver;
 
 
     @BeforeClass
     public static void setUp() {
-        browserFirefox = new Firefox();
-        browserFirefox.configure();
+        browser = new Firefox();
+        browser.configure();
+        driver = browser.driver;
 
-        homePage = new HomePage(browserFirefox.driver);
-        regPage = new RegPage(browserFirefox.driver);
-        customerPage = new CustomerPage(browserFirefox.driver);
-        loginPage = new LoginPage(browserFirefox.driver);
-        productListPage = new ProductListPage(browserFirefox.driver);
-        productCategoryPage = new ProductCategoryPage(browserFirefox.driver);
+        homePage = new HomePage(driver);
+        regPage = new RegPage(driver);
+        customerPage = new CustomerPage(driver);
+        loginPage = new LoginPage(driver);
+        productListPage = new ProductListPage(driver);
+        productCategoryPage = new ProductCategoryPage(driver);
 
         UiMappingSingleton.getInstance();
         System.out.println("DEBUG MESSAGE (before base test)");
     }
 
-    @Before
+    @BeforeMethod
     public void deleteCookiesAndGoToTestPage() {
         System.out.println("DEBUG MESSAGE (before test)");
-        browserFirefox.deleteAllCookies();
-        browserFirefox.getTestUrl();
+        browser.deleteAllCookies();
+        Page.goToBaseUrl(driver);
     }
 
     @AfterClass
     public static void tearDown() {
-
-        if (browserFirefox != null) {
-            browserFirefox.tearDown();
+        if (browser != null) {
+            browser.close();
         }
     }
 

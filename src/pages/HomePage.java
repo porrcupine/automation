@@ -10,19 +10,29 @@ public class HomePage extends Page{
         globalPageHeader = new GlobalPageHeader(driver);
     }
 
-    public void clickLoginButton() {
+    public void clickLoginLink() {
         globalPageHeader.clickLogInLink();
     }
 
-    public void clickRegistrationButton() {
+    public void clickRegistrationLink() {
         globalPageHeader.clickRegLink();
     }
 
-    public void clickAccountButton() {
+    public void clickAccountLink() {
         globalPageHeader.clickAccountButton();
     }
 
     public void clickMenuCategoryLink() {
         globalPageHeader.clickMenuCategotyLink();
+    }
+
+    public void logIn() {
+        clickAccountLink();
+        clickLoginLink();
+    }
+
+    public void register() {
+        clickAccountLink();
+        clickRegistrationLink();
     }
 }

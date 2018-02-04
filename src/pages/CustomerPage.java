@@ -7,7 +7,6 @@ public class CustomerPage extends Page{
 
     public CustomerPage(WebDriver driver) {
         webElementActions = new WebElementActions(driver);
-        driver = driver;
     }
 
     public boolean isRegistrationSuccessful() {
