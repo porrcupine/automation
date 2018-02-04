@@ -5,10 +5,9 @@ import utils.WebElementActions;
 
 import java.util.List;
 
-public class ProductListPage extends Page {
+public class ProductListPage extends GlobalPageHeader {
     public ProductListPage(WebDriver driver) {
         webElementActions = new WebElementActions(driver);
-        globalPageHeader = new GlobalPageHeader(driver);
     }
 
     public List getProductList() {

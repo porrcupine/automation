@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import utils.PropertyLoader;
 import utils.WebElementActions;
 
-public class LoginPage extends Page {
+public class LoginPage extends GlobalPageHeader {
     public LoginPage(WebDriver driver) {
         webElementActions = new WebElementActions(driver);
     }

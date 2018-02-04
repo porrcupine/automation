@@ -1,6 +1,7 @@
 package tests;
 
 import browser.Firefox;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
@@ -10,11 +11,7 @@ public class ProductListTest extends Fixtures {
     public void isProductPresentInTheProductList() {
         homePage.clickMenuCategoryLink();
         productCategoryPage.clickProductCategoryLink(); //TODO DEBUG
-        if (productListPage.isProductListEmpty()) {
-            throw new IllegalStateException();
-        } else {
-            System.out.println("Test is successful!");
-        }
+        Assert.assertFalse(productListPage.isProductListEmpty(),"Product list is empty! Test failed!");
     }
 
 }

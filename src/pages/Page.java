@@ -5,8 +5,7 @@ import utils.WebElementActions;
 
 public abstract class Page {
     static String testUrl = "http://magento-demo.lexiconn.com";
-    GlobalPageHeader globalPageHeader;
-    WebElementActions webElementActions;
+    static WebElementActions webElementActions;
 
     public static void goToBaseUrl(WebDriver driver) {
         driver.get(testUrl);

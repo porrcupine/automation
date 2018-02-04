@@ -2,6 +2,8 @@ package utils;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,7 +41,10 @@ public class WebElementActions {
      * Click link
      */
     public void clickLink(String linkLocator) {
-        driver.findElement(UiMappingSingleton.ui(linkLocator)).click();
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(UiMappingSingleton.ui(linkLocator))));
+        element.click();
+        //driver.findElement(UiMappingSingleton.ui(linkLocator)).click();
         // log.info("Click on Link " + linkLocator);
     }
 

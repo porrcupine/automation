@@ -3,7 +3,7 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import utils.WebElementActions;
 
-public class RegPage {
+public class RegPage extends GlobalPageHeader {
     WebElementActions webElementActions;
 
     public RegPage(WebDriver driver) {

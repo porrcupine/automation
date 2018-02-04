@@ -51,8 +51,4 @@ public class Fixtures {
             browser.close();
         }
     }
-
-    public void showTestName(String testName) {
-        System.out.println("\n\n" + testName);
-    }
 }

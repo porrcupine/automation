@@ -3,26 +3,26 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import utils.WebElementActions;
 
-public class GlobalPageHeader {
-    private WebElementActions webElementActions;
+public abstract class GlobalPageHeader extends Page{
+   // private WebElementActions webElementActions;
 
-    public GlobalPageHeader(WebDriver driver) {
-        webElementActions = new WebElementActions(driver);
-    }
+    //public GlobalPageHeader(WebDriver driver) {
+        //webElementActions = new WebElementActions(driver);
+   // }
 
-    public void clickAccountButton() {
+    public static void clickAccountButton() {
         webElementActions.clickButton("globalmenu.page.account.button");
     }
 
-    public void clickRegLink() {
+    public static void clickRegLink() {
         webElementActions.clickLink("globalmenu.page.reg.link");
     }
 
-    public void clickLogInLink() {
+    public static void clickLogInLink() {
         webElementActions.clickLink("globalmenu.page.login.link");
     }
 
-    public void clickMenuCategotyLink() {
+    public static void clickMenuCategotyLink() {
         webElementActions.clickLink("globalmenu.page.menuheaderlink.link");
     }
 
