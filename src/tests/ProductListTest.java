@@ -1,6 +1,5 @@
 package tests;
 
-import browser.Firefox;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -11,7 +10,16 @@ public class ProductListTest extends Fixtures {
     public void isProductPresentInTheProductList() {
         homePage.clickMenuCategoryLink();
         productCategoryPage.clickProductCategoryLink(); //TODO DEBUG
-        Assert.assertFalse(productListPage.isProductListEmpty(),"Product list is empty! Test failed!");
+        Assert.assertFalse(productListPage.isProductListEmpty(),"The product list is empty! Test failed!");
+    }
+
+    @Test
+    public void productListFilterPriceIncludesValidProductTest() {
+        homePage.clickMenuCategoryLink();
+        productCategoryPage.clickProductCategoryLink();
+        productListPage.clickRandomPriceRangeFilter();
+        Assert.assertFalse(productListPage.isProductListEmpty(), "Product list is empty!" );
+        Assert.assertTrue(productListPage.isProductInTheFilterPriceRange(), "No valid product in the product list after apply price filter");
     }
 
 }

@@ -1,5 +1,6 @@
 package utils;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -8,8 +9,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class WebElementActions {
     private WebDriver driver;
+    private static final Logger LOG = Logger.getLogger(WebElementActions.class);
 
     public WebElementActions(WebDriver driver) {
         this.driver = driver;
@@ -34,7 +37,7 @@ public class WebElementActions {
      */
     public void clickButton(String buttonLocator) {
         driver.findElement(UiMappingSingleton.ui(buttonLocator)).click();
-        //log.info("Click on Button " + buttonLocator);
+        LOG.info("Click on Button " + buttonLocator);
     }
 
     /**
@@ -45,7 +48,20 @@ public class WebElementActions {
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(UiMappingSingleton.ui(linkLocator))));
         element.click();
         //driver.findElement(UiMappingSingleton.ui(linkLocator)).click();
-        // log.info("Click on Link " + linkLocator);
+        LOG.info("Click on Link " + linkLocator);
+    }
+
+    public void clickSpecifiedLinkFromTheList(String listLocator, int elementNumber) {
+        List<WebElement> list = getElements(listLocator);
+        if (!(list.isEmpty())) {
+            try {
+                list.get(elementNumber).click();
+                LOG.info("Click "  + elementNumber + " list element" + listLocator);
+            } catch (IndexOutOfBoundsException e) {
+                e.printStackTrace();
+                LOG.error(elementNumber + " element is absent in list " + listLocator);
+            }
+        }
     }
 
     /**
@@ -54,7 +70,7 @@ public class WebElementActions {
     public void input(String inputLocator, String inputData) {
         driver.findElement(UiMappingSingleton.ui(inputLocator)).clear();
         driver.findElement(UiMappingSingleton.ui(inputLocator)).sendKeys(inputData);
-//        log.info("Input in " + inputLocator + ", value - " + inputData);
+        LOG.info("Input in " + inputLocator + ", value - " + inputData);
     }
 
     /**
@@ -64,7 +80,7 @@ public class WebElementActions {
         driver.findElement(UiMappingSingleton.ui(inputLocator)).clear();
         driver.findElement(UiMappingSingleton.ui(inputLocator)).sendKeys(inputData);
         driver.findElement(UiMappingSingleton.ui(inputLocator)).sendKeys(Keys.ENTER);
-//        log.info("Input in " + inputLocator + ", value - " + inputData);
+        LOG.info("Input in " + inputLocator + ", value - " + inputData);
     }
 
     /**
@@ -74,15 +90,15 @@ public class WebElementActions {
         List<WebElement> list = driver.findElements(UiMappingSingleton.ui(elementLocator));
 
         if (list.size() == 0) {
-//            log.warn("Element _" + elementLocator + "_is NOT Present in DOM!");
+            LOG.warn("Element _" + elementLocator + "_is NOT Present in DOM!");
             return false;
         }
 
         if (list.get(0).isDisplayed()) {
-//            log.info("Element " + elementLocator + " is Present");
+            LOG.info("Element " + elementLocator + " is Present");
             return true;
         } else {
-//            log.error("Element " + elementLocator + " is NOT Displayed Present!");
+            LOG.error("Element " + elementLocator + " is NOT Displayed Present!");
             return false;
         }
     }
@@ -94,14 +110,14 @@ public class WebElementActions {
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i).isDisplayed()) {
                 list.get(i).equals("");
-                //log.info("Element " + list.get(i) + " is present!");
+                LOG.info("Element " + list.get(i) + " is present!");
             } else {
-//                log.warn("Element " + list.get(i) + "_; element (" + i + ") is NOT Present!");
+                LOG.warn("Element " + list.get(i) + "_; element (" + i + ") is NOT Present!");
                 return false;
             }
         }
 
-//        log.info("Total quantity of " + elementLocator + " - " + list.size());
+        LOG.info("Total quantity of " + elementLocator + " - " + list.size());
         return true;
     }
 
@@ -132,10 +148,10 @@ public class WebElementActions {
             Alert alert = driver.switchTo().alert();
             alertText = alert.getText();
             alert.accept();
-//            log.info("Alert text: " + alertText);
+            LOG.info("Alert text: " + alertText);
         } catch (NoAlertPresentException ex) {
             alertText = "Alert is not found";
-//            log.error("Alert is not found");
+            LOG.error("Alert is not found");
             ex.printStackTrace();
         }
         return alertText;
@@ -149,7 +165,7 @@ public class WebElementActions {
         actions.perform();  //!!! always need
         clickButton(clickToElement);
 
-//        log.info("moved To Element " + moveToLocator + "and clicked on" + clickToElement);
+        LOG.info("moved To Element " + moveToLocator + "and clicked on" + clickToElement);
     }
 
     /**
@@ -157,7 +173,7 @@ public class WebElementActions {
      */
     public void refreshPage() {
         driver.navigate().refresh();
-//        log.info("Refresh page performed");
+        LOG.info("Refresh page performed");
     }
 
     /**
@@ -165,27 +181,27 @@ public class WebElementActions {
      */
     public void pressSpaceKey(String inputLocator) {
         driver.findElement(UiMappingSingleton.ui(inputLocator)).sendKeys(Keys.SPACE);
-//        log.info("Space clicked on " + inputLocator);
+        LOG.info("Space clicked on " + inputLocator);
     }
 
     public void pressEnterKey(String inputLocator) {
         driver.findElement(UiMappingSingleton.ui(inputLocator)).sendKeys(Keys.ENTER);
-//        log.info("Enter clicked on " + inputLocator);
+        LOG.info("Enter clicked on " + inputLocator);
     }
 
     public void pressESCAPEKey(String inputLocator) {
         driver.findElement(UiMappingSingleton.ui(inputLocator)).sendKeys(Keys.ESCAPE);
-//        log.info("Escape clicked on " + inputLocator);
+        LOG.info("Escape clicked on " + inputLocator);
     }
 
     public void pressPageUp(String inputLocator) {
         driver.findElement(UiMappingSingleton.ui(inputLocator)).sendKeys(Keys.PAGE_UP);
-//        log.info("PageUp clicked on " + inputLocator);
+        LOG.info("PageUp clicked on " + inputLocator);
     }
 
     public void pressTABkey(String inputLocator) {
         driver.findElement(UiMappingSingleton.ui(inputLocator)).sendKeys(Keys.TAB);
-        //        log.info("TAB clicked on " + inputLocator);
+        LOG.info("TAB clicked on " + inputLocator);
     }
 
 
@@ -195,7 +211,7 @@ public class WebElementActions {
      */
     public void doFocusToElementAndClick(String focusElementLocator, String elementLocator) {
         new Actions(driver).moveToElement(getElement(focusElementLocator)).perform();
-//        log.info("Focus in to element" + focusElementLocator);
+        LOG.info("Focus in to element" + focusElementLocator);
         driver.switchTo();
         if (isElementPresent(elementLocator)) {
             clickButton(elementLocator);

@@ -17,7 +17,7 @@ public class UiMappingSingleton {
     private static Properties properties = new Properties();
     private volatile static Map<String, String> uiMapping;
 
-    private static final Logger log = Logger.getLogger(ClassNameUtil.getCurrentClassName());
+    private static final Logger LOG = Logger.getLogger(ClassNameUtil.getCurrentClassName());
 
    // private static String uiMappingFile = "src/utils/UiMapping.properties";
 
@@ -28,18 +28,18 @@ public class UiMappingSingleton {
         for (final Map.Entry<Object, Object> entry : properties.entrySet()) {
             uiMapping.put((String) entry.getKey(), (String) entry.getValue());
         }
-        log.info("\t** UIMappingSingleton creation time - " + (System.nanoTime() - start) + "nanoseconds **");
+        LOG.info("\t** UIMappingSingleton creation time - " + (System.nanoTime() - start) + "nanoseconds **");
     }
 
     public static synchronized UiMappingSingleton getInstance() {
         if (classInstance == null) {
-            log.info("\t** UIMappingSingleton getInstance() class A **");
+            LOG.info("\t** UIMappingSingleton getInstance() class A **");
             classInstance = new UiMappingSingleton();
-            log.info("\t** Object - " + classInstance + " **");
+            LOG.info("\t** Object - " + classInstance + " **");
             return classInstance;
         }
-        log.info("\t** UIMappingSingleton getInstance() class B **");
-        log.info("\t** Object - " + classInstance + " **");
+        LOG.info("\t** UIMappingSingleton getInstance() class B **");
+        LOG.info("\t** Object - " + classInstance + " **");
         return classInstance;
     }
 
