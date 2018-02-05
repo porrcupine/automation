@@ -9,7 +9,7 @@ public class ProductListTest extends Fixtures {
     @Test
     public void isProductPresentInTheProductList() {
         homePage.clickMenuCategoryLink();
-        productCategoryPage.clickProductCategoryLink(); //TODO DEBUG
+        productCategoryPage.clickProductCategoryLink();
         Assert.assertFalse(productListPage.isProductListEmpty(),"The product list is empty! Test failed!");
     }
 
