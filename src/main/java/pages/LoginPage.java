@@ -1,17 +1,18 @@
 package pages;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.WebDriver;
 import utils.ClassNameUtil;
 import utils.PropertyLoader;
-import utils.WebElementActions;
+import utils.WebDriverWrapper;
 
 public class LoginPage extends GlobalPageHeader {
     private static final Logger LOG = Logger.getLogger(ClassNameUtil.getCurrentClassName());
 
-    public LoginPage(WebDriver driver) {
-        webElementActions = new WebElementActions(driver);
+
+    public LoginPage(WebDriverWrapper dr) {
+        super(dr);
     }
+
 
     public void enterLoginEmailData(String login) {
         webElementActions.input("login.page.username.inputfield", login);

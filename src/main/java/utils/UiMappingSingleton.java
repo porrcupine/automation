@@ -52,7 +52,6 @@ public class UiMappingSingleton {
      */
     public static Properties loadDataFromUIMappingFile() {
         File file = new File(PropertyLoader.loadProperty("uiMapping"));
-
         if (file.exists()) {
             try {
                 properties.load(new InputStreamReader(new FileInputStream(file), "UTF-8"));
@@ -60,7 +59,6 @@ public class UiMappingSingleton {
                 Assert.fail("Can not find UIMappingFile in class path!");
             }
         }
-
         return properties;
     }
 
@@ -103,3 +101,4 @@ public class UiMappingSingleton {
         return locatorValue;
     }
 }
+

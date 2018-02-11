@@ -1,40 +1,40 @@
 package pages;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.WebDriver;
 import utils.ClassNameUtil;
-import utils.WebElementActions;
+import utils.WebDriverWrapper;
 
 public class HomePage extends GlobalPageHeader{
     private static final Logger LOG = Logger.getLogger(ClassNameUtil.getCurrentClassName());
+    private static String page = "http://magento-demo.lexiconn.com/";
 
-    public HomePage(WebDriver driver) {
-        webElementActions = new WebElementActions(driver);
+    public HomePage(WebDriverWrapper dr) {
+        super(dr, page);
     }
 
-    public void clickLoginLink() {
-        GlobalPageHeader.clickLogInLink();
+    public void proceedToLogIn() {
+        clickAccountButton();
+        clickLogInLink();
     }
 
-    public void clickRegistrationLink() {
-        GlobalPageHeader.clickRegLink();
-    }
-
-    public void clickAccountLink() {
-        GlobalPageHeader.clickAccountButton();
+    public void proceedToRegister() {
+        clickAccountButton();
+        clickRegLink();
     }
 
     public void clickMenuCategoryLink() {
-        GlobalPageHeader.clickMenuCategotyLink();
+        clickMenuCategotyLink();
     }
-
-    public void logIn() {
-        clickAccountLink();
-        clickLoginLink();
-    }
-
-    public void register() {
-        clickAccountLink();
-        clickRegistrationLink();
-    }
+    //
+    //    }
+    //        clickAccountButton();
+    //    public void clickAccountLink() {
+    //
+    //    }
+    //        clickRegLink();
+    //    public void clickRegistrationLink() {
+    //
+    //    }
+    //        clickLogInLink();
+    //    public void clickLoginLink() {
 }

@@ -1,54 +1,37 @@
 package tests;
 
-import browser.Browser;
-import browser.Firefox;
-import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
-import pages.*;
+import org.testng.annotations.BeforeSuite;
+import pages.Automation;
 import utils.UiMappingSingleton;
+import utils.WebDriverFactory;
+import utils.WebDriverWrapper;
 
 public class Fixtures {
+    public static WebDriverWrapper driver;
+    public static Automation automation;
+   // private static WebDriverFactory webDriverFactory;
 
-    public static HomePage homePage;
-    public static RegPage regPage;
-    public static CustomerPage customerPage;
-    public static LoginPage loginPage;
-    public static ProductListPage productListPage;
-    public static ProductCategoryPage productCategoryPage;
-    public static Browser browser;
-    public static WebDriver driver;
-
-
-    @BeforeClass
+    @BeforeSuite
     public static void setUp() {
-        browser = new Firefox();
-        browser.configure();
-        driver = browser.driver;
 
-        homePage = new HomePage(driver);
-        regPage = new RegPage(driver);
-        customerPage = new CustomerPage(driver);
-        loginPage = new LoginPage(driver);
-        productListPage = new ProductListPage(driver);
-        productCategoryPage = new ProductCategoryPage(driver);
 
+        driver = WebDriverFactory.initDriver();
         UiMappingSingleton.getInstance();
-        System.out.println("DEBUG MESSAGE (before base test)");
+        System.out.println("DEBUG MESSAGE (Before Sute test)");
     }
 
     @BeforeMethod
     public void deleteCookiesAndGoToTestPage() {
-        System.out.println("DEBUG MESSAGE (before test)");
-        browser.deleteAllCookies();
-        Page.goToBaseUrl(driver);
+        System.out.println("DEBUG MESSAGE (Before Test)");
+        automation = new Automation(driver);
     }
 
-    @AfterClass
+    @AfterSuite
     public static void tearDown() {
-        if (browser != null) {
-            browser.close();
+        if (driver != null) {
+            driver.close();
         }
     }
 }

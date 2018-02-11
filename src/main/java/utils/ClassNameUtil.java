@@ -2,6 +2,7 @@ package utils;
 
 public class ClassNameUtil {
 
+
     private ClassNameUtil() {
     }
 

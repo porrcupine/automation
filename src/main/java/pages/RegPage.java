@@ -3,14 +3,16 @@ package pages;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import utils.ClassNameUtil;
-import utils.WebElementActions;
+import utils.WebDriverWrapper;
+import utils.WebElementsActions;
 
 public class RegPage extends GlobalPageHeader {
     private static final Logger LOG = Logger.getLogger(ClassNameUtil.getCurrentClassName());
 
-    public RegPage(WebDriver driver) {
-        webElementActions = new WebElementActions(driver);
+    public RegPage(WebDriverWrapper dr) {
+        super(dr);
     }
+
 
     public void enterName(String name) {
         webElementActions.input("reg.page.name.inputfield", name);

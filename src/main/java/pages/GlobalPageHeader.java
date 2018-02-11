@@ -1,26 +1,33 @@
 package pages;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.WebDriver;
 import utils.ClassNameUtil;
-import utils.WebElementActions;
+import utils.WebDriverWrapper;
 
 public abstract class GlobalPageHeader extends Page{
     private static final Logger LOG = Logger.getLogger(ClassNameUtil.getCurrentClassName());
 
-    public static void clickAccountButton() {
+    public GlobalPageHeader(WebDriverWrapper dr, String page) {
+        super(dr, page);
+    }
+
+    public GlobalPageHeader(WebDriverWrapper dr) {
+        super(dr);
+    }
+
+    public void clickAccountButton() {
         webElementActions.clickButton("globalmenu.page.account.button");
     }
 
-    public static void clickRegLink() {
+    public void clickRegLink() {
         webElementActions.clickLink("globalmenu.page.reg.link");
     }
 
-    public static void clickLogInLink() {
+    public void clickLogInLink() {
         webElementActions.clickLink("globalmenu.page.login.link");
     }
 
-    public static void clickMenuCategotyLink() {
+    public void clickMenuCategotyLink() {
         webElementActions.clickLink("globalmenu.page.menuheaderlink.link");
     }
 

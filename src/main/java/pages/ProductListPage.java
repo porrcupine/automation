@@ -4,7 +4,8 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import utils.ClassNameUtil;
 import utils.PropertyLoader;
-import utils.WebElementActions;
+import utils.WebDriverWrapper;
+import utils.WebElementsActions;
 
 import java.util.HashMap;
 import java.util.List;
@@ -13,9 +14,10 @@ import java.util.Random;
 public class ProductListPage extends GlobalPageHeader {
     private static final Logger LOG = Logger.getLogger(ClassNameUtil.getCurrentClassName());
 
-    public ProductListPage(WebDriver driver) {
-        webElementActions = new WebElementActions(driver);
+    public ProductListPage(WebDriverWrapper dr) {
+        super(dr);
     }
+
 
     public List getProductList() {
         List list = webElementActions.getElements("productlist.page.items.list");

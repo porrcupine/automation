@@ -2,78 +2,84 @@ package tests;
 
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class LoginTest extends Fixtures {
 
+    @BeforeMethod
+    public void goToBasePage() {
+        automation.homePage.openPage();
+    }
+
     @Test
     public void validCredentialsLoginTest() {
-        homePage.logIn();
-        loginPage.enterValidCredentials();
-        loginPage.clickLoginButton();
-        Assert.assertTrue(customerPage.isLoginSuccessful(), "Login with the valid credentials failed!");
+        automation.homePage.proceedToLogIn();
+        automation.loginPage.enterValidCredentials();
+        automation.loginPage.clickLoginButton();
+        Assert.assertTrue(automation.customerPage.isLoginSuccessful(), "Login with the valid credentials failed!");
     }
 
     @Test
     public void nonExistUserLoginTest() {
-        homePage.logIn();
-        loginPage.enterInvalidCredentials();
-        loginPage.clickLoginButton();
-        Assert.assertTrue(loginPage.isShowLoginErrorMessage(), "Login with the invalid credentials failed!");
+        automation.homePage.proceedToLogIn();
+        automation.loginPage.enterInvalidCredentials();
+        automation.loginPage.clickLoginButton();
+        Assert.assertTrue(automation.loginPage.isShowLoginErrorMessage(), "Login with the invalid credentials failed!");
     }
 
     @Test
     public void emptyUserLoginTest() {
-        homePage.logIn();
-        loginPage.enterLoginEmailData("");
-        loginPage.enterPasswordData("qweqrt");
-        loginPage.clickLoginButton();
-        Assert.assertTrue(loginPage.isAdviceReqEmailMessage(), "No error message with empty email input");
+        automation.homePage.proceedToLogIn();
+        automation.loginPage.enterLoginEmailData("");
+        automation.loginPage.enterPasswordData("qweqrt");
+        automation.loginPage.clickLoginButton();
+        Assert.assertTrue(automation.loginPage.isAdviceReqEmailMessage(), "No error message with empty email input");
     }
 
     @Test
     public void emptyUserPasswordTest() {
-        homePage.logIn();
-        loginPage.enterLoginEmailData("email@gmail.com");
-        loginPage.enterPasswordData("");
-        loginPage.clickLoginButton();
-        Assert.assertTrue(loginPage.isAdviceReqPasswordMessage(), "No error message with empty pass input");
+        automation.homePage.proceedToLogIn();
+        automation.loginPage.enterLoginEmailData("email@gmail.com");
+        automation.loginPage.enterPasswordData("");
+        automation.loginPage.clickLoginButton();
+        Assert.assertTrue(automation.loginPage.isAdviceReqPasswordMessage(), "No error message with empty pass input");
     }
 
     @Test
     public void emptyUserLoginAndPasswordTest() {
-        homePage.logIn();
-        loginPage.enterLoginEmailData("");
-        loginPage.enterPasswordData("");
-        loginPage.clickLoginButton();
-        Assert.assertTrue(loginPage.isAdviceReqEmailMessage(), "No error message with empty email input");
-        Assert.assertTrue(loginPage.isAdviceReqPasswordMessage(), "No error message with empty pass input");
+        automation.homePage.proceedToLogIn();
+        automation.loginPage.enterLoginEmailData("");
+        automation.loginPage.enterPasswordData("");
+        automation.loginPage.clickLoginButton();
+        Assert.assertTrue(automation.loginPage.isAdviceReqEmailMessage(), "No error message with empty email input");
+        Assert.assertTrue(automation.loginPage.isAdviceReqPasswordMessage(), "No error message with empty pass input");
     }
 
     @Test
     public void incorrectUserLoginMaskTest() {
-        homePage.logIn();
-        loginPage.enterLoginEmailData("t22333221 @gmail.com");
-        loginPage.enterPasswordData("qwerty123");
-        loginPage.clickLoginButton();
-        Assert.assertFalse(customerPage.isLoginSuccessful(), "Incorrect mask test failed"); //TODO show popup message
+        automation.homePage.proceedToLogIn();
+        automation.loginPage.enterLoginEmailData("t22333221 @gmail.com");
+        automation.loginPage.enterPasswordData("qwerty123");
+        automation.loginPage.clickLoginButton();
+        Assert.assertFalse(automation.customerPage.isLoginSuccessful(), "Incorrect mask test failed"); //TODO show popup message
     }
 
     @Test
     public void spacesInTheUserLoginAndPasswordTest() {
-        homePage.logIn();
-        loginPage.pressSpaceInTheLoginData();
-        loginPage.pressSpaceInThePasswordData();
-        loginPage.clickLoginButton();
-        Assert.assertFalse(customerPage.isLoginSuccessful(),"Spaces in login & password test failed");
+        automation.homePage.proceedToLogIn();
+        automation.loginPage.pressSpaceInTheLoginData();
+        automation.loginPage.pressSpaceInThePasswordData();
+        automation.loginPage.clickLoginButton();
+        Assert.assertFalse(automation.customerPage.isLoginSuccessful(), "Spaces in login & password test failed");
     }
 
     @Test
     public void tabsInTheUserLoginAndPasswordTest() {
-        homePage.logIn();
-        loginPage.pressTabInTheLoginData();
-        loginPage.pressTabInThePasswordData();
-        loginPage.clickLoginButton();
-        Assert.assertFalse(customerPage.isLoginSuccessful(),"Tabs in login & password test failed");
+        automation.homePage.proceedToLogIn();
+        automation.loginPage.pressTabInTheLoginData();
+        automation.loginPage.pressTabInThePasswordData();
+        automation.loginPage.clickLoginButton();
+        Assert.assertFalse(automation.customerPage.isLoginSuccessful(), "Tabs in login & password test failed");
     }
 }
