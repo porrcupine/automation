@@ -7,10 +7,11 @@ import utils.WebDriverWrapper;
 
 public class LoginPage extends GlobalPageHeader {
     private static final Logger LOG = Logger.getLogger(ClassNameUtil.getCurrentClassName());
+    private static String page = "http://magento-demo.lexiconn.com/customer/account/login/";
 
 
     public LoginPage(WebDriverWrapper dr) {
-        super(dr);
+        super(dr, page);
     }
 
 
@@ -30,6 +31,26 @@ public class LoginPage extends GlobalPageHeader {
     public void enterInvalidCredentials() {
         enterLoginEmailData(PropertyLoader.loadProperty("credentials.invalid.login"));
         enterPasswordData(PropertyLoader.loadProperty("credentials.invalid.password"));
+    }
+
+    public void enterEmptyEmailSpecifiedPassword() {
+        enterLoginEmailData("");
+        enterPasswordData("qweqrt");
+    }
+
+    public void enterEmptyPasswordSpecifiedEmail() {
+        enterLoginEmailData("email@gmail.com");
+        enterPasswordData("");
+    }
+
+    public void enterEmptyEmailEmptyPassword() {
+        enterLoginEmailData("");
+        enterPasswordData("");
+    }
+
+    public void enterIncorrectEmailMaskSpecifiedPassword() {
+        enterLoginEmailData("t22333221 @gmail.com");
+        enterPasswordData("qwerty123");
     }
 
 

@@ -3,6 +3,7 @@ package utils;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.Assert;
 
 import java.util.concurrent.TimeUnit;
@@ -41,6 +42,8 @@ public class WebDriverFactory {
                 driverWrapper = new WebDriverWrapper(new ChromeDriver(options));
                 break;
             case INTERNET_EXPLORER:
+                System.setProperty("webdriver.ie.driver", "src\\main\\resources\\driver\\IEDriverServer.exe");
+                driverWrapper = new WebDriverWrapper(new InternetExplorerDriver());
                 break;
             case PHANTOMJS:
 //                File phantomjs = Phanbedder.unpack();

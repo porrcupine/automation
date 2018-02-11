@@ -67,16 +67,6 @@ public abstract class Page {
         return webDriverWrapper.getCurrentUrl();
     }
 
-    public void deleteAllCookies() {
-        webDriverWrapper.manage().deleteAllCookies();
-    }
 
 }
-//public abstract class Page {
-//    static String testUrl = "http://magento-demo.lexiconn.com";
-//    static WebElementsActions webElementActions;
-//
-//    public static void goToBaseUrl(WebDriver driver) {
-//        driver.get(testUrl);
-//    }
-//}
+

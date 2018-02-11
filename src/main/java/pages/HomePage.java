@@ -22,9 +22,6 @@ public class HomePage extends GlobalPageHeader{
         clickRegLink();
     }
 
-    public void clickMenuCategoryLink() {
-        clickMenuCategotyLink();
-    }
     //
     //    }
     //        clickAccountButton();

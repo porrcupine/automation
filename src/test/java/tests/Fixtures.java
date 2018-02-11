@@ -1,37 +1,38 @@
 package tests;
 
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import pages.Automation;
 import utils.UiMappingSingleton;
 import utils.WebDriverFactory;
 import utils.WebDriverWrapper;
 
-public class Fixtures {
+public abstract class Fixtures {
     public static WebDriverWrapper driver;
     public static Automation automation;
-   // private static WebDriverFactory webDriverFactory;
+    // private static WebDriverFactory webDriverFactory;
 
     @BeforeSuite
-    public static void setUp() {
-
-
+    public static void setUpBeforeSuite() {
         driver = WebDriverFactory.initDriver();
         UiMappingSingleton.getInstance();
-        System.out.println("DEBUG MESSAGE (Before Sute test)");
+        System.out.println("**********Test suite started!**********");
     }
 
-    @BeforeMethod
-    public void deleteCookiesAndGoToTestPage() {
-        System.out.println("DEBUG MESSAGE (Before Test)");
+    @BeforeClass
+    public void setUpBeforeClass() {
         automation = new Automation(driver);
     }
+
 
     @AfterSuite
     public static void tearDown() {
         if (driver != null) {
-            driver.close();
+            //driver.close(); //TODO Difference beetween close and quit
+            driver.quit();
         }
     }
+
+    public abstract void goToBasePage();
 }

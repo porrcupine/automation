@@ -8,7 +8,7 @@ import utils.WebElementsActions;
 
 public class CustomerPage extends GlobalPageHeader{
     private static final Logger LOG = Logger.getLogger(ClassNameUtil.getCurrentClassName());
-    private static final String page = "some URL...";
+    private static final String page = "http://magento-demo.lexiconn.com/customer/account/";
 
     public CustomerPage(WebDriverWrapper dr) {
         super(dr);

@@ -31,3 +31,108 @@
 2018-02-11 09:22:56 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - teatatata1234
 2018-02-11 09:23:02 WebElementsActions [INFO] - Click on Button login.page.signin.button
 2018-02-11 09:23:02 WebElementsActions [INFO] - Element customer.page.sucessfullogin.text is Present
+2018-02-11 09:35:03 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
+2018-02-11 09:35:03 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 4414731nanoseconds **
+2018-02-11 09:35:03 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@222a59e6 **
+2018-02-11 09:35:04 Page [INFO] - Start open page.
+2018-02-11 09:35:08 Page [INFO] - Page open successful.
+2018-02-11 09:35:11 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - t22333221@gmail.com
+2018-02-11 09:35:12 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - teatatata1234
+2018-02-11 09:35:17 WebElementsActions [INFO] - Click on Button login.page.signin.button
+2018-02-11 09:35:17 WebElementsActions [INFO] - Element customer.page.sucessfullogin.text is Present
+2018-02-11 09:37:43 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
+2018-02-11 09:37:43 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 3782119nanoseconds **
+2018-02-11 09:37:43 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@222a59e6 **
+2018-02-11 09:37:43 Page [INFO] - Start open page.
+2018-02-11 09:37:54 Page [INFO] - Page open successful.
+2018-02-11 09:37:56 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - t22333221@gmail.com
+2018-02-11 09:37:57 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - teatatata1234
+2018-02-11 09:37:58 WebElementsActions [INFO] - Click on Button login.page.signin.button
+2018-02-11 09:37:58 WebElementsActions [INFO] - Element customer.page.sucessfullogin.text is Present
+2018-02-11 09:39:01 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
+2018-02-11 09:39:01 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 3963569nanoseconds **
+2018-02-11 09:39:01 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@222a59e6 **
+2018-02-11 09:39:01 Page [INFO] - Start open page.
+2018-02-11 09:39:04 Page [INFO] - Page open successful.
+2018-02-11 09:39:05 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - t22333221@gmail.com
+2018-02-11 09:39:06 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - teatatata1234
+2018-02-11 09:39:08 WebElementsActions [INFO] - Click on Button login.page.signin.button
+2018-02-11 09:39:08 WebElementsActions [INFO] - Element customer.page.sucessfullogin.text is Present
+2018-02-11 09:43:26 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
+2018-02-11 09:43:26 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 5865918nanoseconds **
+2018-02-11 09:43:26 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@17d919b6 **
+2018-02-11 09:50:32 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
+2018-02-11 09:50:32 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 17065719nanoseconds **
+2018-02-11 09:50:32 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@53f3bdbd **
+2018-02-11 10:19:21 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
+2018-02-11 10:19:21 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 7671795nanoseconds **
+2018-02-11 10:19:21 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@7d61eb55 **
+2018-02-11 10:19:21 Page [INFO] - Start open page.
+2018-02-11 10:19:21 Page [ERROR] - Error in open page!
+
+2018-02-11 10:20:27 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
+2018-02-11 10:20:27 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 4201260nanoseconds **
+2018-02-11 10:20:27 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@7d61eb55 **
+2018-02-11 10:20:27 Page [INFO] - Start open page.
+2018-02-11 10:20:27 Page [ERROR] - Error in open page!
+
+2018-02-11 10:22:04 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
+2018-02-11 10:22:04 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 4149534nanoseconds **
+2018-02-11 10:22:04 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@7d61eb55 **
+2018-02-11 10:22:04 Page [INFO] - Start open page.
+2018-02-11 10:22:11 Page [INFO] - Page open successful.
+2018-02-11 10:22:12 WebElementsActions [INFO] - Input in reg.page.name.inputfield, value - Fedor
+2018-02-11 10:22:13 WebElementsActions [INFO] - Input in reg.page.lastname.inputfield, value - Ivanov
+2018-02-11 10:22:14 WebElementsActions [INFO] - Input in reg.page.email.inputfield, value - t223332211@gmail.com
+2018-02-11 10:22:14 WebElementsActions [INFO] - Input in reg.page.password.inputfield, value - teatatata1234
+2018-02-11 10:22:15 WebElementsActions [INFO] - Input in reg.page.confirmpassword.inputfield, value - teatatata1234
+2018-02-11 10:22:35 WebElementsActions [WARN] - Element _customer.page.sucessfulreg.text_is NOT Present in DOM!
+2018-02-11 10:37:22 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
+2018-02-11 10:37:22 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 4236975nanoseconds **
+2018-02-11 10:37:22 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@222a59e6 **
+2018-02-11 10:37:22 Page [INFO] - Start open page.
+2018-02-11 10:37:30 Page [INFO] - Page open successful.
+2018-02-11 10:37:30 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - t22333221@gmail.com
+2018-02-11 10:37:31 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - teatatata1234
+2018-02-11 10:37:40 WebElementsActions [INFO] - Click on Button login.page.signin.button
+2018-02-11 10:37:40 WebElementsActions [INFO] - Element customer.page.sucessfullogin.text is Present
+2018-02-11 11:27:40 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
+2018-02-11 11:27:40 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 3974242nanoseconds **
+2018-02-11 11:27:40 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@34129c78 **
+2018-02-11 11:27:41 Page [INFO] - Start open page.
+2018-02-11 11:27:44 Page [INFO] - Page open successful.
+2018-02-11 11:27:45 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
+2018-02-11 11:27:46 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
+2018-02-11 11:27:47 WebElementsActions [INFO] - Click 0 list elementproductlist.page.filter.price.list
+2018-02-11 14:02:27 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
+2018-02-11 14:02:27 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 4958258nanoseconds **
+2018-02-11 14:02:27 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@76b07f29 **
+2018-02-11 14:02:27 Page [INFO] - Start open page.
+2018-02-11 14:02:33 Page [INFO] - Page open successful.
+2018-02-11 14:04:12 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - t22333221@gmail.com
+2018-02-11 14:05:30 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - teatatata1234
+2018-02-11 14:05:50 WebElementsActions [INFO] - Click on Button login.page.signin.button
+2018-02-11 14:05:50 WebElementsActions [INFO] - Element customer.page.sucessfullogin.text is Present
+2018-02-11 14:07:47 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
+2018-02-11 14:07:47 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 5715257nanoseconds **
+2018-02-11 14:07:47 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@76b07f29 **
+2018-02-11 14:07:47 Page [INFO] - Start open page.
+2018-02-11 14:07:52 Page [INFO] - Page open successful.
+2018-02-11 14:12:19 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
+2018-02-11 14:12:19 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 5055141nanoseconds **
+2018-02-11 14:12:19 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@7d61eb55 **
+2018-02-11 14:12:19 Page [INFO] - Start open page.
+2018-02-11 14:12:22 Page [INFO] - Page open successful.
+2018-02-11 14:12:23 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - t223332211@gmail.com
+2018-02-11 14:12:24 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - teatatata12345
+2018-02-11 14:12:26 WebElementsActions [INFO] - Click on Button login.page.signin.button
+2018-02-11 14:12:27 WebElementsActions [INFO] - Element login.page.error.message is Present
+2018-02-11 14:13:23 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
+2018-02-11 14:13:23 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 4372036nanoseconds **
+2018-02-11 14:13:23 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@34129c78 **
+2018-02-11 14:13:23 Page [INFO] - Start open page.
+2018-02-11 14:13:26 Page [INFO] - Page open successful.
+2018-02-11 14:13:27 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - t223332211@gmail.com
+2018-02-11 14:13:27 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - teatatata12345
+2018-02-11 14:13:28 WebElementsActions [INFO] - Click on Button login.page.signin.button
+2018-02-11 14:13:28 WebElementsActions [INFO] - Element login.page.error.message is Present

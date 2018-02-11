@@ -13,6 +13,7 @@ import java.util.Random;
 
 public class ProductListPage extends GlobalPageHeader {
     private static final Logger LOG = Logger.getLogger(ClassNameUtil.getCurrentClassName());
+    private static String page = ""; //TODO Is this link static or we can generate it randomly?
 
     public ProductListPage(WebDriverWrapper dr) {
         super(dr);
@@ -45,7 +46,7 @@ public class ProductListPage extends GlobalPageHeader {
         return getProductList().isEmpty();
     }
 
-    public boolean isProductInTheFilterPriceRange() {
+    public boolean isProductInThePriceFilterRange() {
         return ((getProductPrice() >= getFilterRangeValues().get("rangeFrom")) && (getProductPrice() <= getFilterRangeValues().get("rangeTo")));
     }
 

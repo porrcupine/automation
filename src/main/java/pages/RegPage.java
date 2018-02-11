@@ -8,11 +8,11 @@ import utils.WebElementsActions;
 
 public class RegPage extends GlobalPageHeader {
     private static final Logger LOG = Logger.getLogger(ClassNameUtil.getCurrentClassName());
+    private static String page = "http://magento-demo.lexiconn.com/customer/account/create/";
 
     public RegPage(WebDriverWrapper dr) {
-        super(dr);
+        super(dr, page);
     }
-
 
     public void enterName(String name) {
         webElementActions.input("reg.page.name.inputfield", name);
@@ -36,6 +36,15 @@ public class RegPage extends GlobalPageHeader {
 
     public void clickRegButton() {
         webElementActions.submitButton("reg.page.register.button");
+    }
+
+    public void enterNewUserDataAndClickRegister() {
+        enterName("Fedor");
+        lastName("Ivanov");
+        enterEmail("t223332211@gmail.com");
+        enterPassword("teatatata1234");
+        enterPasswordConfirm("teatatata1234");
+        clickRegButton();
     }
 
 

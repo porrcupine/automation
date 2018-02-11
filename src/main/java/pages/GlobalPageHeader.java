@@ -4,7 +4,7 @@ import org.apache.log4j.Logger;
 import utils.ClassNameUtil;
 import utils.WebDriverWrapper;
 
-public abstract class GlobalPageHeader extends Page{
+public class GlobalPageHeader extends Page {
     private static final Logger LOG = Logger.getLogger(ClassNameUtil.getCurrentClassName());
 
     public GlobalPageHeader(WebDriverWrapper dr, String page) {
