@@ -71,11 +71,37 @@ public class WebDriverFactory {
 
     public static WebDriverWrapper getInstance() {
         WebDriver driver = null;
-        DesiredCapabilities capability;
-        capability = DesiredCapabilities.chrome();
-        capability.setBrowserName("chrome");
-        capability.setPlatform(Platform.WINDOWS);
-        capability.setVersion("64");
+        DesiredCapabilities capability = null;
+
+        switch (browserName) {
+            case FIREFOX:
+                System.setProperty("webdriver.firefox.bin", "C:\\Program Files\\Mozilla FirefoxQantum\\firefox.exe");
+                //System.setProperty("webdriver.gecko.browser", "C:\\Selenium\\geckodriver\\geckodriver.exe"); //JUnit
+                System.setProperty("webdriver.gecko.driver", "src\\main\\resources\\driver\\geckodriver.exe");
+                //driverWrapper = new WebDriverWrapper(new FirefoxDriver());
+                break;
+            case CHROME:
+                System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\driver\\chromedriver.exe");
+              //  ChromeOptions options = new ChromeOptions();
+                capability = DesiredCapabilities.chrome();
+                capability.setBrowserName("chrome");
+                capability.setPlatform(Platform.WINDOWS);
+                capability.setVersion("64.0.3282.140");
+              // driverWrapper = new WebDriverWrapper(new ChromeDriver(options));
+                break;
+            case INTERNET_EXPLORER:
+                System.setProperty("webdriver.ie.driver", "src\\main\\resources\\driver\\IEDriverServer.exe");
+              //  driverWrapper = new WebDriverWrapper(new InternetExplorerDriver());
+                break;
+            case PHANTOMJS:
+//                File phantomjs = Phanbedder.unpack();
+//                DesiredCapabilities caps = new DesiredCapabilities();
+//                caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, phantomjs.getAbsolutePath());
+//                driverWrapper = new WebDriverWrapper( new PhantomJSDriver(caps));
+                break;
+            default:
+                Assert.fail("invalid driver name");
+        }
 
         try {
             driver = new RemoteWebDriver(new URL("http://192.168.2.124:4444/wd/hub"), capability);
