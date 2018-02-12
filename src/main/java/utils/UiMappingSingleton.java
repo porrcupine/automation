@@ -63,16 +63,6 @@ public class UiMappingSingleton {
     }
 
     //TODO Maven
-//    private static String getValueFromFile(String key, String fileName) throws IOException {
-//        Properties p = new Properties();
-//        try {
-//            p.load(new FileInputStream(fileName));
-//        } catch (IOException e) {
-//            throw new IllegalStateException("Incorrect file path: " + e.getMessage());
-//        }
-//        return (p.getProperty(key));
-//    }
-
 
     public static By ui(String key) {
         String[] partsOfLocators = uiMapping.get(key).split("\"");

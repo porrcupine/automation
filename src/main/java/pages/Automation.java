@@ -12,6 +12,7 @@ public class Automation {
     public  ProductListPage productListPage;
     public  ProductCategoryPage productCategoryPage;
     public GlobalPageHeader globalPageHeader;
+    public ProductPage productPage;
 
     public Automation(WebDriverWrapper driver) {
 
@@ -22,10 +23,17 @@ public class Automation {
         loginPage = new LoginPage(driver);
         productListPage = new ProductListPage(driver);
         productCategoryPage = new ProductCategoryPage(driver);
+        productPage = new ProductPage(driver);
     }
 
     public void goToProductListPage() {
+        homePage.openPage();
         globalPageHeader.clickMenuCategotyLink();
         productCategoryPage.clickProductCategoryLink();
+    }
+
+    public void goToProductPage() {
+        goToProductListPage();
+        productListPage.clickProductLinkFromTheProductList();
     }
 }

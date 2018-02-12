@@ -1,11 +1,9 @@
 package pages;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.WebDriver;
 import utils.ClassNameUtil;
 import utils.PropertyLoader;
 import utils.WebDriverWrapper;
-import utils.WebElementsActions;
 
 import java.util.HashMap;
 import java.util.List;
@@ -14,18 +12,24 @@ import java.util.Random;
 public class ProductListPage extends GlobalPageHeader {
     private static final Logger LOG = Logger.getLogger(ClassNameUtil.getCurrentClassName());
     private static String page = ""; //TODO Is this link static or we can generate it randomly?
+    private double tempProductPrice;
 
     public ProductListPage(WebDriverWrapper dr) {
         super(dr);
     }
 
 
-    public List getProductList() {
+    private List getProductList() {
         List list = webElementActions.getElements("productlist.page.items.list");
         return list;
     }
 
-    public HashMap<String, Double> getFilterRangeValues() {
+    private List getProductPriceList() {
+        List list = webElementActions.getElements("productlist.page.item.price.list");
+        return list;
+    }
+
+    private HashMap<String, Double> getFilterRangeValues() {
         String stringPriceRange = webElementActions.getElementText("productlist.page.filter.price.selectedrange.text");
         String[] strings = stringPriceRange.split("-");
         double rangeFrom = Double.valueOf(strings[0].replace("$","").trim());
@@ -36,10 +40,16 @@ public class ProductListPage extends GlobalPageHeader {
         return hashMap;
     }
 
-    public double getProductPrice() {
+    private double getProductPrice() {
         String stringPrice = webElementActions.getElementText("productlist.page.items.price.text");
         double productPrice = Double.valueOf(stringPrice.replace("$", "").trim());
         return productPrice;
+    }
+
+    public void clickRandomPriceRangeFilter() {
+        Random random = new Random();
+        int randomElementNumber = random.nextInt(Integer.valueOf(PropertyLoader.loadProperty("filter.numberOfElementInOrder")) - 1);
+        webElementActions.clickSpecifiedLinkFromTheList("productlist.page.filter.price.list", randomElementNumber );
     }
 
     public boolean isProductListEmpty() {
@@ -50,15 +60,23 @@ public class ProductListPage extends GlobalPageHeader {
         return ((getProductPrice() >= getFilterRangeValues().get("rangeFrom")) && (getProductPrice() <= getFilterRangeValues().get("rangeTo")));
     }
 
-    public void clickRandomPriceRangeFilter() {
-        Random random = new Random();
-        int randomElementNumber = random.nextInt(Integer.valueOf(PropertyLoader.loadProperty("filter.numberOfElementInOrder")) - 1);
-        webElementActions.clickSpecifiedLinkFromTheList("productlist.page.filter.price.list", randomElementNumber );
-    }
-
-    public void clickProductLinkFromTheList() {
+    public void clickProductLinkFromTheProductList() {
         webElementActions.clickLink("productlist.page.item.link");
     }
+
+    public boolean isAllProductsHaveAPrice() {
+        return getProductList().size() == getProductPriceList().size();
+    }
+
+    public void setProductPriceForComparision() {
+        tempProductPrice = getProductPrice();
+    }
+
+    public double getTempProductPrice() {
+        return tempProductPrice;
+    }
+
+
 
 
 
