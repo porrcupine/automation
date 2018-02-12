@@ -13,10 +13,6 @@ public class ProductPage extends GlobalPageHeader {
         super(dr);
     }
 
-    public boolean isAddToCartButtonPresent() {
-        return webElementActions.isElementPresent("product.page.addtocart.button");
-    }
-
     public double setProductPriceForComparision() {
         productPrice =  Double.valueOf(webElementActions.getElementText("product.page.price.text").replace("$", "").trim());
         return productPrice;
@@ -24,5 +20,9 @@ public class ProductPage extends GlobalPageHeader {
 
     public double getProductPrice() {
         return productPrice;
+    }
+
+    public boolean isAddToCartButtonPresent() {
+        return webElementActions.isElementPresent("product.page.addtocart.button");
     }
 }

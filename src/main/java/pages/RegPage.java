@@ -1,10 +1,8 @@
 package pages;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.WebDriver;
 import utils.ClassNameUtil;
 import utils.WebDriverWrapper;
-import utils.WebElementsActions;
 
 public class RegPage extends GlobalPageHeader {
     private static final Logger LOG = Logger.getLogger(ClassNameUtil.getCurrentClassName());
@@ -18,7 +16,7 @@ public class RegPage extends GlobalPageHeader {
         webElementActions.input("reg.page.name.inputfield", name);
     }
 
-    public void lastName(String surname) {
+    public void enterLastName(String surname) {
         webElementActions.input("reg.page.lastname.inputfield", surname);
     }
 
@@ -34,17 +32,17 @@ public class RegPage extends GlobalPageHeader {
         webElementActions.input("reg.page.confirmpassword.inputfield", passwordConfirm);
     }
 
-    public void clickRegButton() {
-        webElementActions.submitButton("reg.page.register.button");
-    }
-
     public void enterNewUserDataAndClickRegister() {
         enterName("Fedor");
-        lastName("Ivanov");
+        enterLastName("Ivanov");
         enterEmail("t223332211@gmail.com");
         enterPassword("teatatata1234");
         enterPasswordConfirm("teatatata1234");
         clickRegButton();
+    }
+
+    public void clickRegButton() {
+        webElementActions.submitButton("reg.page.register.button");
     }
 
 

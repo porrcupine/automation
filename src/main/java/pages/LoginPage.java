@@ -14,7 +14,6 @@ public class LoginPage extends GlobalPageHeader {
         super(dr, page);
     }
 
-
     public void enterLoginEmailData(String login) {
         webElementActions.input("login.page.username.inputfield", login);
     }
@@ -53,13 +52,8 @@ public class LoginPage extends GlobalPageHeader {
         enterPasswordData("qwerty123");
     }
 
-
     public void clickLoginButton() {
         webElementActions.clickButton("login.page.signin.button");
-    }
-
-    public void showErrorMessageText() {
-        System.out.println(webElementActions.getElementText("login.page.error.text"));
     }
 
     public void pressSpaceInTheLoginData() {
@@ -96,6 +90,10 @@ public class LoginPage extends GlobalPageHeader {
             return true;
         }
         return false;
+    }
+
+    public void showErrorMessageText() {
+        System.out.println(webElementActions.getElementText("login.page.error.text"));
     }
 
 }

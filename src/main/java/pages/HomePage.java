@@ -22,16 +22,4 @@ public class HomePage extends GlobalPageHeader{
         clickRegLink();
     }
 
-    //
-    //    }
-    //        clickAccountButton();
-    //    public void clickAccountLink() {
-    //
-    //    }
-    //        clickRegLink();
-    //    public void clickRegistrationLink() {
-    //
-    //    }
-    //        clickLogInLink();
-    //    public void clickLoginLink() {
 }
