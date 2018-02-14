@@ -1,5 +1,6 @@
 package pages;
 
+import utils.ScreenShotMaker;
 import utils.WebDriverWrapper;
 import utils.WebElementsActions;
 
@@ -13,6 +14,7 @@ public class Automation {
     public  ProductCategoryPage productCategoryPage;
     public GlobalPageHeader globalPageHeader;
     public ProductPage productPage;
+    public ScreenShotMaker screenShotMaker;
 
     public Automation(WebDriverWrapper driver) {
 
@@ -24,6 +26,7 @@ public class Automation {
         productListPage = new ProductListPage(driver);
         productCategoryPage = new ProductCategoryPage(driver);
         productPage = new ProductPage(driver);
+        screenShotMaker = new ScreenShotMaker(driver);
     }
 
     public void goToProductListPage() {

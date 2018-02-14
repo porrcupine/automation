@@ -1,5 +1,7 @@
 package tests;
 
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
@@ -26,6 +28,12 @@ public abstract class Fixtures {
         automation = new Automation(driver);
     }
 
+    @AfterMethod
+    public void afterMethodTearDown(ITestResult testResult){
+        if(!testResult.isSuccess()){
+            automation.screenShotMaker.takeScreenShot(testResult.getMethod().getMethodName());
+        }
+    }
 
     @AfterSuite
     public static void tearDown() {

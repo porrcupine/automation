@@ -1,116 +1,52 @@
-2018-02-12 16:36:49 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
-2018-02-12 16:36:49 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 4588380nanoseconds **
-2018-02-12 16:36:49 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@53f3bdbd **
-2018-02-12 16:36:49 Page [INFO] - Start open page.
-2018-02-12 16:36:51 Page [INFO] - Page open successful.
-2018-02-12 16:36:52 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-12 16:36:53 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-12 16:38:04 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
-2018-02-12 16:38:04 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 4821144nanoseconds **
-2018-02-12 16:38:04 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@53f3bdbd **
-2018-02-12 16:38:04 Page [INFO] - Start open page.
-2018-02-12 16:38:05 Page [INFO] - Page open successful.
-2018-02-12 16:38:07 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-12 16:38:08 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-12 17:14:55 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
-2018-02-12 17:14:55 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 3471767nanoseconds **
-2018-02-12 17:14:55 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@53f3bdbd **
-2018-02-12 17:14:55 Page [INFO] - Start open page.
-2018-02-12 17:14:57 Page [INFO] - Page open successful.
-2018-02-12 17:14:58 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-12 17:14:59 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-12 17:15:00 WebElementsActions [INFO] - Click on Link productlist.page.item.link
-2018-02-12 17:15:00 WebElementsActions [INFO] - Element product.page.addtocart.button is Present
-2018-02-12 17:24:34 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
-2018-02-12 17:24:34 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 2610495nanoseconds **
-2018-02-12 17:24:34 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@53f3bdbd **
-2018-02-12 17:26:06 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
-2018-02-12 17:26:06 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 3802645nanoseconds **
-2018-02-12 17:26:06 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@53f3bdbd **
-2018-02-12 17:26:06 Page [INFO] - Start open page.
-2018-02-12 17:26:07 Page [INFO] - Page open successful.
-2018-02-12 17:26:09 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-12 17:26:09 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-12 17:58:43 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
-2018-02-12 17:58:43 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 3257475nanoseconds **
-2018-02-12 17:58:43 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@53f3bdbd **
-2018-02-12 18:02:59 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
-2018-02-12 18:02:59 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 2930290nanoseconds **
-2018-02-12 18:02:59 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@53f3bdbd **
-2018-02-12 18:10:29 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
-2018-02-12 18:10:29 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 3032099nanoseconds **
-2018-02-12 18:10:29 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@34129c78 **
-2018-02-12 18:20:59 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
-2018-02-12 18:20:59 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 2829302nanoseconds **
-2018-02-12 18:20:59 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@53f3bdbd **
-2018-02-12 18:20:59 Page [INFO] - Start open page.
-2018-02-12 18:21:02 Page [INFO] - Page open successful.
-2018-02-12 18:21:03 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-12 18:21:04 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-12 18:21:05 WebElementsActions [INFO] - Click on Link productlist.page.item.link
-2018-02-12 18:24:40 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
-2018-02-12 18:24:40 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 3949612nanoseconds **
-2018-02-12 18:24:40 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@53f3bdbd **
-2018-02-12 18:24:40 Page [INFO] - Start open page.
-2018-02-12 18:24:41 Page [INFO] - Page open successful.
-2018-02-12 18:24:42 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-12 18:24:43 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-12 18:24:44 WebElementsActions [INFO] - Click on Link productlist.page.item.link
-2018-02-12 18:24:44 Page [INFO] - Start open page.
-2018-02-12 18:24:45 Page [INFO] - Page open successful.
-2018-02-12 18:24:46 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-12 18:24:46 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-12 18:26:02 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
-2018-02-12 18:26:02 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 4839618nanoseconds **
-2018-02-12 18:26:02 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@60d84f61 **
-2018-02-12 18:26:12 Page [INFO] - Start open page.
-2018-02-12 18:26:13 Page [INFO] - Page open successful.
-2018-02-12 18:26:20 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-12 18:26:22 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-12 18:26:26 WebElementsActions [INFO] - Click on Link productlist.page.item.link
-2018-02-12 18:27:01 Page [INFO] - Start open page.
-2018-02-12 19:04:56 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
-2018-02-12 19:04:56 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 4599054nanoseconds **
-2018-02-12 19:04:56 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@60d84f61 **
-2018-02-12 19:05:06 Page [INFO] - Start open page.
-2018-02-12 19:05:08 Page [INFO] - Page open successful.
-2018-02-12 19:05:11 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-12 19:05:13 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-12 19:05:16 WebElementsActions [INFO] - Click on Link productlist.page.item.link
-2018-02-12 19:05:23 Page [INFO] - Start open page.
-2018-02-12 19:05:24 Page [INFO] - Page open successful.
-2018-02-12 19:05:25 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-12 19:05:26 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-12 19:07:06 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
-2018-02-12 19:07:06 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 7289189nanoseconds **
-2018-02-12 19:07:06 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@60d84f61 **
-2018-02-12 19:07:09 Page [INFO] - Start open page.
-2018-02-12 19:07:10 Page [INFO] - Page open successful.
-2018-02-12 19:07:12 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-12 19:07:12 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-12 19:07:16 WebElementsActions [INFO] - Click on Link productlist.page.item.link
-2018-02-12 19:07:39 Page [INFO] - Start open page.
-2018-02-12 19:07:40 Page [INFO] - Page open successful.
-2018-02-12 19:07:41 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-12 19:07:43 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-12 19:11:17 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
-2018-02-12 19:11:17 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 3541144nanoseconds **
-2018-02-12 19:11:17 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@60d84f61 **
-2018-02-12 19:11:20 Page [INFO] - Start open page.
-2018-02-12 19:11:27 Page [INFO] - Page open successful.
-2018-02-12 19:11:28 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-12 19:11:29 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-12 19:11:31 WebElementsActions [INFO] - Click on Link productlist.page.item.link
-2018-02-12 19:11:38 Page [INFO] - Start open page.
-2018-02-12 19:11:39 Page [INFO] - Page open successful.
-2018-02-12 19:11:44 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-12 19:11:46 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-12 21:40:52 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
-2018-02-12 21:40:53 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 5315821nanoseconds **
-2018-02-12 21:40:53 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@34129c78 **
-2018-02-12 21:40:53 Page [INFO] - Start open page.
-2018-02-12 21:40:57 Page [INFO] - Page open successful.
-2018-02-12 21:40:58 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - t22333221@gmail.com
-2018-02-12 21:40:58 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - teatatata1234
-2018-02-12 21:41:01 WebElementsActions [INFO] - Click on Button login.page.signin.button
-2018-02-12 21:41:01 WebElementsActions [INFO] - Element customer.page.sucessfullogin.text is Present
+2018-02-14 21:06:45 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
+2018-02-14 21:06:45 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 5478452nanoseconds **
+2018-02-14 21:06:45 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@5e21e98f **
+2018-02-14 21:06:45 Page [INFO] - Start open page.
+2018-02-14 21:06:47 Page [INFO] - Page open successful.
+2018-02-14 21:06:48 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - 
+2018-02-14 21:06:48 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - 
+2018-02-14 21:06:49 WebElementsActions [INFO] - Click on Button login.page.signin.button
+2018-02-14 21:06:49 WebElementsActions [INFO] - Element login.page.advicereqemail.text is Present
+2018-02-14 21:06:49 WebElementsActions [INFO] - Element login.page.advicereqpass.text is Present
+2018-02-14 21:06:49 Page [INFO] - Start open page.
+2018-02-14 21:06:50 Page [INFO] - Page open successful.
+2018-02-14 21:06:50 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - 
+2018-02-14 21:06:51 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - qweqrt
+2018-02-14 21:06:51 WebElementsActions [INFO] - Click on Button login.page.signin.button
+2018-02-14 21:06:51 WebElementsActions [INFO] - Element login.page.advicereqemail.text is Present
+2018-02-14 21:06:51 Page [INFO] - Start open page.
+2018-02-14 21:06:52 Page [INFO] - Page open successful.
+2018-02-14 21:06:52 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - email@gmail.com
+2018-02-14 21:06:53 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - 
+2018-02-14 21:06:53 WebElementsActions [INFO] - Click on Button login.page.signin.button
+2018-02-14 21:06:53 WebElementsActions [INFO] - Element login.page.advicereqpass.text is Present
+2018-02-14 21:06:53 Page [INFO] - Start open page.
+2018-02-14 21:06:54 Page [INFO] - Page open successful.
+2018-02-14 21:06:55 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - t22333221 @gmail.com
+2018-02-14 21:06:55 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - qwerty123
+2018-02-14 21:06:55 WebElementsActions [INFO] - Click on Button login.page.signin.button
+2018-02-14 21:07:11 WebElementsActions [WARN] - Element _customer.page.sucessfullogin.text_is NOT Present in DOM!
+2018-02-14 21:07:11 Page [INFO] - Start open page.
+2018-02-14 21:07:12 Page [INFO] - Page open successful.
+2018-02-14 21:07:12 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - t223332211@gmail.com
+2018-02-14 21:07:13 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - teatatata12345
+2018-02-14 21:07:14 WebElementsActions [INFO] - Click on Button login.page.signin.button
+2018-02-14 21:07:14 WebElementsActions [INFO] - Element login.page.error.message is Present
+2018-02-14 21:07:14 Page [INFO] - Start open page.
+2018-02-14 21:07:15 Page [INFO] - Page open successful.
+2018-02-14 21:07:15 WebElementsActions [INFO] - Space clicked on login.page.username.inputfield
+2018-02-14 21:07:15 WebElementsActions [INFO] - Space clicked on login.page.password.inputfield
+2018-02-14 21:07:16 WebElementsActions [INFO] - Click on Button login.page.signin.button
+2018-02-14 21:07:31 WebElementsActions [WARN] - Element _customer.page.sucessfullogin.text_is NOT Present in DOM!
+2018-02-14 21:07:31 Page [INFO] - Start open page.
+2018-02-14 21:07:32 Page [INFO] - Page open successful.
+2018-02-14 21:07:32 WebElementsActions [INFO] - TAB clicked on login.page.username.inputfield
+2018-02-14 21:07:32 WebElementsActions [INFO] - TAB clicked on login.page.password.inputfield
+2018-02-14 21:07:32 WebElementsActions [INFO] - Click on Button login.page.signin.button
+2018-02-14 21:07:48 WebElementsActions [WARN] - Element _customer.page.sucessfullogin.text_is NOT Present in DOM!
+2018-02-14 21:07:48 Page [INFO] - Start open page.
+2018-02-14 21:07:48 Page [INFO] - Page open successful.
+2018-02-14 21:07:49 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - t22333221@gmail.com
+2018-02-14 21:07:50 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - teatatata1234
+2018-02-14 21:07:52 WebElementsActions [INFO] - Click on Button login.page.signin.button
+2018-02-14 21:07:52 WebElementsActions [INFO] - Element customer.page.sucessfullogin.text is Present

@@ -1,0 +1,16 @@
+pages\Automation.class
+utils\PropertyLoader.class
+pages\Page.class
+pages\ProductPage.class
+utils\WebDriverFactory.class
+pages\LoginPage.class
+pages\CustomerPage.class
+pages\HomePage.class
+pages\ProductCategoryPage.class
+utils\WebElementsActions.class
+pages\GlobalPageHeader.class
+utils\WebDriverWrapper.class
+pages\ProductListPage.class
+pages\RegPage.class
+utils\ClassNameUtil.class
+utils\UiMappingSingleton.class

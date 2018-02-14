@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="67703" started-at="2018-02-14T19:06:45Z" finished-at="2018-02-14T19:07:52Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="67703" started-at="2018-02-14T19:06:45Z" finished-at="2018-02-14T19:07:52Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="setUpBeforeSuite()[pri:0, instance:tests.LoginTest@1dfe2924]" name="setUpBeforeSuite" is-config="true" duration-ms="7421" started-at="2018-02-14T19:06:37Z" finished-at="2018-02-14T19:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeSuite -->
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:tests.LoginTest@1dfe2924]" name="setUpBeforeClass" is-config="true" duration-ms="104" started-at="2018-02-14T19:06:45Z" finished-at="2018-02-14T19:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@1dfe2924]" name="goToBasePage" is-config="true" duration-ms="2440" started-at="2018-02-14T19:06:45Z" finished-at="2018-02-14T19:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBasePage -->
+        <test-method status="PASS" signature="emptyUserLoginAndPasswordTest()[pri:0, instance:tests.LoginTest@1dfe2924]" name="emptyUserLoginAndPasswordTest" duration-ms="1735" started-at="2018-02-14T19:06:47Z" finished-at="2018-02-14T19:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUserLoginAndPasswordTest -->
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@1dfe2924]" name="goToBasePage" is-config="true" duration-ms="854" started-at="2018-02-14T19:06:49Z" finished-at="2018-02-14T19:06:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBasePage -->
+        <test-method status="PASS" signature="emptyUserLoginTest()[pri:0, instance:tests.LoginTest@1dfe2924]" name="emptyUserLoginTest" duration-ms="1171" started-at="2018-02-14T19:06:50Z" finished-at="2018-02-14T19:06:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUserLoginTest -->
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@1dfe2924]" name="goToBasePage" is-config="true" duration-ms="752" started-at="2018-02-14T19:06:51Z" finished-at="2018-02-14T19:06:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBasePage -->
+        <test-method status="PASS" signature="emptyUserPasswordTest()[pri:0, instance:tests.LoginTest@1dfe2924]" name="emptyUserPasswordTest" duration-ms="1459" started-at="2018-02-14T19:06:52Z" finished-at="2018-02-14T19:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUserPasswordTest -->
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@1dfe2924]" name="goToBasePage" is-config="true" duration-ms="694" started-at="2018-02-14T19:06:53Z" finished-at="2018-02-14T19:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBasePage -->
+        <test-method status="PASS" signature="incorrectUserLoginMaskTest()[pri:0, instance:tests.LoginTest@1dfe2924]" name="incorrectUserLoginMaskTest" duration-ms="16516" started-at="2018-02-14T19:06:54Z" finished-at="2018-02-14T19:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectUserLoginMaskTest -->
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@1dfe2924]" name="goToBasePage" is-config="true" duration-ms="1031" started-at="2018-02-14T19:07:11Z" finished-at="2018-02-14T19:07:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBasePage -->
+        <test-method status="PASS" signature="nonExistUserLoginTest()[pri:0, instance:tests.LoginTest@1dfe2924]" name="nonExistUserLoginTest" duration-ms="2769" started-at="2018-02-14T19:07:12Z" finished-at="2018-02-14T19:07:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nonExistUserLoginTest -->
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@1dfe2924]" name="goToBasePage" is-config="true" duration-ms="685" started-at="2018-02-14T19:07:14Z" finished-at="2018-02-14T19:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBasePage -->
+        <test-method status="PASS" signature="spacesInTheUserLoginAndPasswordTest()[pri:0, instance:tests.LoginTest@1dfe2924]" name="spacesInTheUserLoginAndPasswordTest" duration-ms="15757" started-at="2018-02-14T19:07:15Z" finished-at="2018-02-14T19:07:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spacesInTheUserLoginAndPasswordTest -->
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@1dfe2924]" name="goToBasePage" is-config="true" duration-ms="856" started-at="2018-02-14T19:07:31Z" finished-at="2018-02-14T19:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBasePage -->
+        <test-method status="PASS" signature="tabsInTheUserLoginAndPasswordTest()[pri:0, instance:tests.LoginTest@1dfe2924]" name="tabsInTheUserLoginAndPasswordTest" duration-ms="15826" started-at="2018-02-14T19:07:32Z" finished-at="2018-02-14T19:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tabsInTheUserLoginAndPasswordTest -->
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@1dfe2924]" name="goToBasePage" is-config="true" duration-ms="918" started-at="2018-02-14T19:07:48Z" finished-at="2018-02-14T19:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBasePage -->
+        <test-method status="PASS" signature="validCredentialsLoginTest()[pri:0, instance:tests.LoginTest@1dfe2924]" name="validCredentialsLoginTest" duration-ms="3982" started-at="2018-02-14T19:07:48Z" finished-at="2018-02-14T19:07:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredentialsLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginTest@1dfe2924]" name="tearDown" is-config="true" duration-ms="1099" started-at="2018-02-14T19:07:53Z" finished-at="2018-02-14T19:07:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

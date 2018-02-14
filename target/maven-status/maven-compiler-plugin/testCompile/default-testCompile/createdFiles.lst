@@ -1,0 +1,5 @@
+tests\ProductListTest.class
+tests\RegistrationTest.class
+tests\Fixtures.class
+tests\LoginTest.class
+tests\ProductTest.class
