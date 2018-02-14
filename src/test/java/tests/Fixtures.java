@@ -15,8 +15,8 @@ public abstract class Fixtures {
 
     @BeforeSuite
     public static void setUpBeforeSuite() {
-       // driver = WebDriverFactory.initDriver();
-        driver = WebDriverFactory.getInstance();
+       driver = WebDriverFactory.initDriver();
+        //driver = WebDriverFactory.getInstance();
         UiMappingSingleton.getInstance();
         System.out.println("**********Test suite started!**********");
     }

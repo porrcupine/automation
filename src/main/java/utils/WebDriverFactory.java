@@ -82,7 +82,6 @@ public class WebDriverFactory {
                 break;
             case CHROME:
                 System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\driver\\chromedriver.exe");
-              //  ChromeOptions options = new ChromeOptions();
                 capability = DesiredCapabilities.chrome();
                 capability.setBrowserName("chrome");
                 capability.setPlatform(Platform.WINDOWS);
@@ -104,7 +103,7 @@ public class WebDriverFactory {
         }
 
         try {
-            driver = new RemoteWebDriver(new URL("http://192.168.2.124:4444/wd/hub"), capability);
+            driver = new RemoteWebDriver(new URL("http://192.168.2.124:4444/wd/hub/"), capability);
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
