@@ -430,3 +430,12 @@
 2018-02-16 18:27:42 WebElementsActions [INFO] - Click on Button shopingcart.page.emptycart.button
 2018-02-16 18:27:42 WebElementsActions [INFO] - Element shopingcart.page.emptycart.division is Present!
 >>>>>>> skTestNG
+2018-02-16 18:46:47 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
+2018-02-16 18:46:47 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 3461928nanoseconds **
+2018-02-16 18:46:47 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@34129c78 **
+2018-02-16 18:46:48 Page [INFO] - Start open page.
+2018-02-16 18:46:49 Page [INFO] - Page open successful.
+2018-02-16 18:46:50 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
+2018-02-16 18:46:51 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
+2018-02-16 18:46:52 WebElementsActions [INFO] - Click on Link productlist.page.item.link
+2018-02-16 18:46:53 WebElementsActions [INFO] - Click on Button product.page.addtocart.button

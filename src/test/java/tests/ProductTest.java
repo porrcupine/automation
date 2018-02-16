@@ -13,11 +13,7 @@ public class ProductTest extends Fixtures {
     }
 
     @Test
-<<<<<<< HEAD
-    public void productPriceEqualsPriceInTheProductList() { //TODO DEBUG (govnoalgorithm)
-=======
     public void productPriceEqualsPriceInProductListTest() { //TODO DEBUG (govnoalgorithm)
->>>>>>> skTestNG
         automation.productPage.setProductPriceForComparision();
         automation.goToProductListPage();
         automation.productListPage.setProductPriceForComparision();
