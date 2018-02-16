@@ -14,7 +14,12 @@ public class Automation {
     public  ProductCategoryPage productCategoryPage;
     public GlobalPageHeader globalPageHeader;
     public ProductPage productPage;
+<<<<<<< HEAD
     public ScreenShotMaker screenShotMaker;
+=======
+    public ShoppingCartPage shoppingCartPage;
+    public CheckoutPage checkoutPage;
+>>>>>>> skTestNG
 
     public Automation(WebDriverWrapper driver) {
 
@@ -26,7 +31,12 @@ public class Automation {
         productListPage = new ProductListPage(driver);
         productCategoryPage = new ProductCategoryPage(driver);
         productPage = new ProductPage(driver);
+<<<<<<< HEAD
         screenShotMaker = new ScreenShotMaker(driver);
+=======
+        shoppingCartPage = new ShoppingCartPage(driver);
+        checkoutPage = new CheckoutPage(driver);
+>>>>>>> skTestNG
     }
 
     public void goToProductListPage() {
@@ -39,4 +49,5 @@ public class Automation {
         goToProductListPage();
         productListPage.clickProductLinkFromTheProductList();
     }
+
 }

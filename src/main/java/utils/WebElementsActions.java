@@ -4,6 +4,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
@@ -64,6 +65,18 @@ public class WebElementsActions {
         }
     }
 
+    public void selectOptionFromDropDown(WebElement dropDownElement, int optionIndex) {
+        Select drp = new Select(dropDownElement);
+        drp.selectByIndex(optionIndex);
+    }
+
+    public List <WebElement> getAllDropDownOprions(WebElement dropDownElement) {
+        Select drp = new Select(dropDownElement);
+        List <WebElement> drpOptions = drp.getOptions();
+
+        return drpOptions;
+    }
+
     /**
      * Insert value into text input HTML field
      */
@@ -95,7 +108,10 @@ public class WebElementsActions {
         }
 
         if (list.get(0).isDisplayed()) {
-            LOG.info("Element " + elementLocator + " is Present");
+            LOG.info("Element " + elementLocator + " is Present!");
+            return true;
+        } else if (!(list.get(0).isDisplayed())) {
+            LOG.info("Element " + elementLocator + " is Present but NOT displayed!");
             return true;
         } else {
             LOG.error("Element " + elementLocator + " is NOT Displayed Present!");
