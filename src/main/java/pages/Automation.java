@@ -13,6 +13,8 @@ public class Automation {
     public  ProductCategoryPage productCategoryPage;
     public GlobalPageHeader globalPageHeader;
     public ProductPage productPage;
+    public ShoppingCartPage shoppingCartPage;
+    public CheckoutPage checkoutPage;
 
     public Automation(WebDriverWrapper driver) {
 
@@ -24,6 +26,8 @@ public class Automation {
         productListPage = new ProductListPage(driver);
         productCategoryPage = new ProductCategoryPage(driver);
         productPage = new ProductPage(driver);
+        shoppingCartPage = new ShoppingCartPage(driver);
+        checkoutPage = new CheckoutPage(driver);
     }
 
     public void goToProductListPage() {
@@ -36,4 +40,5 @@ public class Automation {
         goToProductListPage();
         productListPage.clickProductLinkFromTheProductList();
     }
+
 }

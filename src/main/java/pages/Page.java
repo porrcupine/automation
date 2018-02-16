@@ -56,9 +56,14 @@ public abstract class Page {
         return false;
     }
 
+    public boolean isOpenPage() {
+        return getCurrentPageURL().equals(PAGE);
+
+    }
     /*
      * Get page title for verification correct switch between pages
      */
+
     public String getTitle() {
         return webDriverWrapper.getTitle();
     }

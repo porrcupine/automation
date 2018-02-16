@@ -33,4 +33,9 @@ public class ProductListTest extends Fixtures {
         Assert.assertTrue(automation.productPage.isAddToCartButtonPresent(), "Product page isn't open!");
     }
 
+    @Test
+    public void isPriceFilterPresentTest() {
+        Assert.assertTrue(automation.productListPage.isFilterPresent(),"Product filter is absent on the product list page!");
+    }
+
 }

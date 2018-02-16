@@ -75,5 +75,9 @@ public class ProductListPage extends GlobalPageHeader {
         return getProductList().size() == getProductPriceList().size();
     }
 
+    public boolean isFilterPresent() {
+        return webElementActions.isElementPresent("productlist.page.item.filter");
+    }
+
 
 }
