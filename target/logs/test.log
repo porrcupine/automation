@@ -111,3 +111,12 @@
 2018-02-21 20:41:55 WebElementsActions [INFO] - Element shopingcart.page.emptycart.division is Present!
 2018-02-21 20:41:55 Page [INFO] - Start open page.
 2018-02-21 20:41:55 Page [INFO] - Page open successful.
+2018-02-21 21:00:38 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
+2018-02-21 21:00:38 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 3444178nanoseconds **
+2018-02-21 21:00:38 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@330c1f61 **
+2018-02-21 21:00:38 Page [INFO] - Start open page.
+2018-02-21 21:00:39 Page [INFO] - Page open successful.
+2018-02-21 21:00:40 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - t22333221@gmail.com
+2018-02-21 21:00:40 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - teatatata1234
+2018-02-21 21:00:42 WebElementsActions [INFO] - Click on Button login.page.signin.button
+2018-02-21 21:00:42 WebElementsActions [INFO] - Element customer.page.sucessfullogin.text is Present!
