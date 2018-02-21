@@ -1,5 +1,6 @@
-tests\ProductListTest.class
 tests\RegistrationTest.class
 tests\Fixtures.class
+tests\ShoppingCartTest.class
+tests\ProductListTest.class
 tests\LoginTest.class
 tests\ProductTest.class

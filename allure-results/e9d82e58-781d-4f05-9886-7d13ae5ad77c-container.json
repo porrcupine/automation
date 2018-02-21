@@ -1,0 +1,1 @@
+{"uuid":"e9d82e58-781d-4f05-9886-7d13ae5ad77c","name":"tests.Fixtures.afterMethodTearDown","description":"","start":1519238088194,"stop":1519238088194,"children":["67077620-214f-4418-bf0d-3f678ce965fc"],"afters":[{"name":"afterMethodTearDown","status":"passed","stage":"finished","description":"","start":1519238088194,"stop":1519238088194}]}

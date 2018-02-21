@@ -8,18 +8,78 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Suite1</th></tr>
-<tr><td><a href="#t0">Test1</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num">67 703</td><td></td><td></td></tr>
+<tr><th colspan="7">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">17</td><td class="num">0</td><td class="num attn">3</td><td class="num">159 360</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">tests.LoginTest</td><td><a href="#m0">emptyUserLoginAndPasswordTest</a></td><td rowspan="1">1518635207885</td><td rowspan="1">1735</td></tr><tr class="passedeven"><td><a href="#m1">emptyUserLoginTest</a></td><td rowspan="1">1518635210478</td><td rowspan="1">1171</td></tr><tr class="passedeven"><td><a href="#m2">emptyUserPasswordTest</a></td><td rowspan="1">1518635212403</td><td rowspan="1">1459</td></tr><tr class="passedeven"><td><a href="#m3">incorrectUserLoginMaskTest</a></td><td rowspan="1">1518635214557</td><td rowspan="1">16516</td></tr><tr class="passedeven"><td><a href="#m4">nonExistUserLoginTest</a></td><td rowspan="1">1518635232108</td><td rowspan="1">2769</td></tr><tr class="passedeven"><td><a href="#m5">spacesInTheUserLoginAndPasswordTest</a></td><td rowspan="1">1518635235563</td><td rowspan="1">15757</td></tr><tr class="passedeven"><td><a href="#m6">tabsInTheUserLoginAndPasswordTest</a></td><td rowspan="1">1518635252177</td><td rowspan="1">15826</td></tr><tr class="passedeven"><td><a href="#m7">validCredentialsLoginTest</a></td><td rowspan="1">1518635268922</td><td rowspan="1">3982</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.ProductTest</td><td><a href="#m0">productPriceEqualsPriceInProductListTest</a></td><td rowspan="1">1519238475015</td><td rowspan="1">98</td></tr><tr class="failedodd"><td rowspan="1">tests.RegistrationTest</td><td><a href="#m1">newUserRegistrationTest</a></td><td rowspan="1">1519238476603</td><td rowspan="1">30589</td></tr><tr class="failedeven"><td rowspan="1">tests.ShoppingCartTest</td><td><a href="#m2">proceedToCheckoutTest</a></td><td rowspan="1">1519238515663</td><td rowspan="1">30593</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">tests.LoginTest</td><td><a href="#m3">emptyUserLoginAndPasswordTest</a></td><td rowspan="1">1519238388886</td><td rowspan="1">1131</td></tr><tr class="passedeven"><td><a href="#m4">emptyUserLoginTest</a></td><td rowspan="1">1519238390621</td><td rowspan="1">557</td></tr><tr class="passedeven"><td><a href="#m5">emptyUserPasswordTest</a></td><td rowspan="1">1519238391657</td><td rowspan="1">628</td></tr><tr class="passedeven"><td><a href="#m6">incorrectUserLoginMaskTest</a></td><td rowspan="1">1519238392790</td><td rowspan="1">15648</td></tr><tr class="passedeven"><td><a href="#m7">nonExistUserLoginTest</a></td><td rowspan="1">1519238409140</td><td rowspan="1">1576</td></tr><tr class="passedeven"><td><a href="#m8">spacesInTheUserLoginAndPasswordTest</a></td><td rowspan="1">1519238411196</td><td rowspan="1">15342</td></tr><tr class="passedeven"><td><a href="#m9">tabsInTheUserLoginAndPasswordTest</a></td><td rowspan="1">1519238427218</td><td rowspan="1">15404</td></tr><tr class="passedeven"><td><a href="#m10">validCredentialsLoginTest</a></td><td rowspan="1">1519238443826</td><td rowspan="1">3898</td></tr><tr class="passedodd"><td rowspan="5">tests.ProductListTest</td><td><a href="#m11">isPriceFilterPresentTest</a></td><td rowspan="1">1519238451110</td><td rowspan="1">68</td></tr><tr class="passedodd"><td><a href="#m12">isProductPresentInTheProductListTest</a></td><td rowspan="1">1519238452723</td><td rowspan="1">23</td></tr><tr class="passedodd"><td><a href="#m13">openingProductPageTest</a></td><td rowspan="1">1519238454273</td><td rowspan="1">1188</td></tr><tr class="passedodd"><td><a href="#m14">productListIncludesValidProductAfterApplyPriceFilterTest</a></td><td rowspan="1">1519238457225</td><td rowspan="1">879</td></tr><tr class="passedodd"><td><a href="#m15">productsOnTheProductListHaveAPriceTest</a></td><td rowspan="1">1519238459678</td><td rowspan="1">60</td></tr><tr class="passedeven"><td rowspan="3">tests.ProductTest</td><td><a href="#m16">addProductToCartWithSelectedOptionsTest</a></td><td rowspan="1">1519238462096</td><td rowspan="1">2549</td></tr><tr class="passedeven"><td><a href="#m17">addProductWithOneSelectedOptionTest</a></td><td rowspan="1">1519238467843</td><td rowspan="1">438</td></tr><tr class="passedeven"><td><a href="#m18">addProductWithoutSelectedOptionsTest</a></td><td rowspan="1">1519238471700</td><td rowspan="1">142</td></tr><tr class="passedodd"><td rowspan="1">tests.ShoppingCartTest</td><td><a href="#m19">emptyShoppingCartTest</a></td><td rowspan="1">1519238508649</td><td rowspan="1">6479</td></tr></tbody>
 </table>
-<h2>Test1</h2><h3 id="m0">tests.LoginTest#emptyUserLoginAndPasswordTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.LoginTest#emptyUserLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">tests.LoginTest#emptyUserPasswordTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">tests.LoginTest#incorrectUserLoginMaskTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">tests.LoginTest#nonExistUserLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">tests.LoginTest#spacesInTheUserLoginAndPasswordTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">tests.LoginTest#tabsInTheUserLoginAndPasswordTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">tests.LoginTest#validCredentialsLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Surefire test</h2><h3 id="m0">tests.ProductTest#productPriceEqualsPriceInProductListTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NumberFormatException: empty String
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.lang.Double.parseDouble(Double.java:538)
+	at java.lang.Double.valueOf(Double.java:502)
+	at pages.ProductPage.setProductPriceForComparision(ProductPage.java:21)
+	at tests.ProductTest.productPriceEqualsPriceInProductListTest(ProductTest.java:17)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.RegistrationTest#newUserRegistrationTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: .//input[@id=&apos;firstname&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at utils.WebDriverWrapper.findElement(WebDriverWrapper.java:53)
+	at utils.WebElementsActions.input(WebElementsActions.java:84)
+	at pages.RegPage.enterName(RegPage.java:16)
+	at pages.RegPage.enterNewUserDataAndClickRegister(RegPage.java:36)
+	at tests.RegistrationTest.newUserRegistrationTest(RegistrationTest.java:16)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: .//input[@id=&apos;firstname&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;SNKTST&apos;, ip: &apos;169.254.79.254&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 34 more
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.ShoppingCartTest#proceedToCheckoutTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: .//button[@class=&apos;button btn-proceed-checkout btn-checkout&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at utils.WebDriverWrapper.findElement(WebDriverWrapper.java:53)
+	at utils.WebElementsActions.clickButton(WebElementsActions.java:40)
+	at pages.ShoppingCartPage.clickProceedToCheckoutButton(ShoppingCartPage.java:21)
+	at tests.ShoppingCartTest.proceedToCheckoutTest(ShoppingCartTest.java:21)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: .//button[@class=&apos;button btn-proceed-checkout btn-checkout&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;SNKTST&apos;, ip: &apos;169.254.79.254&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 33 more
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.LoginTest#emptyUserLoginAndPasswordTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.LoginTest#emptyUserLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.LoginTest#emptyUserPasswordTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.LoginTest#incorrectUserLoginMaskTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.LoginTest#nonExistUserLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.LoginTest#spacesInTheUserLoginAndPasswordTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.LoginTest#tabsInTheUserLoginAndPasswordTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.LoginTest#validCredentialsLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">tests.ProductListTest#isPriceFilterPresentTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">tests.ProductListTest#isProductPresentInTheProductListTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">tests.ProductListTest#openingProductPageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">tests.ProductListTest#productListIncludesValidProductAfterApplyPriceFilterTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">tests.ProductListTest#productsOnTheProductListHaveAPriceTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">tests.ProductTest#addProductToCartWithSelectedOptionsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">tests.ProductTest#addProductWithOneSelectedOptionTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">tests.ProductTest#addProductWithoutSelectedOptionsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">tests.ShoppingCartTest#emptyShoppingCartTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

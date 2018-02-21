@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="tests.ShoppingCartTest">
+        <methods>
+          <include name="proceedToCheckoutTest"/>
+          <include name="tearDown"/>
+          <include name="setUpBeforeSuite"/>
+          <include name="goToBasePage"/>
+          <include name="setUpBeforeClass"/>
+          <include name="afterMethodTearDown"/>
+        </methods>
+      </class> <!-- tests.ShoppingCartTest -->
+      <class name="tests.RegistrationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="goToBasePage"/>
+          <include name="setUpBeforeSuite"/>
+          <include name="newUserRegistrationTest"/>
+          <include name="setUpBeforeClass"/>
+          <include name="afterMethodTearDown"/>
+        </methods>
+      </class> <!-- tests.RegistrationTest -->
+      <class name="tests.ProductTest">
+        <methods>
+          <include name="goToBasePage"/>
+          <include name="tearDown"/>
+          <include name="setUpBeforeSuite"/>
+          <include name="productPriceEqualsPriceInProductListTest"/>
+          <include name="setUpBeforeClass"/>
+          <include name="afterMethodTearDown"/>
+        </methods>
+      </class> <!-- tests.ProductTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
