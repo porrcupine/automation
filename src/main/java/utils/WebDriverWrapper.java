@@ -42,7 +42,7 @@ public class WebDriverWrapper implements WebDriver,TakesScreenshot{
 
     @Override
     public List<WebElement> findElements(By by) {
-    //    WebDriverWait wait = new WebDriverWait(driver, TIME_TO_WAIT); //TODO ask about this waits
+    //    WebDriverWait wait = new WebDriverWait(driver, TIME_TO_WAIT);
        // wait.until(ExpectedConditions.presenceOfElementLocated(by));
         return driver.findElements(by);
     }

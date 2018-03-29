@@ -1,1 +1,0 @@
-{"uuid":"8edd655d-ad22-4bd1-8363-5f640b31c025","name":"tests.LoginTest.goToBasePage","description":"","start":1519238067217,"stop":1519238067900,"children":["911e8673-1238-435f-8163-3a0e9ca5dacf"],"befores":[{"name":"goToBasePage","status":"passed","stage":"finished","description":"","start":1519238067217,"stop":1519238067900}]}

@@ -38,7 +38,6 @@ public abstract class Fixtures {
     @AfterSuite
     public static void tearDown() {
         if (driver != null) {
-            //driver.close(); //TODO Difference beetween close and quit
             driver.quit();
         }
     }

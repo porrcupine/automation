@@ -62,8 +62,6 @@ public class UiMappingSingleton {
         return properties;
     }
 
-    //TODO Maven
-
     public static By ui(String key) {
         String[] partsOfLocators = uiMapping.get(key).split("\"");
         String findMethod = partsOfLocators[0];

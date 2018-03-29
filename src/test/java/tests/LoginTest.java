@@ -53,7 +53,7 @@ public class LoginTest extends Fixtures {
     public void incorrectUserLoginMaskTest() {
         automation.loginPage.enterIncorrectEmailMaskSpecifiedPassword();
         automation.loginPage.clickLoginButton();
-        Assert.assertFalse(automation.customerPage.isLoginSuccessful(), "Incorrect mask test failed"); //TODO show popup message
+        Assert.assertFalse(automation.customerPage.isLoginSuccessful(), "Incorrect mask test failed");
     }
 
     @Test

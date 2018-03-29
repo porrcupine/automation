@@ -2,243 +2,243 @@
 <testng-results skipped="0" failed="3" ignored="8" total="28" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="159360" started-at="2018-02-21T18:39:47Z" finished-at="2018-02-21T18:42:26Z">
+  <suite name="Surefire suite" duration-ms="177577" started-at="2018-02-23T09:30:06Z" finished-at="2018-02-23T09:33:04Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="159360" started-at="2018-02-21T18:39:47Z" finished-at="2018-02-21T18:42:26Z">
+    <test name="Surefire test" duration-ms="177577" started-at="2018-02-23T09:30:06Z" finished-at="2018-02-23T09:33:04Z">
       <class name="tests.LoginTest">
-        <test-method status="PASS" signature="setUpBeforeSuite()[pri:0, instance:tests.LoginTest@609640d5]" name="setUpBeforeSuite" is-config="true" duration-ms="6422" started-at="2018-02-21T18:39:40Z" finished-at="2018-02-21T18:39:47Z">
+        <test-method status="PASS" signature="setUpBeforeSuite()[pri:0, instance:tests.LoginTest@618c5d94]" name="setUpBeforeSuite" is-config="true" duration-ms="4723" started-at="2018-02-23T09:30:02Z" finished-at="2018-02-23T09:30:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeSuite -->
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:tests.LoginTest@609640d5]" name="setUpBeforeClass" is-config="true" duration-ms="31" started-at="2018-02-21T18:39:47Z" finished-at="2018-02-21T18:39:47Z">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:tests.LoginTest@618c5d94]" name="setUpBeforeClass" is-config="true" duration-ms="15" started-at="2018-02-23T09:30:07Z" finished-at="2018-02-23T09:30:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@609640d5]" name="goToBasePage" is-config="true" duration-ms="1307" started-at="2018-02-21T18:39:47Z" finished-at="2018-02-21T18:39:48Z">
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@618c5d94]" name="goToBasePage" is-config="true" duration-ms="17460" started-at="2018-02-23T09:30:07Z" finished-at="2018-02-23T09:30:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToBasePage -->
-        <test-method status="PASS" signature="emptyUserLoginAndPasswordTest()[pri:0, instance:tests.LoginTest@609640d5]" name="emptyUserLoginAndPasswordTest" duration-ms="1131" started-at="2018-02-21T18:39:48Z" finished-at="2018-02-21T18:39:50Z">
+        <test-method status="PASS" signature="emptyUserLoginAndPasswordTest()[pri:0, instance:tests.LoginTest@618c5d94]" name="emptyUserLoginAndPasswordTest" duration-ms="752" started-at="2018-02-23T09:30:24Z" finished-at="2018-02-23T09:30:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyUserLoginAndPasswordTest -->
-        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@609640d5]" name="afterMethodTearDown" is-config="true" duration-ms="11" started-at="2018-02-21T18:39:50Z" finished-at="2018-02-21T18:39:50Z">
+        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@618c5d94]" name="afterMethodTearDown" is-config="true" duration-ms="6" started-at="2018-02-23T09:30:25Z" finished-at="2018-02-23T09:30:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=emptyUserLoginAndPasswordTest status=SUCCESS method=LoginTest.emptyUserLoginAndPasswordTest()[pri:0, instance:tests.LoginTest@609640d5] output={null}]]]>
+                <![CDATA[[TestResult name=emptyUserLoginAndPasswordTest status=SUCCESS method=LoginTest.emptyUserLoginAndPasswordTest()[pri:0, instance:tests.LoginTest@618c5d94] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTearDown -->
-        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@609640d5]" name="goToBasePage" is-config="true" duration-ms="547" started-at="2018-02-21T18:39:50Z" finished-at="2018-02-21T18:39:50Z">
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@618c5d94]" name="goToBasePage" is-config="true" duration-ms="499" started-at="2018-02-23T09:30:25Z" finished-at="2018-02-23T09:30:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToBasePage -->
-        <test-method status="PASS" signature="emptyUserLoginTest()[pri:0, instance:tests.LoginTest@609640d5]" name="emptyUserLoginTest" duration-ms="557" started-at="2018-02-21T18:39:50Z" finished-at="2018-02-21T18:39:51Z">
+        <test-method status="PASS" signature="emptyUserLoginTest()[pri:0, instance:tests.LoginTest@618c5d94]" name="emptyUserLoginTest" duration-ms="335" started-at="2018-02-23T09:30:26Z" finished-at="2018-02-23T09:30:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyUserLoginTest -->
-        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@609640d5]" name="afterMethodTearDown" is-config="true" duration-ms="1" started-at="2018-02-21T18:39:51Z" finished-at="2018-02-21T18:39:51Z">
+        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@618c5d94]" name="afterMethodTearDown" is-config="true" duration-ms="1" started-at="2018-02-23T09:30:26Z" finished-at="2018-02-23T09:30:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=emptyUserLoginTest status=SUCCESS method=LoginTest.emptyUserLoginTest()[pri:0, instance:tests.LoginTest@609640d5] output={null}]]]>
+                <![CDATA[[TestResult name=emptyUserLoginTest status=SUCCESS method=LoginTest.emptyUserLoginTest()[pri:0, instance:tests.LoginTest@618c5d94] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTearDown -->
-        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@609640d5]" name="goToBasePage" is-config="true" duration-ms="466" started-at="2018-02-21T18:39:51Z" finished-at="2018-02-21T18:39:51Z">
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@618c5d94]" name="goToBasePage" is-config="true" duration-ms="457" started-at="2018-02-23T09:30:26Z" finished-at="2018-02-23T09:30:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToBasePage -->
-        <test-method status="PASS" signature="emptyUserPasswordTest()[pri:0, instance:tests.LoginTest@609640d5]" name="emptyUserPasswordTest" duration-ms="628" started-at="2018-02-21T18:39:51Z" finished-at="2018-02-21T18:39:52Z">
+        <test-method status="PASS" signature="emptyUserPasswordTest()[pri:0, instance:tests.LoginTest@618c5d94]" name="emptyUserPasswordTest" duration-ms="368" started-at="2018-02-23T09:30:26Z" finished-at="2018-02-23T09:30:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyUserPasswordTest -->
-        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@609640d5]" name="afterMethodTearDown" is-config="true" duration-ms="1" started-at="2018-02-21T18:39:52Z" finished-at="2018-02-21T18:39:52Z">
+        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@618c5d94]" name="afterMethodTearDown" is-config="true" duration-ms="1" started-at="2018-02-23T09:30:27Z" finished-at="2018-02-23T09:30:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=emptyUserPasswordTest status=SUCCESS method=LoginTest.emptyUserPasswordTest()[pri:0, instance:tests.LoginTest@609640d5] output={null}]]]>
+                <![CDATA[[TestResult name=emptyUserPasswordTest status=SUCCESS method=LoginTest.emptyUserPasswordTest()[pri:0, instance:tests.LoginTest@618c5d94] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTearDown -->
-        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@609640d5]" name="goToBasePage" is-config="true" duration-ms="492" started-at="2018-02-21T18:39:52Z" finished-at="2018-02-21T18:39:52Z">
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@618c5d94]" name="goToBasePage" is-config="true" duration-ms="421" started-at="2018-02-23T09:30:27Z" finished-at="2018-02-23T09:30:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToBasePage -->
-        <test-method status="PASS" signature="incorrectUserLoginMaskTest()[pri:0, instance:tests.LoginTest@609640d5]" name="incorrectUserLoginMaskTest" duration-ms="15648" started-at="2018-02-21T18:39:52Z" finished-at="2018-02-21T18:40:08Z">
+        <test-method status="PASS" signature="incorrectUserLoginMaskTest()[pri:0, instance:tests.LoginTest@618c5d94]" name="incorrectUserLoginMaskTest" duration-ms="15387" started-at="2018-02-23T09:30:27Z" finished-at="2018-02-23T09:30:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incorrectUserLoginMaskTest -->
-        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@609640d5]" name="afterMethodTearDown" is-config="true" duration-ms="1" started-at="2018-02-21T18:40:08Z" finished-at="2018-02-21T18:40:08Z">
+        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@618c5d94]" name="afterMethodTearDown" is-config="true" duration-ms="1" started-at="2018-02-23T09:30:43Z" finished-at="2018-02-23T09:30:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=incorrectUserLoginMaskTest status=SUCCESS method=LoginTest.incorrectUserLoginMaskTest()[pri:0, instance:tests.LoginTest@609640d5] output={null}]]]>
+                <![CDATA[[TestResult name=incorrectUserLoginMaskTest status=SUCCESS method=LoginTest.incorrectUserLoginMaskTest()[pri:0, instance:tests.LoginTest@618c5d94] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTearDown -->
-        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@609640d5]" name="goToBasePage" is-config="true" duration-ms="686" started-at="2018-02-21T18:40:08Z" finished-at="2018-02-21T18:40:09Z">
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@618c5d94]" name="goToBasePage" is-config="true" duration-ms="1071" started-at="2018-02-23T09:30:43Z" finished-at="2018-02-23T09:30:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToBasePage -->
-        <test-method status="PASS" signature="nonExistUserLoginTest()[pri:0, instance:tests.LoginTest@609640d5]" name="nonExistUserLoginTest" duration-ms="1576" started-at="2018-02-21T18:40:09Z" finished-at="2018-02-21T18:40:10Z">
+        <test-method status="PASS" signature="nonExistUserLoginTest()[pri:0, instance:tests.LoginTest@618c5d94]" name="nonExistUserLoginTest" duration-ms="3843" started-at="2018-02-23T09:30:44Z" finished-at="2018-02-23T09:30:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nonExistUserLoginTest -->
-        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@609640d5]" name="afterMethodTearDown" is-config="true" duration-ms="1" started-at="2018-02-21T18:40:10Z" finished-at="2018-02-21T18:40:10Z">
+        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@618c5d94]" name="afterMethodTearDown" is-config="true" duration-ms="1" started-at="2018-02-23T09:30:47Z" finished-at="2018-02-23T09:30:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=nonExistUserLoginTest status=SUCCESS method=LoginTest.nonExistUserLoginTest()[pri:0, instance:tests.LoginTest@609640d5] output={null}]]]>
+                <![CDATA[[TestResult name=nonExistUserLoginTest status=SUCCESS method=LoginTest.nonExistUserLoginTest()[pri:0, instance:tests.LoginTest@618c5d94] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTearDown -->
-        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@609640d5]" name="goToBasePage" is-config="true" duration-ms="467" started-at="2018-02-21T18:40:10Z" finished-at="2018-02-21T18:40:11Z">
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@618c5d94]" name="goToBasePage" is-config="true" duration-ms="464" started-at="2018-02-23T09:30:47Z" finished-at="2018-02-23T09:30:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToBasePage -->
-        <test-method status="PASS" signature="spacesInTheUserLoginAndPasswordTest()[pri:0, instance:tests.LoginTest@609640d5]" name="spacesInTheUserLoginAndPasswordTest" duration-ms="15342" started-at="2018-02-21T18:40:11Z" finished-at="2018-02-21T18:40:26Z">
+        <test-method status="PASS" signature="spacesInTheUserLoginAndPasswordTest()[pri:0, instance:tests.LoginTest@618c5d94]" name="spacesInTheUserLoginAndPasswordTest" duration-ms="15247" started-at="2018-02-23T09:30:48Z" finished-at="2018-02-23T09:31:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- spacesInTheUserLoginAndPasswordTest -->
-        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@609640d5]" name="afterMethodTearDown" is-config="true" duration-ms="0" started-at="2018-02-21T18:40:26Z" finished-at="2018-02-21T18:40:26Z">
+        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@618c5d94]" name="afterMethodTearDown" is-config="true" duration-ms="1" started-at="2018-02-23T09:31:03Z" finished-at="2018-02-23T09:31:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=spacesInTheUserLoginAndPasswordTest status=SUCCESS method=LoginTest.spacesInTheUserLoginAndPasswordTest()[pri:0, instance:tests.LoginTest@609640d5] output={null}]]]>
+                <![CDATA[[TestResult name=spacesInTheUserLoginAndPasswordTest status=SUCCESS method=LoginTest.spacesInTheUserLoginAndPasswordTest()[pri:0, instance:tests.LoginTest@618c5d94] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTearDown -->
-        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@609640d5]" name="goToBasePage" is-config="true" duration-ms="661" started-at="2018-02-21T18:40:26Z" finished-at="2018-02-21T18:40:27Z">
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@618c5d94]" name="goToBasePage" is-config="true" duration-ms="571" started-at="2018-02-23T09:31:03Z" finished-at="2018-02-23T09:31:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToBasePage -->
-        <test-method status="PASS" signature="tabsInTheUserLoginAndPasswordTest()[pri:0, instance:tests.LoginTest@609640d5]" name="tabsInTheUserLoginAndPasswordTest" duration-ms="15404" started-at="2018-02-21T18:40:27Z" finished-at="2018-02-21T18:40:42Z">
+        <test-method status="PASS" signature="tabsInTheUserLoginAndPasswordTest()[pri:0, instance:tests.LoginTest@618c5d94]" name="tabsInTheUserLoginAndPasswordTest" duration-ms="15216" started-at="2018-02-23T09:31:04Z" finished-at="2018-02-23T09:31:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tabsInTheUserLoginAndPasswordTest -->
-        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@609640d5]" name="afterMethodTearDown" is-config="true" duration-ms="0" started-at="2018-02-21T18:40:42Z" finished-at="2018-02-21T18:40:42Z">
+        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@618c5d94]" name="afterMethodTearDown" is-config="true" duration-ms="0" started-at="2018-02-23T09:31:19Z" finished-at="2018-02-23T09:31:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=tabsInTheUserLoginAndPasswordTest status=SUCCESS method=LoginTest.tabsInTheUserLoginAndPasswordTest()[pri:0, instance:tests.LoginTest@609640d5] output={null}]]]>
+                <![CDATA[[TestResult name=tabsInTheUserLoginAndPasswordTest status=SUCCESS method=LoginTest.tabsInTheUserLoginAndPasswordTest()[pri:0, instance:tests.LoginTest@618c5d94] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTearDown -->
-        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@609640d5]" name="goToBasePage" is-config="true" duration-ms="1186" started-at="2018-02-21T18:40:42Z" finished-at="2018-02-21T18:40:43Z">
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.LoginTest@618c5d94]" name="goToBasePage" is-config="true" duration-ms="589" started-at="2018-02-23T09:31:19Z" finished-at="2018-02-23T09:31:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToBasePage -->
-        <test-method status="PASS" signature="validCredentialsLoginTest()[pri:0, instance:tests.LoginTest@609640d5]" name="validCredentialsLoginTest" duration-ms="3898" started-at="2018-02-21T18:40:43Z" finished-at="2018-02-21T18:40:47Z">
+        <test-method status="PASS" signature="validCredentialsLoginTest()[pri:0, instance:tests.LoginTest@618c5d94]" name="validCredentialsLoginTest" duration-ms="9952" started-at="2018-02-23T09:31:20Z" finished-at="2018-02-23T09:31:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validCredentialsLoginTest -->
-        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@609640d5]" name="afterMethodTearDown" is-config="true" duration-ms="0" started-at="2018-02-21T18:40:47Z" finished-at="2018-02-21T18:40:47Z">
+        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@618c5d94]" name="afterMethodTearDown" is-config="true" duration-ms="1" started-at="2018-02-23T09:31:30Z" finished-at="2018-02-23T09:31:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validCredentialsLoginTest status=SUCCESS method=LoginTest.validCredentialsLoginTest()[pri:0, instance:tests.LoginTest@609640d5] output={null}]]]>
+                <![CDATA[[TestResult name=validCredentialsLoginTest status=SUCCESS method=LoginTest.validCredentialsLoginTest()[pri:0, instance:tests.LoginTest@618c5d94] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginTest@609640d5]" name="tearDown" is-config="true" duration-ms="813" started-at="2018-02-21T18:42:26Z" finished-at="2018-02-21T18:42:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginTest@618c5d94]" name="tearDown" is-config="true" duration-ms="708" started-at="2018-02-23T09:33:04Z" finished-at="2018-02-23T09:33:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginTest -->
       <class name="tests.ProductTest">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:tests.ProductTest@19fb8826]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2018-02-21T18:40:59Z" finished-at="2018-02-21T18:40:59Z">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:tests.ProductTest@13c3c1e1]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2018-02-23T09:31:40Z" finished-at="2018-02-23T09:31:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.ProductTest@19fb8826]" name="goToBasePage" is-config="true" duration-ms="2345" started-at="2018-02-21T18:40:59Z" finished-at="2018-02-21T18:41:02Z">
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.ProductTest@13c3c1e1]" name="goToBasePage" is-config="true" duration-ms="1917" started-at="2018-02-23T09:31:40Z" finished-at="2018-02-23T09:31:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToBasePage -->
-        <test-method status="PASS" signature="addProductToCartWithSelectedOptionsTest()[pri:0, instance:tests.ProductTest@19fb8826]" name="addProductToCartWithSelectedOptionsTest" duration-ms="2549" started-at="2018-02-21T18:41:02Z" finished-at="2018-02-21T18:41:04Z">
+        <test-method status="PASS" signature="addProductToCartWithSelectedOptionsTest()[pri:0, instance:tests.ProductTest@13c3c1e1]" name="addProductToCartWithSelectedOptionsTest" duration-ms="2731" started-at="2018-02-23T09:31:41Z" finished-at="2018-02-23T09:31:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCartWithSelectedOptionsTest -->
-        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductTest@19fb8826]" name="afterMethodTearDown" is-config="true" duration-ms="0" started-at="2018-02-21T18:41:04Z" finished-at="2018-02-21T18:41:04Z">
+        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductTest@13c3c1e1]" name="afterMethodTearDown" is-config="true" duration-ms="0" started-at="2018-02-23T09:31:44Z" finished-at="2018-02-23T09:31:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addProductToCartWithSelectedOptionsTest status=SUCCESS method=ProductTest.addProductToCartWithSelectedOptionsTest()[pri:0, instance:tests.ProductTest@19fb8826] output={null}]]]>
+                <![CDATA[[TestResult name=addProductToCartWithSelectedOptionsTest status=SUCCESS method=ProductTest.addProductToCartWithSelectedOptionsTest()[pri:0, instance:tests.ProductTest@13c3c1e1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTearDown -->
-        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.ProductTest@19fb8826]" name="goToBasePage" is-config="true" duration-ms="3184" started-at="2018-02-21T18:41:04Z" finished-at="2018-02-21T18:41:07Z">
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.ProductTest@13c3c1e1]" name="goToBasePage" is-config="true" duration-ms="2863" started-at="2018-02-23T09:31:44Z" finished-at="2018-02-23T09:31:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToBasePage -->
-        <test-method status="PASS" signature="addProductWithOneSelectedOptionTest()[pri:0, instance:tests.ProductTest@19fb8826]" name="addProductWithOneSelectedOptionTest" duration-ms="438" started-at="2018-02-21T18:41:07Z" finished-at="2018-02-21T18:41:08Z">
+        <test-method status="PASS" signature="addProductWithOneSelectedOptionTest()[pri:0, instance:tests.ProductTest@13c3c1e1]" name="addProductWithOneSelectedOptionTest" duration-ms="228" started-at="2018-02-23T09:31:47Z" finished-at="2018-02-23T09:31:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductWithOneSelectedOptionTest -->
-        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductTest@19fb8826]" name="afterMethodTearDown" is-config="true" duration-ms="1" started-at="2018-02-21T18:41:08Z" finished-at="2018-02-21T18:41:08Z">
+        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductTest@13c3c1e1]" name="afterMethodTearDown" is-config="true" duration-ms="0" started-at="2018-02-23T09:31:47Z" finished-at="2018-02-23T09:31:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addProductWithOneSelectedOptionTest status=SUCCESS method=ProductTest.addProductWithOneSelectedOptionTest()[pri:0, instance:tests.ProductTest@19fb8826] output={null}]]]>
+                <![CDATA[[TestResult name=addProductWithOneSelectedOptionTest status=SUCCESS method=ProductTest.addProductWithOneSelectedOptionTest()[pri:0, instance:tests.ProductTest@13c3c1e1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTearDown -->
-        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.ProductTest@19fb8826]" name="goToBasePage" is-config="true" duration-ms="3399" started-at="2018-02-21T18:41:08Z" finished-at="2018-02-21T18:41:11Z">
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.ProductTest@13c3c1e1]" name="goToBasePage" is-config="true" duration-ms="2752" started-at="2018-02-23T09:31:47Z" finished-at="2018-02-23T09:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToBasePage -->
-        <test-method status="PASS" signature="addProductWithoutSelectedOptionsTest()[pri:0, instance:tests.ProductTest@19fb8826]" name="addProductWithoutSelectedOptionsTest" duration-ms="142" started-at="2018-02-21T18:41:11Z" finished-at="2018-02-21T18:41:11Z">
+        <test-method status="PASS" signature="addProductWithoutSelectedOptionsTest()[pri:0, instance:tests.ProductTest@13c3c1e1]" name="addProductWithoutSelectedOptionsTest" duration-ms="92" started-at="2018-02-23T09:31:50Z" finished-at="2018-02-23T09:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductWithoutSelectedOptionsTest -->
-        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductTest@19fb8826]" name="afterMethodTearDown" is-config="true" duration-ms="2" started-at="2018-02-21T18:41:11Z" finished-at="2018-02-21T18:41:11Z">
+        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductTest@13c3c1e1]" name="afterMethodTearDown" is-config="true" duration-ms="1" started-at="2018-02-23T09:31:50Z" finished-at="2018-02-23T09:31:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addProductWithoutSelectedOptionsTest status=SUCCESS method=ProductTest.addProductWithoutSelectedOptionsTest()[pri:0, instance:tests.ProductTest@19fb8826] output={null}]]]>
+                <![CDATA[[TestResult name=addProductWithoutSelectedOptionsTest status=SUCCESS method=ProductTest.addProductWithoutSelectedOptionsTest()[pri:0, instance:tests.ProductTest@13c3c1e1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTearDown -->
-        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.ProductTest@19fb8826]" name="goToBasePage" is-config="true" duration-ms="3156" started-at="2018-02-21T18:41:11Z" finished-at="2018-02-21T18:41:15Z">
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.ProductTest@13c3c1e1]" name="goToBasePage" is-config="true" duration-ms="2789" started-at="2018-02-23T09:31:50Z" finished-at="2018-02-23T09:31:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToBasePage -->
-        <test-method status="FAIL" signature="productPriceEqualsPriceInProductListTest()[pri:0, instance:tests.ProductTest@19fb8826]" name="productPriceEqualsPriceInProductListTest" duration-ms="98" started-at="2018-02-21T18:41:15Z" finished-at="2018-02-21T18:41:15Z">
+        <test-method status="FAIL" signature="productPriceEqualsPriceInProductListTest()[pri:0, instance:tests.ProductTest@13c3c1e1]" name="productPriceEqualsPriceInProductListTest" duration-ms="65" started-at="2018-02-23T09:31:53Z" finished-at="2018-02-23T09:31:53Z">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[empty String]]>
@@ -286,11 +286,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productPriceEqualsPriceInProductListTest -->
-        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductTest@19fb8826]" name="afterMethodTearDown" is-config="true" duration-ms="365" started-at="2018-02-21T18:41:15Z" finished-at="2018-02-21T18:41:15Z">
+        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductTest@13c3c1e1]" name="afterMethodTearDown" is-config="true" duration-ms="399" started-at="2018-02-23T09:31:53Z" finished-at="2018-02-23T09:31:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=productPriceEqualsPriceInProductListTest status=FAILURE method=ProductTest.productPriceEqualsPriceInProductListTest()[pri:0, instance:tests.ProductTest@19fb8826] output={null}]]]>
+                <![CDATA[[TestResult name=productPriceEqualsPriceInProductListTest status=FAILURE method=ProductTest.productPriceEqualsPriceInProductListTest()[pri:0, instance:tests.ProductTest@13c3c1e1] output={null}]]]>
               </value>
             </param>
           </params>
@@ -298,117 +298,16 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           </reporter-output>
         </test-method> <!-- afterMethodTearDown -->
       </class> <!-- tests.ProductTest -->
-      <class name="tests.ShoppingCartTest">
-        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.ShoppingCartTest@4bef0fe3]" name="goToBasePage" is-config="true" duration-ms="1167" started-at="2018-02-21T18:41:47Z" finished-at="2018-02-21T18:41:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goToBasePage -->
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:tests.ShoppingCartTest@4bef0fe3]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2018-02-21T18:41:47Z" finished-at="2018-02-21T18:41:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="emptyShoppingCartTest()[pri:0, instance:tests.ShoppingCartTest@4bef0fe3]" name="emptyShoppingCartTest" duration-ms="6479" started-at="2018-02-21T18:41:48Z" finished-at="2018-02-21T18:41:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- emptyShoppingCartTest -->
-        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.ShoppingCartTest@4bef0fe3]" name="afterMethodTearDown" is-config="true" duration-ms="0" started-at="2018-02-21T18:41:55Z" finished-at="2018-02-21T18:41:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=emptyShoppingCartTest status=SUCCESS method=ShoppingCartTest.emptyShoppingCartTest()[pri:0, instance:tests.ShoppingCartTest@4bef0fe3] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodTearDown -->
-        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.ShoppingCartTest@4bef0fe3]" name="goToBasePage" is-config="true" duration-ms="532" started-at="2018-02-21T18:41:55Z" finished-at="2018-02-21T18:41:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goToBasePage -->
-        <test-method status="FAIL" signature="proceedToCheckoutTest()[pri:0, instance:tests.ShoppingCartTest@4bef0fe3]" name="proceedToCheckoutTest" duration-ms="30593" started-at="2018-02-21T18:41:55Z" finished-at="2018-02-21T18:42:26Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for presence of element located by: By.xpath: .//button[@class='button btn-proceed-checkout btn-checkout'] (tried for 30 second(s) with 500 MILLISECONDS interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: .//button[@class='button btn-proceed-checkout btn-checkout'] (tried for 30 second(s) with 500 MILLISECONDS interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-at utils.WebDriverWrapper.findElement(WebDriverWrapper.java:53)
-at utils.WebElementsActions.clickButton(WebElementsActions.java:40)
-at pages.ShoppingCartPage.clickProceedToCheckoutButton(ShoppingCartPage.java:21)
-at tests.ShoppingCartTest.proceedToCheckoutTest(ShoppingCartTest.java:21)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: .//button[@class='button btn-proceed-checkout btn-checkout']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'SNKTST', ip: '169.254.79.254', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
-at java.util.Optional.orElseThrow(Optional.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
-at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-... 33 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- proceedToCheckoutTest -->
-        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.ShoppingCartTest@4bef0fe3]" name="afterMethodTearDown" is-config="true" duration-ms="280" started-at="2018-02-21T18:42:26Z" finished-at="2018-02-21T18:42:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=proceedToCheckoutTest status=FAILURE method=ShoppingCartTest.proceedToCheckoutTest()[pri:0, instance:tests.ShoppingCartTest@4bef0fe3] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodTearDown -->
-      </class> <!-- tests.ShoppingCartTest -->
       <class name="tests.RegistrationTest">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:tests.RegistrationTest@192d74fb]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2018-02-21T18:41:15Z" finished-at="2018-02-21T18:41:15Z">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:tests.RegistrationTest@1d8062d2]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2018-02-23T09:31:53Z" finished-at="2018-02-23T09:31:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.RegistrationTest@192d74fb]" name="goToBasePage" is-config="true" duration-ms="1091" started-at="2018-02-21T18:41:15Z" finished-at="2018-02-21T18:41:16Z">
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.RegistrationTest@1d8062d2]" name="goToBasePage" is-config="true" duration-ms="1084" started-at="2018-02-23T09:31:53Z" finished-at="2018-02-23T09:31:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToBasePage -->
-        <test-method status="FAIL" signature="newUserRegistrationTest()[pri:0, instance:tests.RegistrationTest@192d74fb]" name="newUserRegistrationTest" duration-ms="30589" started-at="2018-02-21T18:41:16Z" finished-at="2018-02-21T18:41:47Z">
+        <test-method status="FAIL" signature="newUserRegistrationTest()[pri:0, instance:tests.RegistrationTest@1d8062d2]" name="newUserRegistrationTest" duration-ms="30583" started-at="2018-02-23T09:31:55Z" finished-at="2018-02-23T09:32:25Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for presence of element located by: By.xpath: .//input[@id='firstname'] (tried for 30 second(s) with 500 MILLISECONDS interval)]]>
@@ -418,7 +317,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
 at utils.WebDriverWrapper.findElement(WebDriverWrapper.java:53)
-at utils.WebElementsActions.input(WebElementsActions.java:84)
+at utils.WebElementsActions.input(WebElementsActions.java:93)
 at pages.RegPage.enterName(RegPage.java:16)
 at pages.RegPage.enterNewUserDataAndClickRegister(RegPage.java:36)
 at tests.RegistrationTest.newUserRegistrationTest(RegistrationTest.java:16)
@@ -454,7 +353,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: .//input[@id='firstname']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'SNKTST', ip: '169.254.79.254', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+System info: host: 'SNK', ip: '192.168.164.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
 Driver info: driver.version: unknown
 at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
 at java.util.Optional.orElseThrow(Optional.java:290)
@@ -470,11 +369,11 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newUserRegistrationTest -->
-        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.RegistrationTest@192d74fb]" name="afterMethodTearDown" is-config="true" duration-ms="269" started-at="2018-02-21T18:41:47Z" finished-at="2018-02-21T18:41:47Z">
+        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.RegistrationTest@1d8062d2]" name="afterMethodTearDown" is-config="true" duration-ms="270" started-at="2018-02-23T09:32:25Z" finished-at="2018-02-23T09:32:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=newUserRegistrationTest status=FAILURE method=RegistrationTest.newUserRegistrationTest()[pri:0, instance:tests.RegistrationTest@192d74fb] output={null}]]]>
+                <![CDATA[[TestResult name=newUserRegistrationTest status=FAILURE method=RegistrationTest.newUserRegistrationTest()[pri:0, instance:tests.RegistrationTest@1d8062d2] output={null}]]]>
               </value>
             </param>
           </params>
@@ -482,100 +381,201 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
           </reporter-output>
         </test-method> <!-- afterMethodTearDown -->
       </class> <!-- tests.RegistrationTest -->
-      <class name="tests.ProductListTest">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:tests.ProductListTest@79da1ec0]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2018-02-21T18:40:47Z" finished-at="2018-02-21T18:40:47Z">
+      <class name="tests.ShoppingCartTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:tests.ShoppingCartTest@1e63ec0b]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2018-02-23T09:32:25Z" finished-at="2018-02-23T09:32:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.ProductListTest@79da1ec0]" name="goToBasePage" is-config="true" duration-ms="3376" started-at="2018-02-21T18:40:47Z" finished-at="2018-02-21T18:40:51Z">
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.ShoppingCartTest@1e63ec0b]" name="goToBasePage" is-config="true" duration-ms="1090" started-at="2018-02-23T09:32:25Z" finished-at="2018-02-23T09:32:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToBasePage -->
-        <test-method status="PASS" signature="isPriceFilterPresentTest()[pri:0, instance:tests.ProductListTest@79da1ec0]" name="isPriceFilterPresentTest" duration-ms="68" started-at="2018-02-21T18:40:51Z" finished-at="2018-02-21T18:40:51Z">
+        <test-method status="PASS" signature="emptyShoppingCartTest()[pri:0, instance:tests.ShoppingCartTest@1e63ec0b]" name="emptyShoppingCartTest" duration-ms="6312" started-at="2018-02-23T09:32:26Z" finished-at="2018-02-23T09:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyShoppingCartTest -->
+        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.ShoppingCartTest@1e63ec0b]" name="afterMethodTearDown" is-config="true" duration-ms="1" started-at="2018-02-23T09:32:33Z" finished-at="2018-02-23T09:32:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emptyShoppingCartTest status=SUCCESS method=ShoppingCartTest.emptyShoppingCartTest()[pri:0, instance:tests.ShoppingCartTest@1e63ec0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTearDown -->
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.ShoppingCartTest@1e63ec0b]" name="goToBasePage" is-config="true" duration-ms="441" started-at="2018-02-23T09:32:33Z" finished-at="2018-02-23T09:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBasePage -->
+        <test-method status="FAIL" signature="proceedToCheckoutTest()[pri:0, instance:tests.ShoppingCartTest@1e63ec0b]" name="proceedToCheckoutTest" duration-ms="30566" started-at="2018-02-23T09:32:33Z" finished-at="2018-02-23T09:33:04Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for presence of element located by: By.xpath: .//button[@class='button btn-proceed-checkout btn-checkout'] (tried for 30 second(s) with 500 MILLISECONDS interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: .//button[@class='button btn-proceed-checkout btn-checkout'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at utils.WebDriverWrapper.findElement(WebDriverWrapper.java:53)
+at utils.WebElementsActions.clickButton(WebElementsActions.java:41)
+at pages.ShoppingCartPage.clickProceedToCheckoutButton(ShoppingCartPage.java:21)
+at tests.ShoppingCartTest.proceedToCheckoutTest(ShoppingCartTest.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: .//button[@class='button btn-proceed-checkout btn-checkout']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'SNK', ip: '192.168.164.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
+at java.util.Optional.orElseThrow(Optional.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+... 33 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedToCheckoutTest -->
+        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.ShoppingCartTest@1e63ec0b]" name="afterMethodTearDown" is-config="true" duration-ms="274" started-at="2018-02-23T09:33:04Z" finished-at="2018-02-23T09:33:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=proceedToCheckoutTest status=FAILURE method=ShoppingCartTest.proceedToCheckoutTest()[pri:0, instance:tests.ShoppingCartTest@1e63ec0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTearDown -->
+      </class> <!-- tests.ShoppingCartTest -->
+      <class name="tests.ProductListTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:tests.ProductListTest@5b40ceb]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2018-02-23T09:31:30Z" finished-at="2018-02-23T09:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.ProductListTest@5b40ceb]" name="goToBasePage" is-config="true" duration-ms="3071" started-at="2018-02-23T09:31:30Z" finished-at="2018-02-23T09:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBasePage -->
+        <test-method status="PASS" signature="isPriceFilterPresentTest()[pri:0, instance:tests.ProductListTest@5b40ceb]" name="isPriceFilterPresentTest" duration-ms="45" started-at="2018-02-23T09:31:33Z" finished-at="2018-02-23T09:31:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isPriceFilterPresentTest -->
-        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductListTest@79da1ec0]" name="afterMethodTearDown" is-config="true" duration-ms="0" started-at="2018-02-21T18:40:51Z" finished-at="2018-02-21T18:40:51Z">
+        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductListTest@5b40ceb]" name="afterMethodTearDown" is-config="true" duration-ms="1" started-at="2018-02-23T09:31:33Z" finished-at="2018-02-23T09:31:33Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isPriceFilterPresentTest status=SUCCESS method=ProductListTest.isPriceFilterPresentTest()[pri:0, instance:tests.ProductListTest@79da1ec0] output={null}]]]>
+                <![CDATA[[TestResult name=isPriceFilterPresentTest status=SUCCESS method=ProductListTest.isPriceFilterPresentTest()[pri:0, instance:tests.ProductListTest@5b40ceb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTearDown -->
-        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.ProductListTest@79da1ec0]" name="goToBasePage" is-config="true" duration-ms="1543" started-at="2018-02-21T18:40:51Z" finished-at="2018-02-21T18:40:52Z">
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.ProductListTest@5b40ceb]" name="goToBasePage" is-config="true" duration-ms="1361" started-at="2018-02-23T09:31:33Z" finished-at="2018-02-23T09:31:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToBasePage -->
-        <test-method status="PASS" signature="isProductPresentInTheProductListTest()[pri:0, instance:tests.ProductListTest@79da1ec0]" name="isProductPresentInTheProductListTest" duration-ms="23" started-at="2018-02-21T18:40:52Z" finished-at="2018-02-21T18:40:52Z">
+        <test-method status="PASS" signature="isProductPresentInTheProductListTest()[pri:0, instance:tests.ProductListTest@5b40ceb]" name="isProductPresentInTheProductListTest" duration-ms="24" started-at="2018-02-23T09:31:34Z" finished-at="2018-02-23T09:31:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isProductPresentInTheProductListTest -->
-        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.ProductListTest@79da1ec0]" name="goToBasePage" is-config="true" duration-ms="1507" started-at="2018-02-21T18:40:52Z" finished-at="2018-02-21T18:40:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goToBasePage -->
-        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductListTest@79da1ec0]" name="afterMethodTearDown" is-config="true" duration-ms="0" started-at="2018-02-21T18:40:52Z" finished-at="2018-02-21T18:40:52Z">
+        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductListTest@5b40ceb]" name="afterMethodTearDown" is-config="true" duration-ms="0" started-at="2018-02-23T09:31:34Z" finished-at="2018-02-23T09:31:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isProductPresentInTheProductListTest status=SUCCESS method=ProductListTest.isProductPresentInTheProductListTest()[pri:0, instance:tests.ProductListTest@79da1ec0] output={null}]]]>
+                <![CDATA[[TestResult name=isProductPresentInTheProductListTest status=SUCCESS method=ProductListTest.isProductPresentInTheProductListTest()[pri:0, instance:tests.ProductListTest@5b40ceb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTearDown -->
-        <test-method status="PASS" signature="openingProductPageTest()[pri:0, instance:tests.ProductListTest@79da1ec0]" name="openingProductPageTest" duration-ms="1188" started-at="2018-02-21T18:40:54Z" finished-at="2018-02-21T18:40:55Z">
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.ProductListTest@5b40ceb]" name="goToBasePage" is-config="true" duration-ms="1316" started-at="2018-02-23T09:31:34Z" finished-at="2018-02-23T09:31:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBasePage -->
+        <test-method status="PASS" signature="openingProductPageTest()[pri:0, instance:tests.ProductListTest@5b40ceb]" name="openingProductPageTest" duration-ms="760" started-at="2018-02-23T09:31:35Z" finished-at="2018-02-23T09:31:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openingProductPageTest -->
-        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.ProductListTest@79da1ec0]" name="goToBasePage" is-config="true" duration-ms="1760" started-at="2018-02-21T18:40:55Z" finished-at="2018-02-21T18:40:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goToBasePage -->
-        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductListTest@79da1ec0]" name="afterMethodTearDown" is-config="true" duration-ms="0" started-at="2018-02-21T18:40:55Z" finished-at="2018-02-21T18:40:55Z">
+        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductListTest@5b40ceb]" name="afterMethodTearDown" is-config="true" duration-ms="1" started-at="2018-02-23T09:31:36Z" finished-at="2018-02-23T09:31:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=openingProductPageTest status=SUCCESS method=ProductListTest.openingProductPageTest()[pri:0, instance:tests.ProductListTest@79da1ec0] output={null}]]]>
+                <![CDATA[[TestResult name=openingProductPageTest status=SUCCESS method=ProductListTest.openingProductPageTest()[pri:0, instance:tests.ProductListTest@5b40ceb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTearDown -->
-        <test-method status="PASS" signature="productListIncludesValidProductAfterApplyPriceFilterTest()[pri:0, instance:tests.ProductListTest@79da1ec0]" name="productListIncludesValidProductAfterApplyPriceFilterTest" duration-ms="879" started-at="2018-02-21T18:40:57Z" finished-at="2018-02-21T18:40:58Z">
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.ProductListTest@5b40ceb]" name="goToBasePage" is-config="true" duration-ms="1370" started-at="2018-02-23T09:31:36Z" finished-at="2018-02-23T09:31:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBasePage -->
+        <test-method status="PASS" signature="productListIncludesValidProductAfterApplyPriceFilterTest()[pri:0, instance:tests.ProductListTest@5b40ceb]" name="productListIncludesValidProductAfterApplyPriceFilterTest" duration-ms="736" started-at="2018-02-23T09:31:37Z" finished-at="2018-02-23T09:31:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productListIncludesValidProductAfterApplyPriceFilterTest -->
-        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductListTest@79da1ec0]" name="afterMethodTearDown" is-config="true" duration-ms="1" started-at="2018-02-21T18:40:58Z" finished-at="2018-02-21T18:40:58Z">
+        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductListTest@5b40ceb]" name="afterMethodTearDown" is-config="true" duration-ms="1" started-at="2018-02-23T09:31:38Z" finished-at="2018-02-23T09:31:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=productListIncludesValidProductAfterApplyPriceFilterTest status=SUCCESS method=ProductListTest.productListIncludesValidProductAfterApplyPriceFilterTest()[pri:0, instance:tests.ProductListTest@79da1ec0] output={null}]]]>
+                <![CDATA[[TestResult name=productListIncludesValidProductAfterApplyPriceFilterTest status=SUCCESS method=ProductListTest.productListIncludesValidProductAfterApplyPriceFilterTest()[pri:0, instance:tests.ProductListTest@5b40ceb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTearDown -->
-        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.ProductListTest@79da1ec0]" name="goToBasePage" is-config="true" duration-ms="1561" started-at="2018-02-21T18:40:58Z" finished-at="2018-02-21T18:40:59Z">
+        <test-method status="PASS" signature="goToBasePage()[pri:0, instance:tests.ProductListTest@5b40ceb]" name="goToBasePage" is-config="true" duration-ms="1295" started-at="2018-02-23T09:31:38Z" finished-at="2018-02-23T09:31:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToBasePage -->
-        <test-method status="PASS" signature="productsOnTheProductListHaveAPriceTest()[pri:0, instance:tests.ProductListTest@79da1ec0]" name="productsOnTheProductListHaveAPriceTest" duration-ms="60" started-at="2018-02-21T18:40:59Z" finished-at="2018-02-21T18:40:59Z">
+        <test-method status="PASS" signature="productsOnTheProductListHaveAPriceTest()[pri:0, instance:tests.ProductListTest@5b40ceb]" name="productsOnTheProductListHaveAPriceTest" duration-ms="43" started-at="2018-02-23T09:31:40Z" finished-at="2018-02-23T09:31:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productsOnTheProductListHaveAPriceTest -->
-        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductListTest@79da1ec0]" name="afterMethodTearDown" is-config="true" duration-ms="0" started-at="2018-02-21T18:40:59Z" finished-at="2018-02-21T18:40:59Z">
+        <test-method status="PASS" signature="afterMethodTearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductListTest@5b40ceb]" name="afterMethodTearDown" is-config="true" duration-ms="1" started-at="2018-02-23T09:31:40Z" finished-at="2018-02-23T09:31:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=productsOnTheProductListHaveAPriceTest status=SUCCESS method=ProductListTest.productsOnTheProductListHaveAPriceTest()[pri:0, instance:tests.ProductListTest@79da1ec0] output={null}]]]>
+                <![CDATA[[TestResult name=productsOnTheProductListHaveAPriceTest status=SUCCESS method=ProductListTest.productsOnTheProductListHaveAPriceTest()[pri:0, instance:tests.ProductListTest@5b40ceb] output={null}]]]>
               </value>
             </param>
           </params>

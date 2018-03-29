@@ -1,62 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="169.128" tests="20" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="185.017" tests="20" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="c:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
-    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\bin"/>
+    <property name="java.vm.version" value="25.162-b12"/>
     <property name="user.country.format" value="UA"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Automation\CodespaseTestproject\com.lexiconn.demo-magento"/>
+    <property name="maven.multiModuleProjectDirectory" value="c:\Automation\projects\CodespaseTestproject\com.lexiconn.demo-magento"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.script" value=""/>
-    <property name="user.country" value="RU"/>
+    <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Automation\CodespaseTestproject\com.lexiconn.demo-magento"/>
-    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="user.dir" value="c:\Automation\projects\CodespaseTestproject\com.lexiconn.demo-magento"/>
+    <property name="java.runtime.version" value="1.8.0_162-b12"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="c:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\SK\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\kuzhel\AppData\Local\Temp\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="c:\M2_HOME\bin\..\bin\m2.conf"/>
+    <property name="classworlds.conf" value="C:\Automation\maven\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.library.path" value="c:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;c:\M2_HOME\bin\;c:\Program Files\Java\jdk1.8.0_144;c:\Program Files\Java\jdk1.8.0_144\bin;C:\INST\allure-2.6.0\allure-2.6.0\bin;C:\Users\SK\AppData\Local\Microsoft\WindowsApps;;."/>
-    <property name="maven.conf" value="c:\M2_HOME\bin\../conf"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_162\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Automation\maven\bin;C:\Program Files\Java\jdk1.8.0_162;C:\Program Files\Java\jdk1.8.0_162\bin;C:\Users\kuzhel\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\Automation\maven\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="c:\M2_HOME\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\SK"/>
+    <property name="library.jansi.path" value="C:\Automation\maven\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\kuzhel"/>
     <property name="user.timezone" value="Europe/Helsinki"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1251"/>
-    <property name="user.name" value="SK"/>
-    <property name="java.class.path" value="c:\M2_HOME\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="user.name" value="kuzhel"/>
+    <property name="java.class.path" value="C:\Automation\maven\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="c:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_162\jre"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="ru"/>
+    <property name="user.language" value="en"/>
+    <property name="user.language.format" value="uk"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_144"/>
-    <property name="java.ext.dirs" value="c:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="c:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;c:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;c:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;c:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;c:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;c:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;c:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;c:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="java.version" value="1.8.0_162"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_162\jre\classes"/>
     <property name="sun.stderr.encoding" value="cp866"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="c:\M2_HOME\bin\.."/>
+    <property name="maven.home" value="C:\Automation\maven\bin\.."/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -65,65 +66,65 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="emptyUserLoginAndPasswordTest" classname="tests.LoginTest" time="1.134"/>
-  <testcase name="emptyUserLoginTest" classname="tests.LoginTest" time="0.557"/>
-  <testcase name="emptyUserPasswordTest" classname="tests.LoginTest" time="0.627"/>
-  <testcase name="incorrectUserLoginMaskTest" classname="tests.LoginTest" time="15.649"/>
-  <testcase name="nonExistUserLoginTest" classname="tests.LoginTest" time="1.578"/>
-  <testcase name="spacesInTheUserLoginAndPasswordTest" classname="tests.LoginTest" time="15.342"/>
-  <testcase name="tabsInTheUserLoginAndPasswordTest" classname="tests.LoginTest" time="15.403"/>
-  <testcase name="validCredentialsLoginTest" classname="tests.LoginTest" time="3.896"/>
-  <testcase name="isPriceFilterPresentTest" classname="tests.ProductListTest" time="0.066"/>
-  <testcase name="isProductPresentInTheProductListTest" classname="tests.ProductListTest" time="0.012"/>
-  <testcase name="openingProductPageTest" classname="tests.ProductListTest" time="1.187"/>
-  <testcase name="productListIncludesValidProductAfterApplyPriceFilterTest" classname="tests.ProductListTest" time="0.879"/>
-  <testcase name="productsOnTheProductListHaveAPriceTest" classname="tests.ProductListTest" time="0.056"/>
-  <testcase name="addProductToCartWithSelectedOptionsTest" classname="tests.ProductTest" time="2.543"/>
-  <testcase name="addProductWithOneSelectedOptionTest" classname="tests.ProductTest" time="0.438"/>
-  <testcase name="addProductWithoutSelectedOptionsTest" classname="tests.ProductTest" time="0.141"/>
-  <testcase name="productPriceEqualsPriceInProductListTest" classname="tests.ProductTest" time="0.108">
+  <testcase name="emptyUserLoginAndPasswordTest" classname="tests.LoginTest" time="0.75"/>
+  <testcase name="emptyUserLoginTest" classname="tests.LoginTest" time="0.337"/>
+  <testcase name="emptyUserPasswordTest" classname="tests.LoginTest" time="0.368"/>
+  <testcase name="incorrectUserLoginMaskTest" classname="tests.LoginTest" time="15.387"/>
+  <testcase name="nonExistUserLoginTest" classname="tests.LoginTest" time="3.844"/>
+  <testcase name="spacesInTheUserLoginAndPasswordTest" classname="tests.LoginTest" time="15.247"/>
+  <testcase name="tabsInTheUserLoginAndPasswordTest" classname="tests.LoginTest" time="15.213"/>
+  <testcase name="validCredentialsLoginTest" classname="tests.LoginTest" time="9.949"/>
+  <testcase name="isPriceFilterPresentTest" classname="tests.ProductListTest" time="0.045"/>
+  <testcase name="isProductPresentInTheProductListTest" classname="tests.ProductListTest" time="0.023"/>
+  <testcase name="openingProductPageTest" classname="tests.ProductListTest" time="0.76"/>
+  <testcase name="productListIncludesValidProductAfterApplyPriceFilterTest" classname="tests.ProductListTest" time="0.736"/>
+  <testcase name="productsOnTheProductListHaveAPriceTest" classname="tests.ProductListTest" time="0.042"/>
+  <testcase name="addProductToCartWithSelectedOptionsTest" classname="tests.ProductTest" time="2.731"/>
+  <testcase name="addProductWithOneSelectedOptionTest" classname="tests.ProductTest" time="0.228"/>
+  <testcase name="addProductWithoutSelectedOptionsTest" classname="tests.ProductTest" time="0.093"/>
+  <testcase name="productPriceEqualsPriceInProductListTest" classname="tests.ProductTest" time="0.087">
     <failure message="empty String" type="java.lang.NumberFormatException">java.lang.NumberFormatException: empty String
 	at tests.ProductTest.productPriceEqualsPriceInProductListTest(ProductTest.java:17)
 </failure>
-    <system-out><![CDATA[2018-02-21 20:41:11 Page:33 [INFO] - Start open page.
-2018-02-21 20:41:12 Page:40 [INFO] - Page open successful.
-2018-02-21 20:41:13 WebElementsActions:52 [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-21 20:41:14 WebElementsActions:52 [INFO] - Click on Link productcategoty.page.item.link
-2018-02-21 20:41:15 WebElementsActions:52 [INFO] - Click on Link productlist.page.item.link
+    <system-out><![CDATA[2018-02-23 11:31:50 Page:33 [INFO] - Start open page.
+2018-02-23 11:31:51 Page:40 [INFO] - Page open successful.
+2018-02-23 11:31:51 WebElementsActions:53 [INFO] - Click on Link globalmenu.page.menuheaderlink.link
+2018-02-23 11:31:52 WebElementsActions:53 [INFO] - Click on Link productcategoty.page.item.link
+2018-02-23 11:31:53 WebElementsActions:53 [INFO] - Click on Link productlist.page.item.link
 ]]></system-out>
   </testcase>
-  <testcase name="newUserRegistrationTest" classname="tests.RegistrationTest" time="30.604">
+  <testcase name="newUserRegistrationTest" classname="tests.RegistrationTest" time="30.586">
     <failure message="Expected condition failed: waiting for presence of element located by: By.xpath: .//input[@id=&apos;firstname&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: .//input[@id='firstname'] (tried for 30 second(s) with 500 MILLISECONDS interval)
 	at tests.RegistrationTest.newUserRegistrationTest(RegistrationTest.java:16)
 Caused by: org.openqa.selenium.NoSuchElementException: 
 Cannot locate an element using By.xpath: .//input[@id='firstname']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'SNKTST', ip: '169.254.79.254', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+System info: host: 'SNK', ip: '192.168.164.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
 Driver info: driver.version: unknown
 	at tests.RegistrationTest.newUserRegistrationTest(RegistrationTest.java:16)
 </failure>
-    <system-out><![CDATA[2018-02-21 20:41:15 Page:33 [INFO] - Start open page.
-2018-02-21 20:41:16 Page:40 [INFO] - Page open successful.
+    <system-out><![CDATA[2018-02-23 11:31:53 Page:33 [INFO] - Start open page.
+2018-02-23 11:31:55 Page:40 [INFO] - Page open successful.
 ]]></system-out>
-    <system-err><![CDATA[фев 21, 2018 8:41:15 PM org.openqa.selenium.remote.Augmenter extractRemoteWebDriver
+    <system-err><![CDATA[лют. 23, 2018 11:31:53 AM org.openqa.selenium.remote.Augmenter extractRemoteWebDriver
 WARNING: Augmenter should be applied to the instances of @Augmentable classes or previously augmented instances only (instance class was: class utils.WebDriverWrapper)
 ]]></system-err>
   </testcase>
-  <testcase name="emptyShoppingCartTest" classname="tests.ShoppingCartTest" time="6.479"/>
-  <testcase name="proceedToCheckoutTest" classname="tests.ShoppingCartTest" time="30.592">
+  <testcase name="emptyShoppingCartTest" classname="tests.ShoppingCartTest" time="6.312"/>
+  <testcase name="proceedToCheckoutTest" classname="tests.ShoppingCartTest" time="30.567">
     <failure message="Expected condition failed: waiting for presence of element located by: By.xpath: .//button[@class=&apos;button btn-proceed-checkout btn-checkout&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: .//button[@class='button btn-proceed-checkout btn-checkout'] (tried for 30 second(s) with 500 MILLISECONDS interval)
 	at tests.ShoppingCartTest.proceedToCheckoutTest(ShoppingCartTest.java:21)
 Caused by: org.openqa.selenium.NoSuchElementException: 
 Cannot locate an element using By.xpath: .//button[@class='button btn-proceed-checkout btn-checkout']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'SNKTST', ip: '169.254.79.254', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+System info: host: 'SNK', ip: '192.168.164.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
 Driver info: driver.version: unknown
 	at tests.ShoppingCartTest.proceedToCheckoutTest(ShoppingCartTest.java:21)
 </failure>
-    <system-out><![CDATA[2018-02-21 20:41:55 Page:33 [INFO] - Start open page.
-2018-02-21 20:41:55 Page:40 [INFO] - Page open successful.
+    <system-out><![CDATA[2018-02-23 11:32:33 Page:33 [INFO] - Start open page.
+2018-02-23 11:32:33 Page:40 [INFO] - Page open successful.
 ]]></system-out>
   </testcase>
 </testsuite>

@@ -1,30 +1,30 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 20, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 169.128 s <<< FAILURE! - in TestSuite
-productPriceEqualsPriceInProductListTest(tests.ProductTest)  Time elapsed: 0.108 s  <<< FAILURE!
+Tests run: 20, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 185.017 s <<< FAILURE! - in TestSuite
+productPriceEqualsPriceInProductListTest(tests.ProductTest)  Time elapsed: 0.087 s  <<< FAILURE!
 java.lang.NumberFormatException: empty String
 	at tests.ProductTest.productPriceEqualsPriceInProductListTest(ProductTest.java:17)
 
-newUserRegistrationTest(tests.RegistrationTest)  Time elapsed: 30.604 s  <<< FAILURE!
+newUserRegistrationTest(tests.RegistrationTest)  Time elapsed: 30.586 s  <<< FAILURE!
 org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: .//input[@id='firstname'] (tried for 30 second(s) with 500 MILLISECONDS interval)
 	at tests.RegistrationTest.newUserRegistrationTest(RegistrationTest.java:16)
 Caused by: org.openqa.selenium.NoSuchElementException: 
 Cannot locate an element using By.xpath: .//input[@id='firstname']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'SNKTST', ip: '169.254.79.254', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+System info: host: 'SNK', ip: '192.168.164.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
 Driver info: driver.version: unknown
 	at tests.RegistrationTest.newUserRegistrationTest(RegistrationTest.java:16)
 
-proceedToCheckoutTest(tests.ShoppingCartTest)  Time elapsed: 30.592 s  <<< FAILURE!
+proceedToCheckoutTest(tests.ShoppingCartTest)  Time elapsed: 30.567 s  <<< FAILURE!
 org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: .//button[@class='button btn-proceed-checkout btn-checkout'] (tried for 30 second(s) with 500 MILLISECONDS interval)
 	at tests.ShoppingCartTest.proceedToCheckoutTest(ShoppingCartTest.java:21)
 Caused by: org.openqa.selenium.NoSuchElementException: 
 Cannot locate an element using By.xpath: .//button[@class='button btn-proceed-checkout btn-checkout']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'SNKTST', ip: '169.254.79.254', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+System info: host: 'SNK', ip: '192.168.164.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
 Driver info: driver.version: unknown
 	at tests.ShoppingCartTest.proceedToCheckoutTest(ShoppingCartTest.java:21)
 

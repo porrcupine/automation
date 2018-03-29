@@ -12,10 +12,16 @@ import java.util.List;
 
 
 public class WebElementsActions {
-    private WebDriver driver;
+    private static final String CLICK_ELEMENT_SCRIPT = "arguments[0].click()";
+    private static final String CONTEXT_CLICK_ELEMENT_SCRIPT = "var evt = document.createEvent('MouseEvents');"
+            + "var RIGHT_CLICK_BUTTON_CODE = 2;"
+            + "evt.initMouseEvent('contextmenu', true, true, window, 1, 0, 0, 0, 0, false, false, false, false, RIGHT_CLICK_BUTTON_CODE, null);"
+            + "arguments[0].dispatchEvent(evt)" ;
+
+    private WebDriverWrapper driver;
     private static final Logger LOG = Logger.getLogger(WebElementsActions.class);
 
-    public WebElementsActions(WebDriver driver) {
+    public WebElementsActions(WebDriverWrapper driver) {
         this.driver = driver;
     }
 
@@ -64,6 +70,20 @@ public class WebElementsActions {
             }
         }
     }
+
+    public void clickWithJS(String elementLocator) {
+        WebElement element = driver.findElement(UiMappingSingleton.ui(elementLocator));
+        JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver.getOriginalDriver();
+        javascriptExecutor.executeScript(CLICK_ELEMENT_SCRIPT, element);
+    }
+
+    public void contextClickJS(String elementLocator) {
+        WebElement element = driver.findElement(UiMappingSingleton.ui(elementLocator));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript(CONTEXT_CLICK_ELEMENT_SCRIPT, element);
+    }
+
+
 
     public void selectOptionFromDropDown(WebElement dropDownElement, int optionIndex) {
         Select drp = new Select(dropDownElement);

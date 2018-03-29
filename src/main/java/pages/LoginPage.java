@@ -53,7 +53,8 @@ public class LoginPage extends GlobalPageHeader {
     }
 
     public void clickLoginButton() {
-        webElementActions.clickButton("login.page.signin.button");
+     // webElementActions.clickButton("login.page.signin.button");
+       webElementActions.clickWithJS("login.page.signin.button");
     }
 
     public void pressSpaceInTheLoginData() {

@@ -1,1 +1,0 @@
-{"uuid":"a5dcd36b-01da-4fc7-ac30-cab794979316","name":"tests.ProductListTest.goToBasePage","description":"","start":1519238458112,"stop":1519238459673,"children":["c18f0a16-68d9-4082-a2a5-ab3e375a1f0f"],"befores":[{"name":"goToBasePage","status":"passed","stage":"finished","description":"","start":1519238458112,"stop":1519238459673}]}

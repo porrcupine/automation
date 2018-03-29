@@ -11,7 +11,7 @@ import java.util.Random;
 
 public class ProductListPage extends GlobalPageHeader {
     private static final Logger LOG = Logger.getLogger(ClassNameUtil.getCurrentClassName());
-    private static String page = ""; //TODO Is this link static or we can generate it randomly?
+    private static String page = "";
     private double tempProductPrice;
 
     public ProductListPage(WebDriverWrapper dr) {

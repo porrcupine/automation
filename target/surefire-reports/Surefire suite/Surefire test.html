@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>17/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Feb 21 20:39:47 EET 2018</td>
+<td>Started on:</td><td>Fri Feb 23 11:30:06 EET 2018</td>
 </tr>
-<tr><td>Total time:</td><td>159 seconds (159360 ms)</td>
+<tr><td>Total time:</td><td>177 seconds (177577 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -80,14 +80,14 @@ function toggleAllBoxes() {
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
 	at utils.WebDriverWrapper.findElement(WebDriverWrapper.java:53)
-	at utils.WebElementsActions.input(WebElementsActions.java:84)
+	at utils.WebElementsActions.input(WebElementsActions.java:93)
 	at pages.RegPage.enterName(RegPage.java:16)
 	at pages.RegPage.enterNewUserDataAndClickRegister(RegPage.java:36)
 	at tests.RegistrationTest.newUserRegistrationTest(RegistrationTest.java:16)
 Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: .//input[@id=&apos;firstname&apos;]
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
-System info: host: &apos;SNKTST&apos;, ip: &apos;169.254.79.254&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+System info: host: &apos;SNK&apos;, ip: &apos;192.168.164.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;
 Driver info: driver.version: unknown
 	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
 	at java.util.Optional.orElseThrow(Optional.java:290)
@@ -97,12 +97,12 @@ Driver info: driver.version: unknown
 	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
 	... 34 more
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1487540468", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1487540468'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: .//input[@id=&apos;firstname&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace571251299", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace571251299'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: .//input[@id=&apos;firstname&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
 	at utils.WebDriverWrapper.findElement(WebDriverWrapper.java:53)
-	at utils.WebElementsActions.input(WebElementsActions.java:84)
+	at utils.WebElementsActions.input(WebElementsActions.java:93)
 	at pages.RegPage.enterName(RegPage.java:16)
 	at pages.RegPage.enterNewUserDataAndClickRegister(RegPage.java:36)
 	at tests.RegistrationTest.newUserRegistrationTest(RegistrationTest.java:16)
@@ -138,7 +138,7 @@ Driver info: driver.version: unknown
 Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: .//input[@id=&apos;firstname&apos;]
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
-System info: host: &apos;SNKTST&apos;, ip: &apos;169.254.79.254&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+System info: host: &apos;SNK&apos;, ip: &apos;192.168.164.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;
 Driver info: driver.version: unknown
 	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
 	at java.util.Optional.orElseThrow(Optional.java:290)
@@ -150,20 +150,20 @@ Driver info: driver.version: unknown
 	... 34 more
 </pre></div></td>
 <td>30</td>
-<td>tests.RegistrationTest@192d74fb</td></tr>
+<td>tests.RegistrationTest@1d8062d2</td></tr>
 <tr>
 <td title='tests.ShoppingCartTest.proceedToCheckoutTest()'><b>proceedToCheckoutTest</b><br>Test class: tests.ShoppingCartTest</td>
 <td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: .//button[@class=&apos;button btn-proceed-checkout btn-checkout&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
 	at utils.WebDriverWrapper.findElement(WebDriverWrapper.java:53)
-	at utils.WebElementsActions.clickButton(WebElementsActions.java:40)
+	at utils.WebElementsActions.clickButton(WebElementsActions.java:41)
 	at pages.ShoppingCartPage.clickProceedToCheckoutButton(ShoppingCartPage.java:21)
 	at tests.ShoppingCartTest.proceedToCheckoutTest(ShoppingCartTest.java:21)
 Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: .//button[@class=&apos;button btn-proceed-checkout btn-checkout&apos;]
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
-System info: host: &apos;SNKTST&apos;, ip: &apos;169.254.79.254&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+System info: host: &apos;SNK&apos;, ip: &apos;192.168.164.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;
 Driver info: driver.version: unknown
 	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
 	at java.util.Optional.orElseThrow(Optional.java:290)
@@ -173,12 +173,12 @@ Driver info: driver.version: unknown
 	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
 	... 33 more
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1398479590", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1398479590'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: .//button[@class=&apos;button btn-proceed-checkout btn-checkout&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1421016152", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1421016152'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: .//button[@class=&apos;button btn-proceed-checkout btn-checkout&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
 	at utils.WebDriverWrapper.findElement(WebDriverWrapper.java:53)
-	at utils.WebElementsActions.clickButton(WebElementsActions.java:40)
+	at utils.WebElementsActions.clickButton(WebElementsActions.java:41)
 	at pages.ShoppingCartPage.clickProceedToCheckoutButton(ShoppingCartPage.java:21)
 	at tests.ShoppingCartTest.proceedToCheckoutTest(ShoppingCartTest.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -213,7 +213,7 @@ Driver info: driver.version: unknown
 Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: .//button[@class=&apos;button btn-proceed-checkout btn-checkout&apos;]
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
-System info: host: &apos;SNKTST&apos;, ip: &apos;169.254.79.254&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+System info: host: &apos;SNK&apos;, ip: &apos;192.168.164.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;
 Driver info: driver.version: unknown
 	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
 	at java.util.Optional.orElseThrow(Optional.java:290)
@@ -225,7 +225,7 @@ Driver info: driver.version: unknown
 	... 33 more
 </pre></div></td>
 <td>30</td>
-<td>tests.ShoppingCartTest@4bef0fe3</td></tr>
+<td>tests.ShoppingCartTest@1e63ec0b</td></tr>
 <tr>
 <td title='tests.ProductTest.productPriceEqualsPriceInProductListTest()'><b>productPriceEqualsPriceInProductListTest</b><br>Test class: tests.ProductTest</td>
 <td><div><pre>java.lang.NumberFormatException: empty String
@@ -235,8 +235,8 @@ Driver info: driver.version: unknown
 	at java.lang.Double.valueOf(Double.java:502)
 	at pages.ProductPage.setProductPriceForComparision(ProductPage.java:21)
 	at tests.ProductTest.productPriceEqualsPriceInProductListTest(ProductTest.java:17)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace891328061", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace891328061'><pre>java.lang.NumberFormatException: empty String
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1680794780", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1680794780'><pre>java.lang.NumberFormatException: empty String
 	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
 	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
 	at java.lang.Double.parseDouble(Double.java:538)
@@ -274,7 +274,7 @@ Driver info: driver.version: unknown
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 </pre></div></td>
 <td>0</td>
-<td>tests.ProductTest@19fb8826</td></tr>
+<td>tests.ProductTest@13c3c1e1</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -287,87 +287,87 @@ Driver info: driver.version: unknown
 <td title='tests.ProductTest.addProductToCartWithSelectedOptionsTest()'><b>addProductToCartWithSelectedOptionsTest</b><br>Test class: tests.ProductTest</td>
 <td></td>
 <td>2</td>
-<td>tests.ProductTest@19fb8826</td></tr>
+<td>tests.ProductTest@13c3c1e1</td></tr>
 <tr>
 <td title='tests.ProductTest.addProductWithOneSelectedOptionTest()'><b>addProductWithOneSelectedOptionTest</b><br>Test class: tests.ProductTest</td>
 <td></td>
 <td>0</td>
-<td>tests.ProductTest@19fb8826</td></tr>
+<td>tests.ProductTest@13c3c1e1</td></tr>
 <tr>
 <td title='tests.ProductTest.addProductWithoutSelectedOptionsTest()'><b>addProductWithoutSelectedOptionsTest</b><br>Test class: tests.ProductTest</td>
 <td></td>
 <td>0</td>
-<td>tests.ProductTest@19fb8826</td></tr>
+<td>tests.ProductTest@13c3c1e1</td></tr>
 <tr>
 <td title='tests.ShoppingCartTest.emptyShoppingCartTest()'><b>emptyShoppingCartTest</b><br>Test class: tests.ShoppingCartTest</td>
 <td></td>
 <td>6</td>
-<td>tests.ShoppingCartTest@4bef0fe3</td></tr>
+<td>tests.ShoppingCartTest@1e63ec0b</td></tr>
 <tr>
 <td title='tests.LoginTest.emptyUserLoginAndPasswordTest()'><b>emptyUserLoginAndPasswordTest</b><br>Test class: tests.LoginTest</td>
 <td></td>
-<td>1</td>
-<td>tests.LoginTest@609640d5</td></tr>
+<td>0</td>
+<td>tests.LoginTest@618c5d94</td></tr>
 <tr>
 <td title='tests.LoginTest.emptyUserLoginTest()'><b>emptyUserLoginTest</b><br>Test class: tests.LoginTest</td>
 <td></td>
 <td>0</td>
-<td>tests.LoginTest@609640d5</td></tr>
+<td>tests.LoginTest@618c5d94</td></tr>
 <tr>
 <td title='tests.LoginTest.emptyUserPasswordTest()'><b>emptyUserPasswordTest</b><br>Test class: tests.LoginTest</td>
 <td></td>
 <td>0</td>
-<td>tests.LoginTest@609640d5</td></tr>
+<td>tests.LoginTest@618c5d94</td></tr>
 <tr>
 <td title='tests.LoginTest.incorrectUserLoginMaskTest()'><b>incorrectUserLoginMaskTest</b><br>Test class: tests.LoginTest</td>
 <td></td>
 <td>15</td>
-<td>tests.LoginTest@609640d5</td></tr>
+<td>tests.LoginTest@618c5d94</td></tr>
 <tr>
 <td title='tests.ProductListTest.isPriceFilterPresentTest()'><b>isPriceFilterPresentTest</b><br>Test class: tests.ProductListTest</td>
 <td></td>
 <td>0</td>
-<td>tests.ProductListTest@79da1ec0</td></tr>
+<td>tests.ProductListTest@5b40ceb</td></tr>
 <tr>
 <td title='tests.ProductListTest.isProductPresentInTheProductListTest()'><b>isProductPresentInTheProductListTest</b><br>Test class: tests.ProductListTest</td>
 <td></td>
 <td>0</td>
-<td>tests.ProductListTest@79da1ec0</td></tr>
+<td>tests.ProductListTest@5b40ceb</td></tr>
 <tr>
 <td title='tests.LoginTest.nonExistUserLoginTest()'><b>nonExistUserLoginTest</b><br>Test class: tests.LoginTest</td>
 <td></td>
-<td>1</td>
-<td>tests.LoginTest@609640d5</td></tr>
+<td>3</td>
+<td>tests.LoginTest@618c5d94</td></tr>
 <tr>
 <td title='tests.ProductListTest.openingProductPageTest()'><b>openingProductPageTest</b><br>Test class: tests.ProductListTest</td>
 <td></td>
-<td>1</td>
-<td>tests.ProductListTest@79da1ec0</td></tr>
+<td>0</td>
+<td>tests.ProductListTest@5b40ceb</td></tr>
 <tr>
 <td title='tests.ProductListTest.productListIncludesValidProductAfterApplyPriceFilterTest()'><b>productListIncludesValidProductAfterApplyPriceFilterTest</b><br>Test class: tests.ProductListTest</td>
 <td></td>
 <td>0</td>
-<td>tests.ProductListTest@79da1ec0</td></tr>
+<td>tests.ProductListTest@5b40ceb</td></tr>
 <tr>
 <td title='tests.ProductListTest.productsOnTheProductListHaveAPriceTest()'><b>productsOnTheProductListHaveAPriceTest</b><br>Test class: tests.ProductListTest</td>
 <td></td>
 <td>0</td>
-<td>tests.ProductListTest@79da1ec0</td></tr>
+<td>tests.ProductListTest@5b40ceb</td></tr>
 <tr>
 <td title='tests.LoginTest.spacesInTheUserLoginAndPasswordTest()'><b>spacesInTheUserLoginAndPasswordTest</b><br>Test class: tests.LoginTest</td>
 <td></td>
 <td>15</td>
-<td>tests.LoginTest@609640d5</td></tr>
+<td>tests.LoginTest@618c5d94</td></tr>
 <tr>
 <td title='tests.LoginTest.tabsInTheUserLoginAndPasswordTest()'><b>tabsInTheUserLoginAndPasswordTest</b><br>Test class: tests.LoginTest</td>
 <td></td>
 <td>15</td>
-<td>tests.LoginTest@609640d5</td></tr>
+<td>tests.LoginTest@618c5d94</td></tr>
 <tr>
 <td title='tests.LoginTest.validCredentialsLoginTest()'><b>validCredentialsLoginTest</b><br>Test class: tests.LoginTest</td>
 <td></td>
-<td>3</td>
-<td>tests.LoginTest@609640d5</td></tr>
+<td>9</td>
+<td>tests.LoginTest@618c5d94</td></tr>
 </table><p>
 </body>
 </html>

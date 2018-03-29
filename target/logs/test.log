@@ -1,122 +1,105 @@
-2018-02-21 20:39:47 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
-2018-02-21 20:39:47 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 1594755nanoseconds **
-2018-02-21 20:39:47 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@4483d35 **
-2018-02-21 20:39:47 Page [INFO] - Start open page.
-2018-02-21 20:39:48 Page [INFO] - Page open successful.
-2018-02-21 20:39:49 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - 
-2018-02-21 20:39:49 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - 
-2018-02-21 20:39:49 WebElementsActions [INFO] - Click on Button login.page.signin.button
-2018-02-21 20:39:49 WebElementsActions [INFO] - Element login.page.advicereqemail.text is Present!
-2018-02-21 20:39:49 WebElementsActions [INFO] - Element login.page.advicereqpass.text is Present!
-2018-02-21 20:39:50 Page [INFO] - Start open page.
-2018-02-21 20:39:50 Page [INFO] - Page open successful.
-2018-02-21 20:39:50 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - 
-2018-02-21 20:39:50 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - qweqrt
-2018-02-21 20:39:51 WebElementsActions [INFO] - Click on Button login.page.signin.button
-2018-02-21 20:39:51 WebElementsActions [INFO] - Element login.page.advicereqemail.text is Present!
-2018-02-21 20:39:51 Page [INFO] - Start open page.
-2018-02-21 20:39:51 Page [INFO] - Page open successful.
-2018-02-21 20:39:51 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - email@gmail.com
-2018-02-21 20:39:52 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - 
-2018-02-21 20:39:52 WebElementsActions [INFO] - Click on Button login.page.signin.button
-2018-02-21 20:39:52 WebElementsActions [INFO] - Element login.page.advicereqpass.text is Present!
-2018-02-21 20:39:52 Page [INFO] - Start open page.
-2018-02-21 20:39:52 Page [INFO] - Page open successful.
-2018-02-21 20:39:53 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - t22333221 @gmail.com
-2018-02-21 20:39:53 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - qwerty123
-2018-02-21 20:39:53 WebElementsActions [INFO] - Click on Button login.page.signin.button
-2018-02-21 20:40:08 WebElementsActions [WARN] - Element _customer.page.sucessfullogin.text_is NOT Present in DOM!
-2018-02-21 20:40:08 Page [INFO] - Start open page.
-2018-02-21 20:40:09 Page [INFO] - Page open successful.
-2018-02-21 20:40:09 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - t223332211@gmail.com
-2018-02-21 20:40:09 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - teatatata12345
-2018-02-21 20:40:10 WebElementsActions [INFO] - Click on Button login.page.signin.button
-2018-02-21 20:40:10 WebElementsActions [INFO] - Element login.page.error.message is Present!
-2018-02-21 20:40:10 Page [INFO] - Start open page.
-2018-02-21 20:40:11 Page [INFO] - Page open successful.
-2018-02-21 20:40:11 WebElementsActions [INFO] - Space clicked on login.page.username.inputfield
-2018-02-21 20:40:11 WebElementsActions [INFO] - Space clicked on login.page.password.inputfield
-2018-02-21 20:40:11 WebElementsActions [INFO] - Click on Button login.page.signin.button
-2018-02-21 20:40:26 WebElementsActions [WARN] - Element _customer.page.sucessfullogin.text_is NOT Present in DOM!
-2018-02-21 20:40:26 Page [INFO] - Start open page.
-2018-02-21 20:40:27 Page [INFO] - Page open successful.
-2018-02-21 20:40:27 WebElementsActions [INFO] - TAB clicked on login.page.username.inputfield
-2018-02-21 20:40:27 WebElementsActions [INFO] - TAB clicked on login.page.password.inputfield
-2018-02-21 20:40:27 WebElementsActions [INFO] - Click on Button login.page.signin.button
-2018-02-21 20:40:42 WebElementsActions [WARN] - Element _customer.page.sucessfullogin.text_is NOT Present in DOM!
-2018-02-21 20:40:42 Page [INFO] - Start open page.
-2018-02-21 20:40:43 Page [INFO] - Page open successful.
-2018-02-21 20:40:44 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - t22333221@gmail.com
-2018-02-21 20:40:44 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - teatatata1234
-2018-02-21 20:40:47 WebElementsActions [INFO] - Click on Button login.page.signin.button
-2018-02-21 20:40:47 WebElementsActions [INFO] - Element customer.page.sucessfullogin.text is Present!
-2018-02-21 20:40:47 Page [INFO] - Start open page.
-2018-02-21 20:40:49 Page [INFO] - Page open successful.
-2018-02-21 20:40:50 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-21 20:40:51 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-21 20:40:51 WebElementsActions [INFO] - Element productlist.page.item.filter is Present!
-2018-02-21 20:40:51 Page [INFO] - Start open page.
-2018-02-21 20:40:51 Page [INFO] - Page open successful.
-2018-02-21 20:40:52 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-21 20:40:52 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-21 20:40:52 Page [INFO] - Start open page.
-2018-02-21 20:40:53 Page [INFO] - Page open successful.
-2018-02-21 20:40:53 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-21 20:40:54 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-21 20:40:55 WebElementsActions [INFO] - Click on Link productlist.page.item.link
-2018-02-21 20:40:55 WebElementsActions [INFO] - Element product.page.addtocart.button is Present!
-2018-02-21 20:40:55 Page [INFO] - Start open page.
-2018-02-21 20:40:55 Page [INFO] - Page open successful.
-2018-02-21 20:40:56 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-21 20:40:57 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-21 20:40:57 WebElementsActions [INFO] - Click 0 list elementproductlist.page.filter.price.list
-2018-02-21 20:40:58 Page [INFO] - Start open page.
-2018-02-21 20:40:58 Page [INFO] - Page open successful.
-2018-02-21 20:40:59 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-21 20:40:59 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-21 20:40:59 Page [INFO] - Start open page.
-2018-02-21 20:41:00 Page [INFO] - Page open successful.
-2018-02-21 20:41:00 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-21 20:41:01 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-21 20:41:02 WebElementsActions [INFO] - Click on Link productlist.page.item.link
-2018-02-21 20:41:04 WebElementsActions [INFO] - Click on Button product.page.addtocart.button
-2018-02-21 20:41:04 Page [INFO] - Start open page.
-2018-02-21 20:41:05 Page [INFO] - Page open successful.
-2018-02-21 20:41:06 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-21 20:41:06 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-21 20:41:07 WebElementsActions [INFO] - Click on Link productlist.page.item.link
-2018-02-21 20:41:08 WebElementsActions [INFO] - Click on Button product.page.addtocart.button
-2018-02-21 20:41:08 Page [INFO] - Start open page.
-2018-02-21 20:41:09 Page [INFO] - Page open successful.
-2018-02-21 20:41:09 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-21 20:41:10 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-21 20:41:11 WebElementsActions [INFO] - Click on Link productlist.page.item.link
-2018-02-21 20:41:11 WebElementsActions [INFO] - Click on Button product.page.addtocart.button
-2018-02-21 20:41:11 Page [INFO] - Start open page.
-2018-02-21 20:41:12 Page [INFO] - Page open successful.
-2018-02-21 20:41:13 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-21 20:41:14 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-21 20:41:15 WebElementsActions [INFO] - Click on Link productlist.page.item.link
-2018-02-21 20:41:15 Page [INFO] - Start open page.
-2018-02-21 20:41:16 Page [INFO] - Page open successful.
-2018-02-21 20:41:47 Page [INFO] - Start open page.
-2018-02-21 20:41:48 Page [INFO] - Page open successful.
-2018-02-21 20:41:48 Page [INFO] - Start open page.
-2018-02-21 20:41:49 Page [INFO] - Page open successful.
-2018-02-21 20:41:50 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
-2018-02-21 20:41:50 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
-2018-02-21 20:41:51 WebElementsActions [INFO] - Click on Link productlist.page.item.link
-2018-02-21 20:41:53 WebElementsActions [INFO] - Click on Button product.page.addtocart.button
-2018-02-21 20:41:55 WebElementsActions [INFO] - Click on Button shopingcart.page.emptycart.button
-2018-02-21 20:41:55 WebElementsActions [INFO] - Element shopingcart.page.emptycart.division is Present!
-2018-02-21 20:41:55 Page [INFO] - Start open page.
-2018-02-21 20:41:55 Page [INFO] - Page open successful.
-2018-02-21 21:00:38 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
-2018-02-21 21:00:38 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 3444178nanoseconds **
-2018-02-21 21:00:38 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@330c1f61 **
-2018-02-21 21:00:38 Page [INFO] - Start open page.
-2018-02-21 21:00:39 Page [INFO] - Page open successful.
-2018-02-21 21:00:40 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - t22333221@gmail.com
-2018-02-21 21:00:40 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - teatatata1234
-2018-02-21 21:00:42 WebElementsActions [INFO] - Click on Button login.page.signin.button
-2018-02-21 21:00:42 WebElementsActions [INFO] - Element customer.page.sucessfullogin.text is Present!
+2018-02-23 11:30:06 UiMappingSingleton [INFO] - 	** UIMappingSingleton getInstance() class A **
+2018-02-23 11:30:06 UiMappingSingleton [INFO] - 	** UIMappingSingleton creation time - 1440953nanoseconds **
+2018-02-23 11:30:06 UiMappingSingleton [INFO] - 	** Object - utils.UiMappingSingleton@58015e56 **
+2018-02-23 11:30:07 Page [INFO] - Start open page.
+2018-02-23 11:30:24 Page [INFO] - Page open successful.
+2018-02-23 11:30:25 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - 
+2018-02-23 11:30:25 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - 
+2018-02-23 11:30:25 WebElementsActions [INFO] - Element login.page.advicereqemail.text is Present!
+2018-02-23 11:30:25 WebElementsActions [INFO] - Element login.page.advicereqpass.text is Present!
+2018-02-23 11:30:25 Page [INFO] - Start open page.
+2018-02-23 11:30:26 Page [INFO] - Page open successful.
+2018-02-23 11:30:26 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - 
+2018-02-23 11:30:26 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - qweqrt
+2018-02-23 11:30:26 WebElementsActions [INFO] - Element login.page.advicereqemail.text is Present!
+2018-02-23 11:30:26 Page [INFO] - Start open page.
+2018-02-23 11:30:26 Page [INFO] - Page open successful.
+2018-02-23 11:30:26 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - email@gmail.com
+2018-02-23 11:30:27 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - 
+2018-02-23 11:30:27 WebElementsActions [INFO] - Element login.page.advicereqpass.text is Present!
+2018-02-23 11:30:27 Page [INFO] - Start open page.
+2018-02-23 11:30:27 Page [INFO] - Page open successful.
+2018-02-23 11:30:27 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - t22333221 @gmail.com
+2018-02-23 11:30:27 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - qwerty123
+2018-02-23 11:30:43 WebElementsActions [WARN] - Element _customer.page.sucessfullogin.text_is NOT Present in DOM!
+2018-02-23 11:30:43 Page [INFO] - Start open page.
+2018-02-23 11:30:44 Page [INFO] - Page open successful.
+2018-02-23 11:30:44 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - t223332211@gmail.com
+2018-02-23 11:30:44 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - teatatata12345
+2018-02-23 11:30:47 WebElementsActions [INFO] - Element login.page.error.message is Present!
+2018-02-23 11:30:47 Page [INFO] - Start open page.
+2018-02-23 11:30:48 Page [INFO] - Page open successful.
+2018-02-23 11:30:48 WebElementsActions [INFO] - Space clicked on login.page.username.inputfield
+2018-02-23 11:30:48 WebElementsActions [INFO] - Space clicked on login.page.password.inputfield
+2018-02-23 11:31:03 WebElementsActions [WARN] - Element _customer.page.sucessfullogin.text_is NOT Present in DOM!
+2018-02-23 11:31:03 Page [INFO] - Start open page.
+2018-02-23 11:31:04 Page [INFO] - Page open successful.
+2018-02-23 11:31:04 WebElementsActions [INFO] - TAB clicked on login.page.username.inputfield
+2018-02-23 11:31:04 WebElementsActions [INFO] - TAB clicked on login.page.password.inputfield
+2018-02-23 11:31:19 WebElementsActions [WARN] - Element _customer.page.sucessfullogin.text_is NOT Present in DOM!
+2018-02-23 11:31:19 Page [INFO] - Start open page.
+2018-02-23 11:31:20 Page [INFO] - Page open successful.
+2018-02-23 11:31:20 WebElementsActions [INFO] - Input in login.page.username.inputfield, value - t22333221@gmail.com
+2018-02-23 11:31:20 WebElementsActions [INFO] - Input in login.page.password.inputfield, value - teatatata1234
+2018-02-23 11:31:30 WebElementsActions [INFO] - Element customer.page.sucessfullogin.text is Present!
+2018-02-23 11:31:30 Page [INFO] - Start open page.
+2018-02-23 11:31:31 Page [INFO] - Page open successful.
+2018-02-23 11:31:32 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
+2018-02-23 11:31:33 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
+2018-02-23 11:31:33 WebElementsActions [INFO] - Element productlist.page.item.filter is Present!
+2018-02-23 11:31:33 Page [INFO] - Start open page.
+2018-02-23 11:31:33 Page [INFO] - Page open successful.
+2018-02-23 11:31:34 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
+2018-02-23 11:31:34 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
+2018-02-23 11:31:34 Page [INFO] - Start open page.
+2018-02-23 11:31:34 Page [INFO] - Page open successful.
+2018-02-23 11:31:35 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
+2018-02-23 11:31:35 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
+2018-02-23 11:31:36 WebElementsActions [INFO] - Click on Link productlist.page.item.link
+2018-02-23 11:31:36 WebElementsActions [INFO] - Element product.page.addtocart.button is Present!
+2018-02-23 11:31:36 Page [INFO] - Start open page.
+2018-02-23 11:31:36 Page [INFO] - Page open successful.
+2018-02-23 11:31:37 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
+2018-02-23 11:31:37 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
+2018-02-23 11:31:38 WebElementsActions [INFO] - Click 0 list elementproductlist.page.filter.price.list
+2018-02-23 11:31:38 Page [INFO] - Start open page.
+2018-02-23 11:31:39 Page [INFO] - Page open successful.
+2018-02-23 11:31:39 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
+2018-02-23 11:31:40 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
+2018-02-23 11:31:40 Page [INFO] - Start open page.
+2018-02-23 11:31:40 Page [INFO] - Page open successful.
+2018-02-23 11:31:40 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
+2018-02-23 11:31:41 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
+2018-02-23 11:31:41 WebElementsActions [INFO] - Click on Link productlist.page.item.link
+2018-02-23 11:31:44 WebElementsActions [INFO] - Click on Button product.page.addtocart.button
+2018-02-23 11:31:44 Page [INFO] - Start open page.
+2018-02-23 11:31:45 Page [INFO] - Page open successful.
+2018-02-23 11:31:46 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
+2018-02-23 11:31:46 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
+2018-02-23 11:31:47 WebElementsActions [INFO] - Click on Link productlist.page.item.link
+2018-02-23 11:31:47 WebElementsActions [INFO] - Click on Button product.page.addtocart.button
+2018-02-23 11:31:47 Page [INFO] - Start open page.
+2018-02-23 11:31:48 Page [INFO] - Page open successful.
+2018-02-23 11:31:49 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
+2018-02-23 11:31:49 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
+2018-02-23 11:31:50 WebElementsActions [INFO] - Click on Link productlist.page.item.link
+2018-02-23 11:31:50 WebElementsActions [INFO] - Click on Button product.page.addtocart.button
+2018-02-23 11:31:50 Page [INFO] - Start open page.
+2018-02-23 11:31:51 Page [INFO] - Page open successful.
+2018-02-23 11:31:51 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
+2018-02-23 11:31:52 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
+2018-02-23 11:31:53 WebElementsActions [INFO] - Click on Link productlist.page.item.link
+2018-02-23 11:31:53 Page [INFO] - Start open page.
+2018-02-23 11:31:55 Page [INFO] - Page open successful.
+2018-02-23 11:32:25 Page [INFO] - Start open page.
+2018-02-23 11:32:26 Page [INFO] - Page open successful.
+2018-02-23 11:32:26 Page [INFO] - Start open page.
+2018-02-23 11:32:27 Page [INFO] - Page open successful.
+2018-02-23 11:32:28 WebElementsActions [INFO] - Click on Link globalmenu.page.menuheaderlink.link
+2018-02-23 11:32:29 WebElementsActions [INFO] - Click on Link productcategoty.page.item.link
+2018-02-23 11:32:29 WebElementsActions [INFO] - Click on Link productlist.page.item.link
+2018-02-23 11:32:32 WebElementsActions [INFO] - Click on Button product.page.addtocart.button
+2018-02-23 11:32:33 WebElementsActions [INFO] - Click on Button shopingcart.page.emptycart.button
+2018-02-23 11:32:33 WebElementsActions [INFO] - Element shopingcart.page.emptycart.division is Present!
+2018-02-23 11:32:33 Page [INFO] - Start open page.
+2018-02-23 11:32:33 Page [INFO] - Page open successful.
